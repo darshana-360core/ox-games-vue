@@ -67,9 +67,9 @@ export default {
   data(){
     return {
       items: [
-        { name: 'USDT', icon: require('/images/icons/usdt.png'), },
-        { name: 'BTC', icon: require('/images/icons/btc.png'), },
-        { name: 'ETH', icon: require('/images/icons/eth.png'), }
+        { name: 'USDT', icon: '/images/usdt.webp' },
+        { name: 'BTC', icon: '/images/usdt.webp' },
+        { name: 'ETH', icon: '/images/usdt.webp' }
       ],
     }
   },

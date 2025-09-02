@@ -88,6 +88,7 @@
                     outlined
                     dense
                     class="small-input"
+                    v-model="amount"
                 />
                 <v-btn density="default" class="primary w-full mt-6" color="primary" @click="submit">Deposit</v-btn>
                 <v-btn density="default" class=" w-full mt-2" color="" @click="close">Cancel</v-btn>
@@ -102,6 +103,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   data() {
     return {
@@ -110,8 +112,8 @@ export default {
       selectedCurrency: null,
       selectedNetwork: null,
       items: [
-        { name: 'OC', icon: require('/images/icons/usdt.png'),networks:["Polygon"] },
-        { name: 'USDT', icon: require('/images/icons/usdt.png'),networks:["Polygon","ETH","BSC","TRON"] },
+        { name: 'OC', icon: '/images/usdt.webp',networks:["Polygon"] },
+        { name: 'USDT', icon: '/images/usdt.webp',networks:["Polygon","ETH","BSC","TRON"] },
         // { name: 'INOX', icon: require('/images/icons/usdt.png'),networks:["Polygon"] }
       ],
       networks : {
@@ -127,8 +129,17 @@ export default {
     this.$root.$off('open-deposit-modal', this.open)
   },
   methods: {
-    open() {
-      this.show = true
+    async open() {
+      const { data } = await axios.get('/api/deposit', {})
+      if(data.success != true){
+          this.show = true
+      }else{
+        if (this.$router && typeof this.$router.push === 'function') {
+          this.$router.push('/user/account/deposits/create')
+        } else {
+          window.location.href = '/user/account/deposits/create'
+        }
+      }
     },
       close() {
        this.show = false
@@ -146,11 +157,33 @@ export default {
       // This method is called when currency changes
       // selectedCurrency is automatically updated via v-model
     },
-    submit() {
-      // Handle deposit logic here
-      console.log('Depositing:', this.amount)
-      console.log('Depositing:', this.amount)
-    //   this.close()
+    async submit() {
+      if (!this.amount || !this.selectedCurrency || !this.selectedNetwork) {
+        console.warn('Missing required fields')
+        return
+      }
+
+      try {
+        const payload = {
+          amount: Number(this.amount),
+          currency: this.selectedCurrency,
+          network: this.selectedNetwork,
+        }
+
+        const { data } = await axios.post('/api/deposit/create', payload)
+        // Navigate to deposits create page after successful creation
+        if (this.$router && typeof this.$router.push === 'function') {
+          this.$router.push('/user/account/deposits/create')
+        } else {
+          window.location.href = '/user/account/deposits/create'
+        }
+        this.show = false
+        this.amount = null
+        this.selectedCurrency = null
+        this.selectedNetwork = null
+      } catch (error) {
+        console.error('Deposit request failed:', error)
+      }
     },
   },
 }
