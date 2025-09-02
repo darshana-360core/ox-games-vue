@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .carousel-wrapper {
+    @apply overflow-hidden w-full bg-neutral-900 py-3 px-0 rounded-xl;
+} */
+  
+.carousel-track {
+    @apply gap-3 flex;
+    width: max-content;
+    /* animation: scroll-left 15s linear infinite; */
+    animation: 20s linear 0s infinite normal none running scroll-left;
+    /* direction: rtl; */
+}
+.carousel-track:hover{
+    animation-play-state: paused;
+}
+  
+.carousel-item {
+    @apply flex flex-col items-center justify-center p-0 text-center text-white h-auto w-16 hover:opacity-80;
+}
+  
+  /* .carousel-item .game-name {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .carousel-item .game-amount {
+    font-size: 13px;
+    color: #37ef94;
+  } */
+
+.powered-box .logo-360{
+  @apply w-auto h-20 md:h-28;
+}
+
+.powered-box .bg-frame{
+  @apply absolute top-1/2 left-1/2 w-52 md:w-72;
+  transform: translate(-50%, -50%);
+}
+  
+@keyframes scroll-left {
+    0% {
+      transform: translate(0px);
+    }
+    100% {
+      transform: translate(-87.5rem);
+    }
+}
