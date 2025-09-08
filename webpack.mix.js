@@ -194,6 +194,6 @@ mix
     require('tailwindcss'),
     require('autoprefixer'),
   ])
-  .setPublicPath('public/')
+  .setPublicPath('../oxgames/public/')
   .version()
   // .sourceMaps()

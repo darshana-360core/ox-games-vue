@@ -68,7 +68,7 @@ export default {
   middleware: ['auth', 'verified', '2fa_passed'],
 
   metaInfo () {
-    return { title: this.$t('Make a deposit') }
+    // return { title: this.$t('Make a deposit') }
   },
 
   data () {

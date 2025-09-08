@@ -104,7 +104,7 @@
     <v-app-bar v-else app :clipped-left="!navbarVisible" :color="appBarBackground">
       <!-- <v-app-bar-nav-icon v-if="!navbarVisible" @click.stop="navigationDrawer = !navigationDrawer" /> -->
       <!-- <v-app-bar-nav-icon @click.stop="navigationDrawer = !navigationDrawer" /> -->
-      <button v-if="!isMobile" class="v-app-bar__nav-icon v-btn v-btn--icon v-btn--round v-size--default max-md:mr-1 md:mr-3 ml-0" style="width: 40px; height: 40px; background-color: rgba(255, 255, 255, 0.15);" @click="toggleMiniVariant">
+      <button v-if="!isMobile" class="v-app-bar__nav-icon v-btn2 v-btn--icon v-btn--round v-size--default max-md:mr-1 md:mr-3 ml-0" style="width: 40px; height: 40px; background-color: rgba(255, 255, 255, 0.15);" @click="toggleMiniVariant">
         <div class="v-btn__content"> 
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6" width="24" height="24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
@@ -160,7 +160,7 @@
           </game-search-modal>
           <account-menu />
           <v-btn density="comfortable" height="36" color="primary" class="primary" v-on="on" @click="triggerDeposit">
-            Deposit
+            Deposit222
           </v-btn>
           <settings-menu />
           <DepositModal />
