@@ -1,9 +1,164 @@
 (self["webpackChunk"] = self["webpackChunk"] || []).push([["packages/european-roulette-resources-js-pages-game"],{
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************************************/
+/***/ "./images/roulettestp.webp":
+/*!*********************************!*\
+  !*** ./images/roulettestp.webp ***!
+  \*********************************/
+/***/ ((module) => {
+
+module.exports = "/images/roulettestp.webp?ba320f2d4179a2ef50290e4b22aacb1a";
+
+/***/ }),
+
+/***/ "./packages/european-roulette/resources/images/ball.png":
+/*!**************************************************************!*\
+  !*** ./packages/european-roulette/resources/images/ball.png ***!
+  \**************************************************************/
+/***/ ((module) => {
+
+module.exports = "/images/ball.png?85b4a878a919961347dffc385d51489c";
+
+/***/ }),
+
+/***/ "./packages/european-roulette/resources/audio/bet.wav":
+/*!************************************************************!*\
+  !*** ./packages/european-roulette/resources/audio/bet.wav ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/bet.wav");
+
+/***/ }),
+
+/***/ "./packages/european-roulette/resources/audio/lose.wav":
+/*!*************************************************************!*\
+  !*** ./packages/european-roulette/resources/audio/lose.wav ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/lose.wav");
+
+/***/ }),
+
+/***/ "./packages/european-roulette/resources/audio/none.wav":
+/*!*************************************************************!*\
+  !*** ./packages/european-roulette/resources/audio/none.wav ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/none.wav");
+
+/***/ }),
+
+/***/ "./packages/european-roulette/resources/audio/spin.wav":
+/*!*************************************************************!*\
+  !*** ./packages/european-roulette/resources/audio/spin.wav ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/spin.wav");
+
+/***/ }),
+
+/***/ "./packages/european-roulette/resources/audio/start.wav":
+/*!**************************************************************!*\
+  !*** ./packages/european-roulette/resources/audio/start.wav ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/start.wav");
+
+/***/ }),
+
+/***/ "./packages/european-roulette/resources/audio/stop.wav":
+/*!*************************************************************!*\
+  !*** ./packages/european-roulette/resources/audio/stop.wav ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/stop.wav");
+
+/***/ }),
+
+/***/ "./packages/european-roulette/resources/audio/unbet.wav":
+/*!**************************************************************!*\
+  !*** ./packages/european-roulette/resources/audio/unbet.wav ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/unbet.wav");
+
+/***/ }),
+
+/***/ "./packages/european-roulette/resources/audio/win.wav":
+/*!************************************************************!*\
+  !*** ./packages/european-roulette/resources/audio/win.wav ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/win.wav");
+
+/***/ }),
+
+/***/ "./resources/audio/common/click.wav":
+/*!******************************************!*\
+  !*** ./resources/audio/common/click.wav ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/common/click.wav");
+
+/***/ }),
+
+/***/ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -33,12 +188,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Games_GameMessage__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ~/components/Games/GameMessage */ "./resources/js/components/Games/GameMessage.vue");
 /* harmony import */ var packages_european_roulette_resources_images_ball_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! packages/european-roulette/resources/images/ball.png */ "./packages/european-roulette/resources/images/ball.png");
 /* harmony import */ var packages_european_roulette_resources_images_ball_png__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(packages_european_roulette_resources_images_ball_png__WEBPACK_IMPORTED_MODULE_17__);
-function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
-function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 
 
 
@@ -213,7 +368,7 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
       this.bets = {};
       this.bets_roulette = {};
       this.win_number = this.game_result.ball_num;
-      if (this.rolls.length >= 10) {
+      if (this.rolls.length >= 7) {
         this.rolls.splice(0, 1);
       }
       this.rolls.push({
@@ -221,7 +376,6 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
         color: this.game_result.ball_idx % 2 === 1 ? 'red' : this.game_result.ball_idx % 2 === 0 ? 'black' : 'green',
         time: new Date().getTime() // time serves as a unique key for the transition group
       });
-
       if (this.game_result.win) {
         this.message = this.$t('You won') + ' ' + this.game_result.win;
         this.win = this.game_result.win;
@@ -417,7 +571,7 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
       }
     },
     placeOrphelins: function placeOrphelins() {
-      var _this10 = this;
+      var _this0 = this;
       this.bettingFinals = false;
       this.bettingRoulette = false;
       this.endRouletteLight();
@@ -425,11 +579,11 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
       var isAllow = true;
       var bets = ['straight1', 'split6_9', 'split14_17', 'split17_20', 'split31_34'];
       bets.forEach(function (el) {
-        return isAllow = isAllow && (_this10.bets[el] ? _this10.bets[el] : 0) + _this10.bet <= _this10.max_bet;
+        return isAllow = isAllow && (_this0.bets[el] ? _this0.bets[el] : 0) + _this0.bet <= _this0.max_bet;
       });
       if (isAllow) {
         bets.forEach(function (el) {
-          return _this10.$set(_this10.bets, el, (_this10.bets[el] ? _this10.bets[el] : 0) + _this10.bet);
+          return _this0.$set(_this0.bets, el, (_this0.bets[el] ? _this0.bets[el] : 0) + _this0.bet);
         });
         this.sound('bet');
       } else {
@@ -472,21 +626,21 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
       this.bets_roulette = Object.assign({}, this.bets_roulette_old);
     },
     changeWindowState: function changeWindowState(e) {
-      var _this11 = this;
+      var _this1 = this;
       this.bettingFinals = false;
       this.bettingRoulette = false;
       this.endRouletteLight();
       if (this.animation && this.animation.requestAnimationFrame_get) {
         this.animation.requestAnimationFrame_get();
         this.animation.requestAnimationFrame(function () {
-          if (_this11.animation.animation_stage >= 7 && _this11.animation.animation_stage <= 10) {
-            _this11.animation.stop();
+          if (_this1.animation.animation_stage >= 7 && _this1.animation.animation_stage <= 10) {
+            _this1.animation.stop();
           }
         });
       }
     },
     startAnimation: function startAnimation() {
-      var _this12 = this;
+      var _this10 = this;
       this.animation = {
         is_working: false,
         t: Date.now(),
@@ -509,171 +663,171 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
         },
         requestAnimationFrame_get: function requestAnimationFrame_get() {
           var _raf = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || window.oRequestAnimationFrame;
-          _this12.animation.requestAnimationFrame = _raf ? _raf.bind(window) : null;
+          _this10.animation.requestAnimationFrame = _raf ? _raf.bind(window) : null;
         },
         render: function render() {
-          if (_this12.animation.is_working) return;
-          _this12.animation.is_working = true;
-          if (_this12.$refs.roulette === undefined) return;
-          var ctx = _this12.$refs.roulette.getContext('2d');
-          _this12.animation.t = _this12.animation.game_t;
-          _this12.animation.game_t = Date.now();
-          ctx.clearRect(0, 0, _this12.$refs.roulette.width, _this12.$refs.roulette.height);
-          if (_this12.animation.wheel_speed > 0) {
-            _this12.animation.wheel_angle += (_this12.animation.game_t - _this12.animation.t) * _this12.animation.wheel_speed;
-            while (_this12.animation.wheel_angle > Math.PI * 2) _this12.animation.wheel_angle -= Math.PI * 2;
-            _this12.$refs.wheel.style.transform = "rotate(".concat(_this12.animation.wheel_angle, "rad)");
+          if (_this10.animation.is_working) return;
+          _this10.animation.is_working = true;
+          if (_this10.$refs.roulette === undefined) return;
+          var ctx = _this10.$refs.roulette.getContext('2d');
+          _this10.animation.t = _this10.animation.game_t;
+          _this10.animation.game_t = Date.now();
+          ctx.clearRect(0, 0, _this10.$refs.roulette.width, _this10.$refs.roulette.height);
+          if (_this10.animation.wheel_speed > 0) {
+            _this10.animation.wheel_angle += (_this10.animation.game_t - _this10.animation.t) * _this10.animation.wheel_speed;
+            while (_this10.animation.wheel_angle > Math.PI * 2) _this10.animation.wheel_angle -= Math.PI * 2;
+            _this10.$refs.wheel.style.transform = "rotate(".concat(_this10.animation.wheel_angle, "rad)");
           }
           ctx.save();
           ctx.translate(240, 240);
-          ctx.rotate(_this12.animation.wheel_angle);
+          ctx.rotate(_this10.animation.wheel_angle);
           ctx.translate(-240, -240);
-          if (_this12.animation.ball_speed !== 0) {
-            _this12.animation.ball_angle += (_this12.animation.game_t - _this12.animation.t) * _this12.animation.ball_speed;
-            while (_this12.animation.ball_angle > Math.PI * 2) _this12.animation.ball_angle -= Math.PI * 2;
-            while (_this12.animation.ball_angle < -Math.PI * 2) _this12.animation.ball_angle += Math.PI * 2;
+          if (_this10.animation.ball_speed !== 0) {
+            _this10.animation.ball_angle += (_this10.animation.game_t - _this10.animation.t) * _this10.animation.ball_speed;
+            while (_this10.animation.ball_angle > Math.PI * 2) _this10.animation.ball_angle -= Math.PI * 2;
+            while (_this10.animation.ball_angle < -Math.PI * 2) _this10.animation.ball_angle += Math.PI * 2;
           }
-          ctx.drawImage(_this12.img.ball, 240 - Math.sin(_this12.animation.ball_angle) * _this12.animation.ball_position - 8 * _this12.animation.ball_scale, 240 - Math.cos(_this12.animation.ball_angle) * _this12.animation.ball_position - 8 * _this12.animation.ball_scale, 16 * _this12.animation.ball_scale, 16 * _this12.animation.ball_scale);
-          if (_this12.animation.ball_speed > 0.002) {
-            for (var i = 0; i < Math.round(10000 * (_this12.animation.ball_speed - 0.002) / 3); i++) {
+          ctx.drawImage(_this10.img.ball, 240 - Math.sin(_this10.animation.ball_angle) * _this10.animation.ball_position - 8 * _this10.animation.ball_scale, 240 - Math.cos(_this10.animation.ball_angle) * _this10.animation.ball_position - 8 * _this10.animation.ball_scale, 16 * _this10.animation.ball_scale, 16 * _this10.animation.ball_scale);
+          if (_this10.animation.ball_speed > 0.002) {
+            for (var i = 0; i < Math.round(10000 * (_this10.animation.ball_speed - 0.002) / 3); i++) {
               ctx.globalAlpha = 0.15;
-              ctx.drawImage(_this12.img.ball, 240 - Math.sin(_this12.animation.ball_angle - i * 0.02) * _this12.animation.ball_position - 8 * _this12.animation.ball_scale, 240 - Math.cos(_this12.animation.ball_angle - i * 0.02) * _this12.animation.ball_position - 8 * _this12.animation.ball_scale, 16 * _this12.animation.ball_scale, 16 * _this12.animation.ball_scale);
+              ctx.drawImage(_this10.img.ball, 240 - Math.sin(_this10.animation.ball_angle - i * 0.02) * _this10.animation.ball_position - 8 * _this10.animation.ball_scale, 240 - Math.cos(_this10.animation.ball_angle - i * 0.02) * _this10.animation.ball_position - 8 * _this10.animation.ball_scale, 16 * _this10.animation.ball_scale, 16 * _this10.animation.ball_scale);
             }
           }
           ctx.globalAlpha = 1;
           ctx.restore();
-          _this12.animation.calculate();
-          _this12.animation.is_working = false;
+          _this10.animation.calculate();
+          _this10.animation.is_working = false;
         },
         stop: function stop() {
-          _this12.soundLoop(packages_european_roulette_resources_audio_spin_wav__WEBPACK_IMPORTED_MODULE_12__["default"]);
-          _this12.sound(packages_european_roulette_resources_audio_stop_wav__WEBPACK_IMPORTED_MODULE_14__["default"]);
-          _this12.animation.animation_stage = 11;
-          _this12.animation.ball_angle = _this12.animation.ball_angle_ori + _this12.animation.ball_break_dist;
-          _this12.animation.ball_position = 120;
+          _this10.soundLoop(packages_european_roulette_resources_audio_spin_wav__WEBPACK_IMPORTED_MODULE_12__["default"]);
+          _this10.sound(packages_european_roulette_resources_audio_stop_wav__WEBPACK_IMPORTED_MODULE_14__["default"]);
+          _this10.animation.animation_stage = 11;
+          _this10.animation.ball_angle = _this10.animation.ball_angle_ori + _this10.animation.ball_break_dist;
+          _this10.animation.ball_position = 120;
         },
         calculate: function calculate() {
-          switch (_this12.animation.animation_stage) {
+          switch (_this10.animation.animation_stage) {
             case 1:
-              _this12.animation.ball_speed = _this12.animation.wheel_speed;
-              _this12.animation.ball_position += (_this12.animation.game_t - _this12.animation.t) * 0.45;
-              var p = 100 * (_this12.animation.ball_position - 120) / (223 - 120);
+              _this10.animation.ball_speed = _this10.animation.wheel_speed;
+              _this10.animation.ball_position += (_this10.animation.game_t - _this10.animation.t) * 0.45;
+              var p = 100 * (_this10.animation.ball_position - 120) / (223 - 120);
               if (p > 50) p = 100 - p;
-              _this12.animation.ball_scale = 1 + p / 150;
-              if (_this12.animation.ball_position >= 223) {
-                _this12.animation.ball_position = 223;
-                _this12.animation.ball_scale = 1;
-                _this12.animation.animation_stage++;
+              _this10.animation.ball_scale = 1 + p / 150;
+              if (_this10.animation.ball_position >= 223) {
+                _this10.animation.ball_position = 223;
+                _this10.animation.ball_scale = 1;
+                _this10.animation.animation_stage++;
               }
               break;
             case 2:
-              _this12.animation.wheel_speed += (_this12.animation.game_t - _this12.animation.t) * 0.00001;
-              if (_this12.animation.wheel_speed >= 0.001) {
-                _this12.animation.wheel_speed = 0.001;
-                _this12.animation.animation_stage++;
+              _this10.animation.wheel_speed += (_this10.animation.game_t - _this10.animation.t) * 0.00001;
+              if (_this10.animation.wheel_speed >= 0.001) {
+                _this10.animation.wheel_speed = 0.001;
+                _this10.animation.animation_stage++;
               }
-              _this12.animation.ball_speed = -_this12.animation.wheel_speed;
+              _this10.animation.ball_speed = -_this10.animation.wheel_speed;
               break;
             case 3:
-              _this12.animation.ball_speed += (_this12.animation.game_t - _this12.animation.t) * 0.0001;
-              if (_this12.animation.ball_speed >= 0.009) {
-                _this12.animation.ball_speed = 0.009;
-                _this12.animation.animation_stage++;
+              _this10.animation.ball_speed += (_this10.animation.game_t - _this10.animation.t) * 0.0001;
+              if (_this10.animation.ball_speed >= 0.009) {
+                _this10.animation.ball_speed = 0.009;
+                _this10.animation.animation_stage++;
               }
               break;
             case 4:
-              if (_this12.game_result) {
-                _this12.animation.animation_stage += 2;
-                _this12.animation.ball_idx = _this12.game_result.ball_idx;
-                _this12.animation.ball_num = _this12.game_result.ball_num;
+              if (_this10.game_result) {
+                _this10.animation.animation_stage += 2;
+                _this10.animation.ball_idx = _this10.game_result.ball_idx;
+                _this10.animation.ball_num = _this10.game_result.ball_num;
               }
               break;
             case 6:
               {
-                var v = 6 * Math.PI - Math.PI * 2 / 37 * _this12.animation.ball_idx - _this12.animation.ball_angle;
-                _this12.animation.ball_angle_ori = _this12.animation.ball_angle;
-                _this12.animation.ball_break_dist = v;
-                _this12.animation.ball_break_accl = 0.009 * 0.009 / (2 * v);
-                _this12.animation.ball_break_t = _this12.animation.game_t;
-                _this12.animation.animation_stage++;
-                _this12.animation.ball_speed = 0;
+                var v = 6 * Math.PI - Math.PI * 2 / 37 * _this10.animation.ball_idx - _this10.animation.ball_angle;
+                _this10.animation.ball_angle_ori = _this10.animation.ball_angle;
+                _this10.animation.ball_break_dist = v;
+                _this10.animation.ball_break_accl = 0.009 * 0.009 / (2 * v);
+                _this10.animation.ball_break_t = _this10.animation.game_t;
+                _this10.animation.animation_stage++;
+                _this10.animation.ball_speed = 0;
                 break;
               }
             case 7:
               {
-                var s = 0.009 * (_this12.animation.game_t - _this12.animation.ball_break_t) - _this12.animation.ball_break_accl * (_this12.animation.game_t - _this12.animation.ball_break_t) * (_this12.animation.game_t - _this12.animation.ball_break_t) / 2;
-                _this12.animation.ball_position = 223 - s / _this12.animation.ball_break_dist * (223 - 140);
-                _this12.animation.ball_angle = _this12.animation.ball_angle_ori + s;
-                if (s >= _this12.animation.ball_break_dist - Math.PI * 2 / 37 / 2 - Math.PI * 2 / 37 * 6) {
-                  _this12.animation.animation_stage++;
-                  _this12.animation.ball_position = 360 - s / _this12.animation.ball_break_dist * (360 - 130);
-                  _this12.soundStop(packages_european_roulette_resources_audio_spin_wav__WEBPACK_IMPORTED_MODULE_12__["default"]);
-                  _this12.sound(packages_european_roulette_resources_audio_stop_wav__WEBPACK_IMPORTED_MODULE_14__["default"]);
+                var s = 0.009 * (_this10.animation.game_t - _this10.animation.ball_break_t) - _this10.animation.ball_break_accl * (_this10.animation.game_t - _this10.animation.ball_break_t) * (_this10.animation.game_t - _this10.animation.ball_break_t) / 2;
+                _this10.animation.ball_position = 223 - s / _this10.animation.ball_break_dist * (223 - 140);
+                _this10.animation.ball_angle = _this10.animation.ball_angle_ori + s;
+                if (s >= _this10.animation.ball_break_dist - Math.PI * 2 / 37 / 2 - Math.PI * 2 / 37 * 6) {
+                  _this10.animation.animation_stage++;
+                  _this10.animation.ball_position = 360 - s / _this10.animation.ball_break_dist * (360 - 130);
+                  _this10.soundStop(packages_european_roulette_resources_audio_spin_wav__WEBPACK_IMPORTED_MODULE_12__["default"]);
+                  _this10.sound(packages_european_roulette_resources_audio_stop_wav__WEBPACK_IMPORTED_MODULE_14__["default"]);
                 }
-                if (s < 0) _this12.animation.stop();
+                if (s < 0) _this10.animation.stop();
                 break;
               }
             case 8:
               {
-                var _s = 0.009 * (_this12.animation.game_t - _this12.animation.ball_break_t) - _this12.animation.ball_break_accl * (_this12.animation.game_t - _this12.animation.ball_break_t) * (_this12.animation.game_t - _this12.animation.ball_break_t) / 2;
-                _this12.animation.ball_position = 360 - _s / _this12.animation.ball_break_dist * (360 - 130);
-                _this12.animation.ball_angle = _this12.animation.ball_angle_ori + _s;
-                if (_s >= _this12.animation.ball_break_dist - Math.PI * 2 / 37 / 2 - Math.PI * 2 / 37 * 2) {
-                  _this12.animation.animation_stage++;
-                  _this12.animation.ball_position = 460 - _s / _this12.animation.ball_break_dist * (460 - 125);
+                var _s = 0.009 * (_this10.animation.game_t - _this10.animation.ball_break_t) - _this10.animation.ball_break_accl * (_this10.animation.game_t - _this10.animation.ball_break_t) * (_this10.animation.game_t - _this10.animation.ball_break_t) / 2;
+                _this10.animation.ball_position = 360 - _s / _this10.animation.ball_break_dist * (360 - 130);
+                _this10.animation.ball_angle = _this10.animation.ball_angle_ori + _s;
+                if (_s >= _this10.animation.ball_break_dist - Math.PI * 2 / 37 / 2 - Math.PI * 2 / 37 * 2) {
+                  _this10.animation.animation_stage++;
+                  _this10.animation.ball_position = 460 - _s / _this10.animation.ball_break_dist * (460 - 125);
                 }
-                if (_s < 0) _this12.animation.stop();
+                if (_s < 0) _this10.animation.stop();
                 break;
               }
             case 9:
               {
-                var _s2 = 0.009 * (_this12.animation.game_t - _this12.animation.ball_break_t) - _this12.animation.ball_break_accl * (_this12.animation.game_t - _this12.animation.ball_break_t) * (_this12.animation.game_t - _this12.animation.ball_break_t) / 2;
-                _this12.animation.ball_position = 360 - _s2 / _this12.animation.ball_break_dist * (360 - 125);
-                _this12.animation.ball_angle = _this12.animation.ball_angle_ori + _s2;
-                if (_s2 >= _this12.animation.ball_break_dist - Math.PI * 2 / 37 / 2 - Math.PI * 2 / 37 * 1) {
-                  _this12.animation.animation_stage++;
-                  _this12.animation.ball_position = 260 - _s2 / _this12.animation.ball_break_dist * (260 - 120);
+                var _s2 = 0.009 * (_this10.animation.game_t - _this10.animation.ball_break_t) - _this10.animation.ball_break_accl * (_this10.animation.game_t - _this10.animation.ball_break_t) * (_this10.animation.game_t - _this10.animation.ball_break_t) / 2;
+                _this10.animation.ball_position = 360 - _s2 / _this10.animation.ball_break_dist * (360 - 125);
+                _this10.animation.ball_angle = _this10.animation.ball_angle_ori + _s2;
+                if (_s2 >= _this10.animation.ball_break_dist - Math.PI * 2 / 37 / 2 - Math.PI * 2 / 37 * 1) {
+                  _this10.animation.animation_stage++;
+                  _this10.animation.ball_position = 260 - _s2 / _this10.animation.ball_break_dist * (260 - 120);
                 }
-                if (_s2 < 0) _this12.animation.stop();
+                if (_s2 < 0) _this10.animation.stop();
                 break;
               }
             case 10:
               {
-                var _s3 = 0.009 * (_this12.animation.game_t - _this12.animation.ball_break_t) - _this12.animation.ball_break_accl * (_this12.animation.game_t - _this12.animation.ball_break_t) * (_this12.animation.game_t - _this12.animation.ball_break_t) / 2;
-                _this12.animation.ball_position = 260 - _s3 / _this12.animation.ball_break_dist * (260 - 120);
-                _this12.animation.ball_angle = _this12.animation.ball_angle_ori + _s3;
-                if (_s3 >= _this12.animation.ball_break_dist - 0.07) {
-                  _this12.animation.ball_angle = _this12.animation.ball_angle_ori + _this12.animation.ball_break_dist;
-                  _this12.animation.animation_stage++;
-                  _this12.animation.ball_position = 120;
+                var _s3 = 0.009 * (_this10.animation.game_t - _this10.animation.ball_break_t) - _this10.animation.ball_break_accl * (_this10.animation.game_t - _this10.animation.ball_break_t) * (_this10.animation.game_t - _this10.animation.ball_break_t) / 2;
+                _this10.animation.ball_position = 260 - _s3 / _this10.animation.ball_break_dist * (260 - 120);
+                _this10.animation.ball_angle = _this10.animation.ball_angle_ori + _s3;
+                if (_s3 >= _this10.animation.ball_break_dist - 0.07) {
+                  _this10.animation.ball_angle = _this10.animation.ball_angle_ori + _this10.animation.ball_break_dist;
+                  _this10.animation.animation_stage++;
+                  _this10.animation.ball_position = 120;
                 }
-                if (_s3 < 0) _this12.animation.stop();
+                if (_s3 < 0) _this10.animation.stop();
                 break;
               }
             case 11:
               setTimeout(function () {
-                _this12.showResult();
-              }, 500);
-              _this12.animation.animation_stage++;
+                _this10.showResult();
+              }, 3000);
+              _this10.animation.animation_stage++;
               break;
             case 12:
-              _this12.animation.wheel_speed -= (_this12.animation.game_t - _this12.animation.t) * 0.000001;
-              if (_this12.animation.wheel_speed <= 0) {
-                _this12.animation.wheel_speed = 0;
-                _this12.animation.animation_stage++;
+              _this10.animation.wheel_speed -= (_this10.animation.game_t - _this10.animation.t) * 0.0000001;
+              if (_this10.animation.wheel_speed <= 0) {
+                _this10.animation.wheel_speed = 0;
+                _this10.animation.animation_stage++;
               }
               break;
           }
         },
         start: function start() {
-          _this12.sound(packages_european_roulette_resources_audio_start_wav__WEBPACK_IMPORTED_MODULE_13__["default"]);
-          _this12.soundLoop(packages_european_roulette_resources_audio_spin_wav__WEBPACK_IMPORTED_MODULE_12__["default"]);
-          _this12.animation.animation_stage = 1;
+          _this10.sound(packages_european_roulette_resources_audio_start_wav__WEBPACK_IMPORTED_MODULE_13__["default"]);
+          _this10.soundLoop(packages_european_roulette_resources_audio_spin_wav__WEBPACK_IMPORTED_MODULE_12__["default"]);
+          _this10.animation.animation_stage = 1;
         }
       };
       this.animation.requestAnimationFrame_get();
       this.animationTimer = setInterval(function () {
-        if (!_this12.animation.is_working) _this12.animation.requestAnimationFrame(_this12.animation.render);
+        if (!_this10.animation.is_working) _this10.animation.requestAnimationFrame(_this10.animation.render);
       }, 25);
     },
     stopAnimation: function stopAnimation() {
@@ -690,10 +844,10 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -714,10 +868,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -731,12 +885,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mixins_Game__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ~/mixins/Game */ "./resources/js/mixins/Game.vue");
 /* harmony import */ var _mixins_Sound__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ~/mixins/Sound */ "./resources/js/mixins/Sound.vue");
 /* harmony import */ var _audio_common_click_wav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ~/../audio/common/click.wav */ "./resources/audio/common/click.wav");
-function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
-function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 
 
 
@@ -830,6 +984,9 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
       return this.autoPlay.games.reduce(function (a, game) {
         return a + game.win - game.bet;
       }, 0);
+    },
+    isMobile: function isMobile() {
+      return window.innerWidth <= 768;
     }
   }),
   watch: {
@@ -920,10 +1077,10 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/mixins/Game.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/mixins/Game.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/mixins/Game.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/mixins/Game.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -967,155 +1124,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./packages/european-roulette/resources/images/ball.png":
-/*!**************************************************************!*\
-  !*** ./packages/european-roulette/resources/images/ball.png ***!
-  \**************************************************************/
-/***/ ((module) => {
-
-module.exports = "/images/ball.png?85b4a878a919961347dffc385d51489c";
-
-/***/ }),
-
-/***/ "./packages/european-roulette/resources/audio/bet.wav":
-/*!************************************************************!*\
-  !*** ./packages/european-roulette/resources/audio/bet.wav ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/bet.wav");
-
-/***/ }),
-
-/***/ "./packages/european-roulette/resources/audio/lose.wav":
-/*!*************************************************************!*\
-  !*** ./packages/european-roulette/resources/audio/lose.wav ***!
-  \*************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/lose.wav");
-
-/***/ }),
-
-/***/ "./packages/european-roulette/resources/audio/none.wav":
-/*!*************************************************************!*\
-  !*** ./packages/european-roulette/resources/audio/none.wav ***!
-  \*************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/none.wav");
-
-/***/ }),
-
-/***/ "./packages/european-roulette/resources/audio/spin.wav":
-/*!*************************************************************!*\
-  !*** ./packages/european-roulette/resources/audio/spin.wav ***!
-  \*************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/spin.wav");
-
-/***/ }),
-
-/***/ "./packages/european-roulette/resources/audio/start.wav":
-/*!**************************************************************!*\
-  !*** ./packages/european-roulette/resources/audio/start.wav ***!
-  \**************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/start.wav");
-
-/***/ }),
-
-/***/ "./packages/european-roulette/resources/audio/stop.wav":
-/*!*************************************************************!*\
-  !*** ./packages/european-roulette/resources/audio/stop.wav ***!
-  \*************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/stop.wav");
-
-/***/ }),
-
-/***/ "./packages/european-roulette/resources/audio/unbet.wav":
-/*!**************************************************************!*\
-  !*** ./packages/european-roulette/resources/audio/unbet.wav ***!
-  \**************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/unbet.wav");
-
-/***/ }),
-
-/***/ "./packages/european-roulette/resources/audio/win.wav":
-/*!************************************************************!*\
-  !*** ./packages/european-roulette/resources/audio/win.wav ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/european-roulette/win.wav");
-
-/***/ }),
-
-/***/ "./resources/audio/common/click.wav":
-/*!******************************************!*\
-  !*** ./resources/audio/common/click.wav ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "audio/common/click.wav");
-
-/***/ }),
-
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true&":
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1129,17 +1141,17 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#rolls[data-v-e71982f0] {\n  min-height: 25px;\n}\n.total-bet-input[data-v-e71982f0] {\n  max-width: 100px;\n}\n.roulette[data-v-e71982f0] {\n  width: 300px;\n  height: 300px;\n  position: relative;\n  margin-right: 26px;\n}\n@media screen and (max-width: 575px) {\n.roulette[data-v-e71982f0] {\n    width: 300px;\n    height: 300px;\n    margin-bottom: 16px;\n    margin-right: 0px;\n}\n}\n@media screen and (min-width: 576px) {\n.roulette[data-v-e71982f0] {\n    width: 200px;\n    height: 200px;\n    margin-right: 16px;\n}\n}\n@media screen and (min-width: 768px) {\n.roulette[data-v-e71982f0] {\n    width: 200px;\n    height: 200px;\n}\n}\n@media screen and (min-width: 992px) {\n.roulette[data-v-e71982f0] {\n    width: 200px;\n    height: 200px;\n}\n}\n@media screen and (min-width: 1200px) {\n.roulette[data-v-e71982f0] {\n    width: 300px;\n    height: 300px;\n}\n}\n.roulette canvas[data-v-e71982f0] {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 99%;\n  z-index: 4;\n}\n.roulette .roulette-source[data-v-e71982f0] {\n  width: calc( 406*99%/480 );\n  height: calc( 406*99%/480 );\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  display: block;\n  z-index: 1;\n  transform: translate(-50%, -50%);\n}\n.roulette .roulette-source svg g .cross-arm-1[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-arm-2[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-arm-3[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-arm-4[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-circle-1[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-circle-2[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-circle-3[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-circle-4[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-circle-inner-1[data-v-e71982f0] {\n  fill: var(--v-primary-darken1);\n}\n.roulette .roulette-source svg g .cross-circle-inner-2[data-v-e71982f0] {\n  fill: var(--v-primary-darken1);\n}\n.roulette .roulette-source svg g .cross-circle-inner-3[data-v-e71982f0] {\n  fill: var(--v-primary-darken1);\n}\n.roulette .roulette-source svg g .cross-circle-inner-4[data-v-e71982f0] {\n  fill: var(--v-primary-darken1);\n}\n.roulette .roulette-source svg g .circle-center-outer[data-v-e71982f0] {\n  fill: var(--v-primary-base);\n}\n.roulette .roulette-source svg g .circle-center[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .circle-center-inner[data-v-e71982f0] {\n  fill: var(--v-primary-base);\n}\n.roulette .roulette-source svg g .st58[data-v-e71982f0], .roulette .roulette-source svg g .st59[data-v-e71982f0], .roulette .roulette-source svg g .st61[data-v-e71982f0], .roulette .roulette-source svg g .st62[data-v-e71982f0],\n.roulette .roulette-source svg g .st0[data-v-e71982f0], .roulette .roulette-source svg g .st1[data-v-e71982f0], .roulette .roulette-source svg g .st2[data-v-e71982f0], .roulette .roulette-source svg g .st3[data-v-e71982f0], .roulette .roulette-source svg g .st4[data-v-e71982f0], .roulette .roulette-source svg g .st5[data-v-e71982f0], .roulette .roulette-source svg g .st6[data-v-e71982f0], .roulette .roulette-source svg g .st7[data-v-e71982f0], .roulette .roulette-source svg g .st8[data-v-e71982f0], .roulette .roulette-source svg g .st9[data-v-e71982f0], .roulette .roulette-source svg g .st10[data-v-e71982f0], .roulette .roulette-source svg g .st11[data-v-e71982f0], .roulette .roulette-source svg g .st12[data-v-e71982f0], .roulette .roulette-source svg g .st13[data-v-e71982f0], .roulette .roulette-source svg g .st14[data-v-e71982f0], .roulette .roulette-source svg g .st15[data-v-e71982f0], .roulette .roulette-source svg g .st16[data-v-e71982f0], .roulette .roulette-source svg g .st17[data-v-e71982f0],\n.roulette .roulette-source svg g .st18[data-v-e71982f0], .roulette .roulette-source svg g .st19[data-v-e71982f0], .roulette .roulette-source svg g .st20[data-v-e71982f0],\n.roulette .roulette-source svg g .st21[data-v-e71982f0], .roulette .roulette-source svg g .st22[data-v-e71982f0], .roulette .roulette-source svg g .st23[data-v-e71982f0], .roulette .roulette-source svg g .st24[data-v-e71982f0], .roulette .roulette-source svg g .st25[data-v-e71982f0], .roulette .roulette-source svg g .st26[data-v-e71982f0], .roulette .roulette-source svg g .st27[data-v-e71982f0], .roulette .roulette-source svg g .st28[data-v-e71982f0], .roulette .roulette-source svg g .st29[data-v-e71982f0], .roulette .roulette-source svg g .st30[data-v-e71982f0], .roulette .roulette-source svg g .st31[data-v-e71982f0], .roulette .roulette-source svg g .st32[data-v-e71982f0], .roulette .roulette-source svg g .st33[data-v-e71982f0], .roulette .roulette-source svg g .st34[data-v-e71982f0], .roulette .roulette-source svg g .st35[data-v-e71982f0], .roulette .roulette-source svg g .st36[data-v-e71982f0], .roulette .roulette-source svg g .st37[data-v-e71982f0], .roulette .roulette-source svg g .st38[data-v-e71982f0], .roulette .roulette-source svg g .st39[data-v-e71982f0], .roulette .roulette-source svg g .st40[data-v-e71982f0], .roulette .roulette-source svg g .st41[data-v-e71982f0], .roulette .roulette-source svg g .st42[data-v-e71982f0], .roulette .roulette-source svg g .st43[data-v-e71982f0], .roulette .roulette-source svg g .st44[data-v-e71982f0], .roulette .roulette-source svg g .st45[data-v-e71982f0], .roulette .roulette-source svg g .st46[data-v-e71982f0], .roulette .roulette-source svg g .st47[data-v-e71982f0], .roulette .roulette-source svg g .st48[data-v-e71982f0], .roulette .roulette-source svg g .st49[data-v-e71982f0], .roulette .roulette-source svg g .st50[data-v-e71982f0], .roulette .roulette-source svg g .st51[data-v-e71982f0], .roulette .roulette-source svg g .st52[data-v-e71982f0], .roulette .roulette-source svg g .st53[data-v-e71982f0], .roulette .roulette-source svg g .st54[data-v-e71982f0], .roulette .roulette-source svg g .st55[data-v-e71982f0], .roulette .roulette-source svg g .st56[data-v-e71982f0], .roulette .roulette-source svg g .st57[data-v-e71982f0] {\n  stroke: var(--v-primary-base);\n}\n.roulette .roulette-source svg g .st59[data-v-e71982f0] {\n  fill: transparent;\n}\n.roulette .roulette-source svg g .circle-inner-gradient.g1[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0;\n}\n.roulette .roulette-source svg g .circle-inner-gradient.g2[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0;\n}\n.roulette .roulette-source svg g .circle-inner-gradient.g3[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0.1;\n}\n.roulette .roulette-source svg g .circle-inner-gradient.g4[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0.25;\n}\n.roulette .roulette-source svg g .circle-inner-gradient.g5[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n}\n.roulette .roulette-source svg g .st0[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0968;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st1[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.1037;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st2[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0481;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st3[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st4[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0674;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st5[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0476;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st6[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0202;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st7[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0375;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st8[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0253;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st9[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0573;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st10[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0642;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st11[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0415;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st12[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0593;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st13[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 4.6425;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st14[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0599;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st15[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0581;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st16[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0754;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st17[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0757;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st18[data-v-e71982f0] {\n  fill: #000;\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n  transition: fill 0.4s ease;\n}\n.roulette .roulette-source svg g .st18.light[data-v-e71982f0] {\n  fill: #9c9c9c;\n}\n.roulette .roulette-source svg g .st19[data-v-e71982f0] {\n  fill: #004d00;\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n  transition: fill 0.4s ease;\n}\n.roulette .roulette-source svg g .st19.light[data-v-e71982f0] {\n  fill: #00b300;\n}\n.roulette .roulette-source svg g .st20[data-v-e71982f0] {\n  fill: #F44336;\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n  transition: fill 0.4s ease;\n}\n.roulette .roulette-source svg g .st20.light[data-v-e71982f0] {\n  fill: #f99d97;\n}\n.roulette .roulette-source svg g .st21[data-v-e71982f0] {\n  fill: url(#SVGID_1_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st22[data-v-e71982f0] {\n  fill: url(#SVGID_2_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st23[data-v-e71982f0] {\n  fill: url(#SVGID_3_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st24[data-v-e71982f0] {\n  fill: url(#SVGID_4_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st25[data-v-e71982f0] {\n  fill: url(#SVGID_5_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st26[data-v-e71982f0] {\n  fill: url(#SVGID_6_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st27[data-v-e71982f0] {\n  fill: url(#SVGID_7_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st28[data-v-e71982f0] {\n  fill: url(#SVGID_8_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st29[data-v-e71982f0] {\n  fill: url(#SVGID_9_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st30[data-v-e71982f0] {\n  fill: url(#SVGID_10_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st31[data-v-e71982f0] {\n  fill: url(#SVGID_11_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st32[data-v-e71982f0] {\n  fill: url(#SVGID_12_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st33[data-v-e71982f0] {\n  fill: url(#SVGID_13_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st34[data-v-e71982f0] {\n  fill: url(#SVGID_14_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st35[data-v-e71982f0] {\n  fill: url(#SVGID_15_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st36[data-v-e71982f0] {\n  fill: url(#SVGID_16_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st37[data-v-e71982f0] {\n  fill: url(#SVGID_17_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st38[data-v-e71982f0] {\n  fill: url(#SVGID_18_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st39[data-v-e71982f0] {\n  fill: url(#SVGID_19_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st40[data-v-e71982f0] {\n  fill: url(#SVGID_20_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st41[data-v-e71982f0] {\n  fill: url(#SVGID_21_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st42[data-v-e71982f0] {\n  fill: url(#SVGID_22_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st43[data-v-e71982f0] {\n  fill: url(#SVGID_23_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st44[data-v-e71982f0] {\n  fill: url(#SVGID_24_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st45[data-v-e71982f0] {\n  fill: url(#SVGID_25_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st46[data-v-e71982f0] {\n  fill: url(#SVGID_26_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st47[data-v-e71982f0] {\n  fill: url(#SVGID_27_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st48[data-v-e71982f0] {\n  fill: url(#SVGID_28_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st49[data-v-e71982f0] {\n  fill: url(#SVGID_29_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st50[data-v-e71982f0] {\n  fill: url(#SVGID_30_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st51[data-v-e71982f0] {\n  fill: url(#SVGID_31_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st52[data-v-e71982f0] {\n  fill: url(#SVGID_32_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st53[data-v-e71982f0] {\n  fill: url(#SVGID_33_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st54[data-v-e71982f0] {\n  fill: url(#SVGID_34_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st55[data-v-e71982f0] {\n  fill: url(#SVGID_35_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st56[data-v-e71982f0] {\n  fill: url(#SVGID_36_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st57[data-v-e71982f0] {\n  fill: url(#SVGID_37_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st58[data-v-e71982f0] {\n  fill: url(#SVGID_38_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st59[data-v-e71982f0] {\n  stroke-width: 7.959;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st60[data-v-e71982f0] {\n  fill: #ffffff;\n}\n.roulette .roulette-source svg g .st61[data-v-e71982f0] {\n  fill: url(#SVGID_39_);\n  stroke-width: 6;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st62[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 17;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .whell-ic-cell-red.s5[data-v-e71982f0] {\n  stop-color: #f9948d;\n}\n.roulette .roulette-source svg g .whell-ic-cell-red.s4[data-v-e71982f0] {\n  stop-color: #f8827a;\n}\n.roulette .roulette-source svg g .whell-ic-cell-red.s3[data-v-e71982f0] {\n  stop-color: #f66358;\n}\n.roulette .roulette-source svg g .whell-ic-cell-red.s2[data-v-e71982f0] {\n  stop-color: #f54e42;\n}\n.roulette .roulette-source svg g .whell-ic-cell-red.s1[data-v-e71982f0] {\n  stop-color: #F44336;\n}\n.roulette .outside[data-v-e71982f0] {\n  width: 100%;\n  height: 100%;\n  display: block;\n  position: relative;\n}\n.roulette .outside .gradient.g1[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0;\n}\n.roulette .outside .gradient.g2[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0;\n}\n.roulette .outside .gradient.g3[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0.1;\n}\n.roulette .outside .gradient.g4[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0.25;\n}\n.roulette .outside .gradient.g5[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n}\n.roulette .outside .st0[data-v-e71982f0] {\n  stroke: var(--v-primary-base);\n}\n.bets .bets-sup[data-v-e71982f0] {\n  z-index: 2;\n  position: absolute;\n  height: 0;\n  margin-left: calc( calc( (100vw - 32px - 4px*16) / 14 ) + 4px);\n}\n@media screen and (min-width: 576px) {\n.bets .bets-sup[data-v-e71982f0] {\n    margin-left: calc( 18px + 4px);\n}\n}\n@media screen and (min-width: 768px) {\n.bets .bets-sup[data-v-e71982f0] {\n    margin-left: calc( 24px + 4px);\n}\n}\n@media screen and (min-width: 992px) {\n.bets .bets-sup[data-v-e71982f0] {\n    margin-left: calc( 34px + 4px);\n}\n}\n@media screen and (min-width: 1200px) {\n.bets .bets-sup[data-v-e71982f0] {\n    margin-left: calc( 40px + 4px);\n}\n}\n.bets .bets-sup .betm[data-v-e71982f0] {\n  position: relative;\n  width: calc( (100vw - 32px - 4px*16) / 14 );\n  height: calc( calc( (100vw - 32px - 4px*16) / 14 )/2.2 );\n  float: left;\n  margin-right: 4px;\n  transform: translate(-50%, -50%);\n  cursor: pointer;\n  outline: none;\n}\n.bets .bets-sup .betm.vt[data-v-e71982f0] {\n  top: calc( -4px/2 );\n}\n.bets .bets-sup .betm.vm[data-v-e71982f0] {\n  top: calc( calc( (100vw - 32px - 4px*16) / 14 )/2 );\n}\n.bets .bets-sup .betm.v2[data-v-e71982f0] {\n  top: calc( calc( (100vw - 32px - 4px*16) / 14 )*1.5 + 4px );\n  width: calc( calc( (100vw - 32px - 4px*16) / 14 )/2.2 );\n  height: calc(calc( (100vw - 32px - 4px*16) / 14 )*2 + 4px*1);\n}\n.bets .bets-sup .betm.hr[data-v-e71982f0] {\n  left: calc( calc( (100vw - 32px - 4px*16) / 14 ) + 4px/2 );\n}\n.bets .bets-sup .betm.hl[data-v-e71982f0] {\n  left: calc( -4px/2 );\n}\n.bets .bets-sup .betm.hm[data-v-e71982f0] {\n  left: calc( calc( (100vw - 32px - 4px*16) / 14 )/2 );\n}\n.bets .bets-sup .betm.szc[data-v-e71982f0] {\n  width: calc( calc( (100vw - 32px - 4px*16) / 14 )/2.2 );\n  margin-right: calc( (calc( (100vw - 32px - 4px*16) / 14 ) - calc( (100vw - 32px - 4px*16) / 14 )/2.2) + 4px );\n}\n.bets .bets-sup .betm.szhs[data-v-e71982f0] {\n  width: calc( calc( (100vw - 32px - 4px*16) / 14 )/2.2 );\n  height: calc( calc( (100vw - 32px - 4px*16) / 14 )/1.5 );\n  margin-right: calc( (calc( (100vw - 32px - 4px*16) / 14 ) - calc( (100vw - 32px - 4px*16) / 14 )/2.2) + 4px );\n}\n.bets .bets-sup .betm.szvs[data-v-e71982f0] {\n  width: calc( calc( (100vw - 32px - 4px*16) / 14 )/1.5 );\n  height: calc( calc( (100vw - 32px - 4px*16) / 14 )/2.2 );\n  margin-right: calc( (calc( (100vw - 32px - 4px*16) / 14 ) - calc( (100vw - 32px - 4px*16) / 14 )/1.5) + 4px );\n}\n.bets .bets-sup .betm[data-v-e71982f0]:after {\n  content: attr(data-betsize);\n  position: absolute;\n  height: 20px;\n  min-width: 20px;\n  border-radius: 10px;\n  font-size: 12px;\n  background-color: var(--v-primary-base);\n  padding: 4px 6px;\n  color: #FFFFFF;\n  text-align: center;\n  transform: translate(-50%, -50%) scale(0);\n  transform-origin: center;\n  transition: 0.3s;\n  letter-spacing: 0;\n  line-height: 1;\n  opacity: 0;\n  top: 50%;\n  left: 50%;\n  z-index: 10;\n}\n@media screen and (max-width: 992px) {\n.bets .bets-sup .betm[data-v-e71982f0]:after {\n    font-size: 8px;\n    height: 16px;\n    min-width: 16px;\n}\n}\n.bets .bets-sup .betm[data-betsize][data-v-e71982f0]:after {\n  transform: translate(-50%, -50%) scale(1);\n  opacity: 1;\n}\n@media screen and (min-width: 576px) {\n.bets .bets-sup .betm[data-v-e71982f0] {\n    width: 18px;\n    height: calc( 18px/2.2 );\n}\n.bets .bets-sup .betm.vm[data-v-e71982f0] {\n    top: calc( 18px/2 );\n}\n.bets .bets-sup .betm.v2[data-v-e71982f0] {\n    top: calc( 18px*1.5 + 4px );\n    width: calc( 18px/2.2 );\n    height: calc(18px*2 + 4px*1);\n}\n.bets .bets-sup .betm.hr[data-v-e71982f0] {\n    left: calc( 18px + 4px/2 );\n}\n.bets .bets-sup .betm.hm[data-v-e71982f0] {\n    left: calc( 18px/2 );\n}\n.bets .bets-sup .betm.szc[data-v-e71982f0] {\n    width: calc( 18px/2.2 );\n    margin-right: calc( (18px - 18px/2.2) + 4px );\n}\n.bets .bets-sup .betm.szhs[data-v-e71982f0] {\n    width: calc( 18px/2.2 );\n    height: calc( 18px/1.5 );\n    margin-right: calc( (18px - 18px/2.2) + 4px );\n}\n.bets .bets-sup .betm.szvs[data-v-e71982f0] {\n    width: calc( 18px/1.5 );\n    height: calc( 18px/2.2 );\n    margin-right: calc( (18px - 18px/1.5) + 4px );\n}\n}\n@media screen and (min-width: 768px) {\n.bets .bets-sup .betm[data-v-e71982f0] {\n    width: 24px;\n    height: calc( 24px/2.2 );\n}\n.bets .bets-sup .betm.vm[data-v-e71982f0] {\n    top: calc( 24px/2 );\n}\n.bets .bets-sup .betm.v2[data-v-e71982f0] {\n    top: calc( 24px*1.5 + 4px );\n    width: calc( 24px/2.2 );\n    height: calc(24px*2 + 4px*1);\n}\n.bets .bets-sup .betm.hr[data-v-e71982f0] {\n    left: calc( 24px + 4px/2 );\n}\n.bets .bets-sup .betm.hm[data-v-e71982f0] {\n    left: calc( 24px/2 );\n}\n.bets .bets-sup .betm.szc[data-v-e71982f0] {\n    width: calc( 24px/2.2 );\n    margin-right: calc( (24px - 24px/2.2) + 4px );\n}\n.bets .bets-sup .betm.szhs[data-v-e71982f0] {\n    width: calc( 24px/2.2 );\n    height: calc( 24px/1.5 );\n    margin-right: calc( (24px - 24px/2.2) + 4px );\n}\n.bets .bets-sup .betm.szvs[data-v-e71982f0] {\n    width: calc( 24px/1.5 );\n    height: calc( 24px/2.2 );\n    margin-right: calc( (24px - 24px/1.5) + 4px );\n}\n}\n@media screen and (min-width: 992px) {\n.bets .bets-sup .betm[data-v-e71982f0] {\n    width: 34px;\n    height: calc( 34px/2.2 );\n}\n.bets .bets-sup .betm.vm[data-v-e71982f0] {\n    top: calc( 34px/2 );\n}\n.bets .bets-sup .betm.v2[data-v-e71982f0] {\n    top: calc( 34px*1.5 + 4px );\n    width: calc( 34px/2.2 );\n    height: calc(34px*2 + 4px*1);\n}\n.bets .bets-sup .betm.hr[data-v-e71982f0] {\n    left: calc( 34px + 4px/2 );\n}\n.bets .bets-sup .betm.hm[data-v-e71982f0] {\n    left: calc( 34px/2 );\n}\n.bets .bets-sup .betm.szc[data-v-e71982f0] {\n    width: calc( 34px/2.2 );\n    margin-right: calc( (34px - 34px/2.2) + 4px );\n}\n.bets .bets-sup .betm.szhs[data-v-e71982f0] {\n    width: calc( 34px/2.2 );\n    height: calc( 34px/1.5 );\n    margin-right: calc( (34px - 34px/2.2) + 4px );\n}\n.bets .bets-sup .betm.szvs[data-v-e71982f0] {\n    width: calc( 34px/1.5 );\n    height: calc( 34px/2.2 );\n    margin-right: calc( (34px - 34px/1.5) + 4px );\n}\n}\n@media screen and (min-width: 1200px) {\n.bets .bets-sup .betm[data-v-e71982f0] {\n    width: 40px;\n    height: calc( 40px/2.2 );\n}\n.bets .bets-sup .betm.vm[data-v-e71982f0] {\n    top: calc( 40px/2 );\n}\n.bets .bets-sup .betm.v2[data-v-e71982f0] {\n    top: calc( 40px*1.5 + 4px );\n    width: calc( 40px/2.2 );\n    height: calc(40px*2 + 4px*1);\n}\n.bets .bets-sup .betm.hr[data-v-e71982f0] {\n    left: calc( 40px + 4px/2 );\n}\n.bets .bets-sup .betm.hm[data-v-e71982f0] {\n    left: calc( 40px/2 );\n}\n.bets .bets-sup .betm.szc[data-v-e71982f0] {\n    width: calc( 40px/2.2 );\n    margin-right: calc( (40px - 40px/2.2) + 4px );\n}\n.bets .bets-sup .betm.szhs[data-v-e71982f0] {\n    width: calc( 40px/2.2 );\n    height: calc( 40px/1.5 );\n    margin-right: calc( (40px - 40px/2.2) + 4px );\n}\n.bets .bets-sup .betm.szvs[data-v-e71982f0] {\n    width: calc( 40px/1.5 );\n    height: calc( 40px/2.2 );\n    margin-right: calc( (40px - 40px/1.5) + 4px );\n}\n}\n.bets .bet-group[data-v-e71982f0] {\n  z-index: 1;\n  position: relative;\n  width: calc( (100vw - 32px - 4px*16) / 14 );\n  height: calc( (100vw - 32px - 4px*16) / 14 );\n  margin-right: 4px;\n  margin-bottom: 0;\n  float: left;\n  box-sizing: border-box;\n}\n.bets .bet-group.v3[data-v-e71982f0] {\n  height: calc(calc( (100vw - 32px - 4px*16) / 14 )*3 + 4px*2);\n}\n@media screen and (min-width: 576px) {\n.bets .bet-group[data-v-e71982f0] {\n    width: 18px;\n    height: 18px;\n}\n.bets .bet-group.v3[data-v-e71982f0] {\n    height: calc(18px*3 + 4px*2);\n}\n}\n@media screen and (min-width: 768px) {\n.bets .bet-group[data-v-e71982f0] {\n    width: 24px;\n    height: 24px;\n}\n.bets .bet-group.v3[data-v-e71982f0] {\n    height: calc(24px*3 + 4px*2);\n}\n}\n@media screen and (min-width: 992px) {\n.bets .bet-group[data-v-e71982f0] {\n    width: 34px;\n    height: 34px;\n}\n.bets .bet-group.v3[data-v-e71982f0] {\n    height: calc(34px*3 + 4px*2);\n}\n}\n@media screen and (min-width: 1200px) {\n.bets .bet-group[data-v-e71982f0] {\n    width: 40px;\n    height: 40px;\n}\n.bets .bet-group.v3[data-v-e71982f0] {\n    height: calc(40px*3 + 4px*2);\n}\n}\n.bets .bet[data-v-e71982f0] {\n  z-index: 1;\n  position: relative;\n  width: calc( (100vw - 32px - 4px*16) / 14 );\n  height: calc( (100vw - 32px - 4px*16) / 14 );\n  margin-right: 4px;\n  margin-bottom: 4px;\n  float: left;\n  font-size: 0.875rem;\n  box-sizing: border-box;\n  line-height: calc( calc( (100vw - 32px - 4px*16) / 14 ) - 2px);\n  text-align: center;\n  cursor: pointer;\n  transition: border-color 0.3s, background-color 0.3s, color 0.3s;\n  color: var(--v-primary-base);\n  caret-color: var(--v-primary-base);\n  border: thin solid currentColor;\n  border-radius: 4px;\n  outline: none;\n}\n.bets .bet.theme--dark.v-btn[data-v-e71982f0] {\n  color: #fff;\n}\n.bets .bet[data-v-e71982f0]:before {\n  content: \"\";\n  border-radius: inherit;\n  bottom: 0;\n  color: inherit;\n  left: 0;\n  opacity: 0;\n  pointer-events: none;\n  position: absolute;\n  right: 0;\n  top: 0;\n  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.6, 1);\n  background-color: currentColor;\n}\n.bets .bet[data-v-e71982f0]:hover:before, .bets .bet.hover[data-v-e71982f0]:before {\n  opacity: 0.2;\n}\n.bets .bet[data-v-e71982f0]:active:before, .bets .bet.active[data-v-e71982f0]:before {\n  opacity: 0.4;\n}\n.bets .bet > span[data-v-e71982f0] {\n  position: relative;\n  z-index: 1;\n}\n.bets .bet.red[data-v-e71982f0], .bets .bet.red.win[data-v-e71982f0]:active, .bets .bet.red.win[data-v-e71982f0]:hover, .bets .bet.red.win.active[data-v-e71982f0], .bets .bet.red.win.hover[data-v-e71982f0] {\n  background: #F44336 !important;\n  color: #fafafa;\n  border: none;\n  color: #fff;\n}\n.bets .bet.black[data-v-e71982f0], .bets .bet.black.win[data-v-e71982f0]:active, .bets .bet.black.win[data-v-e71982f0]:hover, .bets .bet.black.win.active[data-v-e71982f0], .bets .bet.black.win.hover[data-v-e71982f0] {\n  background: black !important;\n  color: #fafafa;\n  border: none;\n  color: #fff;\n}\n.bets .bet.win[data-v-e71982f0] {\n  background: var(--v-primary-base) !important;\n  color: #fafafa;\n  border-color: var(--v-primary-base) !important;\n}\n@media screen and (max-width: 992px) {\n.bets .bet[data-v-e71982f0] {\n    font-size: 0.7rem;\n}\n}\n@media screen and (max-width: 768px) {\n.bets .bet[data-v-e71982f0] {\n    font-size: 0.5rem;\n}\n}\n@media screen and (max-width: 430px) {\n.bets .bet[data-v-e71982f0] {\n    font-size: 0.4rem;\n}\n}\n.bets .bet.v15[data-v-e71982f0] {\n  height: calc(calc( (100vw - 32px - 4px*16) / 14 )*1.5 + 4px*0.5);\n  line-height: calc( calc( (100vw - 32px - 4px*16) / 14 )*1.5 + 4px*0.5 - 2px);\n}\n.bets .bet.v3[data-v-e71982f0] {\n  height: calc(calc( (100vw - 32px - 4px*16) / 14 )*3 + 4px*2);\n  line-height: calc( calc( (100vw - 32px - 4px*16) / 14 )*3 + 4px*2 - 2px);\n}\n.bets .bet.ml1[data-v-e71982f0] {\n  margin-left: calc( calc( (100vw - 32px - 4px*16) / 14 ) + 4px );\n}\n.bets .bet.h2[data-v-e71982f0] {\n  width: calc(calc( (100vw - 32px - 4px*16) / 14 )*2 + 4px*1);\n}\n.bets .bet.h4[data-v-e71982f0] {\n  width: calc(calc( (100vw - 32px - 4px*16) / 14 )*4 + 4px*3);\n}\n.bets .bet.bnm[data-v-e71982f0] {\n  margin-bottom: 0;\n}\n.bets .bet[data-v-e71982f0]:after {\n  content: attr(data-betsize);\n  position: absolute;\n  height: 20px;\n  min-width: 20px;\n  border-radius: 10px;\n  font-size: 12px;\n  background-color: var(--v-primary-base);\n  padding: 4px 6px;\n  color: #FFFFFF;\n  text-align: center;\n  bottom: 1px;\n  transform: scale(0);\n  transform-origin: center;\n  transition: 0.3s;\n  letter-spacing: 0;\n  line-height: 1;\n  opacity: 0;\n  top: 0;\n  right: 0;\n  z-index: 10;\n}\n@media screen and (max-width: 992px) {\n.bets .bet[data-v-e71982f0]:after {\n    font-size: 8px;\n    height: 16px;\n    min-width: 16px;\n}\n}\n.bets .bet[data-betsize][data-v-e71982f0]:after {\n  transform: scale(1);\n  opacity: 1;\n}\n@media screen and (min-width: 576px) {\n.bets .bet[data-v-e71982f0] {\n    width: 18px;\n    height: 18px;\n    line-height: calc( 18px - 2px);\n}\n.bets .bet.v15[data-v-e71982f0] {\n    height: calc(18px*1.5 + 4px*0.5);\n    line-height: calc( 18px*1.5 + 4px*0.5 - 2px);\n}\n.bets .bet.v3[data-v-e71982f0] {\n    height: calc(18px*3 + 4px*2);\n    line-height: calc( 18px*3 + 4px*2 - 2px);\n}\n.bets .bet.ml1[data-v-e71982f0] {\n    margin-left: calc( 18px + 4px );\n}\n.bets .bet.h2[data-v-e71982f0] {\n    width: calc(18px*2 + 4px*1);\n}\n.bets .bet.h4[data-v-e71982f0] {\n    width: calc(18px*4 + 4px*3);\n}\n}\n@media screen and (min-width: 768px) {\n.bets .bet[data-v-e71982f0] {\n    width: 24px;\n    height: 24px;\n    line-height: calc( 24px - 2px);\n}\n.bets .bet.v15[data-v-e71982f0] {\n    height: calc(24px*1.5 + 4px*0.5);\n    line-height: calc( 24px*1.5 + 4px*0.5 - 2px);\n}\n.bets .bet.v3[data-v-e71982f0] {\n    height: calc(24px*3 + 4px*2);\n    line-height: calc( 24px*3 + 4px*2 - 2px);\n}\n.bets .bet.ml1[data-v-e71982f0] {\n    margin-left: calc( 24px + 4px );\n}\n.bets .bet.h2[data-v-e71982f0] {\n    width: calc(24px*2 + 4px*1);\n}\n.bets .bet.h4[data-v-e71982f0] {\n    width: calc(24px*4 + 4px*3);\n}\n}\n@media screen and (min-width: 992px) {\n.bets .bet[data-v-e71982f0] {\n    width: 34px;\n    height: 34px;\n    line-height: calc( 34px - 2px);\n}\n.bets .bet.v15[data-v-e71982f0] {\n    height: calc(34px*1.5 + 4px*0.5);\n    line-height: calc( 34px*1.5 + 4px*0.5 - 2px);\n}\n.bets .bet.v3[data-v-e71982f0] {\n    height: calc(34px*3 + 4px*2);\n    line-height: calc( 34px*3 + 4px*2 - 2px);\n}\n.bets .bet.ml1[data-v-e71982f0] {\n    margin-left: calc( 34px + 4px );\n}\n.bets .bet.h2[data-v-e71982f0] {\n    width: calc(34px*2 + 4px*1);\n}\n.bets .bet.h4[data-v-e71982f0] {\n    width: calc(34px*4 + 4px*3);\n}\n}\n@media screen and (min-width: 1200px) {\n.bets .bet[data-v-e71982f0] {\n    width: 40px;\n    height: 40px;\n    line-height: calc( 40px - 2px);\n}\n.bets .bet.v15[data-v-e71982f0] {\n    height: calc(40px*1.5 + 4px*0.5);\n    line-height: calc( 40px*1.5 + 4px*0.5 - 2px);\n}\n.bets .bet.v3[data-v-e71982f0] {\n    height: calc(40px*3 + 4px*2);\n    line-height: calc( 40px*3 + 4px*2 - 2px);\n}\n.bets .bet.ml1[data-v-e71982f0] {\n    margin-left: calc( 40px + 4px );\n}\n.bets .bet.h2[data-v-e71982f0] {\n    width: calc(40px*2 + 4px*1);\n}\n.bets .bet.h4[data-v-e71982f0] {\n    width: calc(40px*4 + 4px*3);\n}\n}\n.bets .bet.filler[data-v-e71982f0] {\n  background: none !important;\n  border: none !important;\n  cursor: default !important;\n}\n.bets.bet-ready .bet button.hover[data-v-e71982f0]:before {\n  opacity: 0.2;\n  background: #fff;\n}\n.bets.bet-ready .bet button.active[data-v-e71982f0]:before {\n  opacity: 1;\n  background: var(--v-primary-base);\n}\n.bets.bet-ready .bet button.active.primary--text[data-v-e71982f0] {\n  color: #fff !important;\n}\n.bets.bet-ready .bet button.red.hover[data-v-e71982f0]:before {\n  opacity: 0.3;\n  background: #fff;\n}\n.bets.bet-ready .bet button.red.active[data-v-e71982f0]:before {\n  opacity: 1;\n  background: var(--v-primary-base);\n}\n.bets.bet-ready .bet button.black.hover[data-v-e71982f0]:before {\n  opacity: 0.2;\n  background: #fff;\n}\n.bets.bet-ready .bet button.black.active[data-v-e71982f0]:before {\n  opacity: 1;\n  background: var(--v-primary-base);\n}\n.bets .fixer[data-v-e71982f0] {\n  clear: both;\n}\n.bets .break[data-v-e71982f0] {\n  height: calc( (100vw - 32px - 4px*16) / 14 );\n  display: block;\n  margin-bottom: 4px;\n}\n@media screen and (min-width: 576px) {\n.bets .break[data-v-e71982f0] {\n    height: 18px;\n}\n}\n@media screen and (min-width: 768px) {\n.bets .break[data-v-e71982f0] {\n    height: 24px;\n}\n}\n@media screen and (min-width: 992px) {\n.bets .break[data-v-e71982f0] {\n    height: 34px;\n}\n}\n@media screen and (min-width: 1200px) {\n.bets .break[data-v-e71982f0] {\n    height: 40px;\n}\n}\n@media screen and (max-width: 575px) {\n.bets[data-v-e71982f0] {\n    margin-bottom: 16px;\n}\n}\n.message-container[data-v-e71982f0] {\n  height: 0;\n  padding: 32px 0 10px 0;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "#rolls[data-v-e71982f0] {\n  min-height: 25px;\n}\n@media (max-width: 599px) {\n#rolls[data-v-e71982f0] {\n    position: absolute;\n    top: 50%;\n}\n}\n.total-bet-input[data-v-e71982f0] {\n  max-width: 100px;\n}\n.roulette[data-v-e71982f0] {\n  width: 300px;\n  height: 300px;\n  position: relative;\n  margin-right: 26px;\n}\n@media screen and (max-width: 575px) {\n.roulette[data-v-e71982f0] {\n    width: 300px;\n    height: 300px;\n    margin-bottom: 16px;\n    margin-right: 0px;\n}\n}\n@media screen and (min-width: 576px) {\n.roulette[data-v-e71982f0] {\n    width: 200px;\n    height: 200px;\n    margin-right: 16px;\n}\n}\n@media screen and (min-width: 768px) {\n.roulette[data-v-e71982f0] {\n    width: 200px;\n    height: 200px;\n}\n}\n@media screen and (min-width: 992px) {\n.roulette[data-v-e71982f0] {\n    width: 200px;\n    height: 200px;\n}\n}\n@media screen and (min-width: 1200px) {\n.roulette[data-v-e71982f0] {\n    width: 300px;\n    height: 300px;\n}\n}\n.roulette canvas[data-v-e71982f0] {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 99%;\n  z-index: 4;\n}\n.roulette .roulette-source[data-v-e71982f0] {\n  width: calc(406*99%/480);\n  height: calc(406*99%/480);\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  display: block;\n  z-index: 1;\n  transform: translate(-50%, -50%);\n}\n.roulette .roulette-source svg g .cross-arm-1[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-arm-2[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-arm-3[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-arm-4[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-circle-1[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-circle-2[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-circle-3[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-circle-4[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .cross-circle-inner-1[data-v-e71982f0] {\n  fill: var(--v-primary-darken1);\n}\n.roulette .roulette-source svg g .cross-circle-inner-2[data-v-e71982f0] {\n  fill: var(--v-primary-darken1);\n}\n.roulette .roulette-source svg g .cross-circle-inner-3[data-v-e71982f0] {\n  fill: var(--v-primary-darken1);\n}\n.roulette .roulette-source svg g .cross-circle-inner-4[data-v-e71982f0] {\n  fill: var(--v-primary-darken1);\n}\n.roulette .roulette-source svg g .circle-center-outer[data-v-e71982f0] {\n  fill: var(--v-primary-base);\n}\n.roulette .roulette-source svg g .circle-center[data-v-e71982f0] {\n  fill: var(--v-primary-darken2);\n}\n.roulette .roulette-source svg g .circle-center-inner[data-v-e71982f0] {\n  fill: var(--v-primary-base);\n}\n.roulette .roulette-source svg g .st58[data-v-e71982f0],\n.roulette .roulette-source svg g .st59[data-v-e71982f0],\n.roulette .roulette-source svg g .st61[data-v-e71982f0],\n.roulette .roulette-source svg g .st62[data-v-e71982f0],\n.roulette .roulette-source svg g .st0[data-v-e71982f0],\n.roulette .roulette-source svg g .st1[data-v-e71982f0],\n.roulette .roulette-source svg g .st2[data-v-e71982f0],\n.roulette .roulette-source svg g .st3[data-v-e71982f0],\n.roulette .roulette-source svg g .st4[data-v-e71982f0],\n.roulette .roulette-source svg g .st5[data-v-e71982f0],\n.roulette .roulette-source svg g .st6[data-v-e71982f0],\n.roulette .roulette-source svg g .st7[data-v-e71982f0],\n.roulette .roulette-source svg g .st8[data-v-e71982f0],\n.roulette .roulette-source svg g .st9[data-v-e71982f0],\n.roulette .roulette-source svg g .st10[data-v-e71982f0],\n.roulette .roulette-source svg g .st11[data-v-e71982f0],\n.roulette .roulette-source svg g .st12[data-v-e71982f0],\n.roulette .roulette-source svg g .st13[data-v-e71982f0],\n.roulette .roulette-source svg g .st14[data-v-e71982f0],\n.roulette .roulette-source svg g .st15[data-v-e71982f0],\n.roulette .roulette-source svg g .st16[data-v-e71982f0],\n.roulette .roulette-source svg g .st17[data-v-e71982f0],\n.roulette .roulette-source svg g .st18[data-v-e71982f0],\n.roulette .roulette-source svg g .st19[data-v-e71982f0],\n.roulette .roulette-source svg g .st20[data-v-e71982f0],\n.roulette .roulette-source svg g .st21[data-v-e71982f0],\n.roulette .roulette-source svg g .st22[data-v-e71982f0],\n.roulette .roulette-source svg g .st23[data-v-e71982f0],\n.roulette .roulette-source svg g .st24[data-v-e71982f0],\n.roulette .roulette-source svg g .st25[data-v-e71982f0],\n.roulette .roulette-source svg g .st26[data-v-e71982f0],\n.roulette .roulette-source svg g .st27[data-v-e71982f0],\n.roulette .roulette-source svg g .st28[data-v-e71982f0],\n.roulette .roulette-source svg g .st29[data-v-e71982f0],\n.roulette .roulette-source svg g .st30[data-v-e71982f0],\n.roulette .roulette-source svg g .st31[data-v-e71982f0],\n.roulette .roulette-source svg g .st32[data-v-e71982f0],\n.roulette .roulette-source svg g .st33[data-v-e71982f0],\n.roulette .roulette-source svg g .st34[data-v-e71982f0],\n.roulette .roulette-source svg g .st35[data-v-e71982f0],\n.roulette .roulette-source svg g .st36[data-v-e71982f0],\n.roulette .roulette-source svg g .st37[data-v-e71982f0],\n.roulette .roulette-source svg g .st38[data-v-e71982f0],\n.roulette .roulette-source svg g .st39[data-v-e71982f0],\n.roulette .roulette-source svg g .st40[data-v-e71982f0],\n.roulette .roulette-source svg g .st41[data-v-e71982f0],\n.roulette .roulette-source svg g .st42[data-v-e71982f0],\n.roulette .roulette-source svg g .st43[data-v-e71982f0],\n.roulette .roulette-source svg g .st44[data-v-e71982f0],\n.roulette .roulette-source svg g .st45[data-v-e71982f0],\n.roulette .roulette-source svg g .st46[data-v-e71982f0],\n.roulette .roulette-source svg g .st47[data-v-e71982f0],\n.roulette .roulette-source svg g .st48[data-v-e71982f0],\n.roulette .roulette-source svg g .st49[data-v-e71982f0],\n.roulette .roulette-source svg g .st50[data-v-e71982f0],\n.roulette .roulette-source svg g .st51[data-v-e71982f0],\n.roulette .roulette-source svg g .st52[data-v-e71982f0],\n.roulette .roulette-source svg g .st53[data-v-e71982f0],\n.roulette .roulette-source svg g .st54[data-v-e71982f0],\n.roulette .roulette-source svg g .st55[data-v-e71982f0],\n.roulette .roulette-source svg g .st56[data-v-e71982f0],\n.roulette .roulette-source svg g .st57[data-v-e71982f0] {\n  stroke: var(--v-primary-base);\n}\n.roulette .roulette-source svg g .st59[data-v-e71982f0] {\n  fill: transparent;\n}\n.roulette .roulette-source svg g .circle-inner-gradient.g1[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0;\n}\n.roulette .roulette-source svg g .circle-inner-gradient.g2[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0;\n}\n.roulette .roulette-source svg g .circle-inner-gradient.g3[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0.1;\n}\n.roulette .roulette-source svg g .circle-inner-gradient.g4[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n  stop-opacity: 0.25;\n}\n.roulette .roulette-source svg g .circle-inner-gradient.g5[data-v-e71982f0] {\n  stop-color: var(--v-primary-base);\n}\n.roulette .roulette-source svg g .st0[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0968;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st1[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.1037;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st2[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0481;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st3[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st4[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0674;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st5[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0476;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st6[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0202;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st7[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0375;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st8[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0253;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st9[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0573;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st10[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0642;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st11[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0415;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st12[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0593;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st13[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 4.6425;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st14[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0599;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st15[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0581;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st16[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0754;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st17[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 5.0757;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st18[data-v-e71982f0] {\n  fill: #000;\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n  transition: fill 0.4s ease;\n}\n.roulette .roulette-source svg g .st18.light[data-v-e71982f0] {\n  fill: #9c9c9c;\n}\n.roulette .roulette-source svg g .st19[data-v-e71982f0] {\n  fill: #004d00;\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n  transition: fill 0.4s ease;\n}\n.roulette .roulette-source svg g .st19.light[data-v-e71982f0] {\n  fill: #00b300;\n}\n.roulette .roulette-source svg g .st20[data-v-e71982f0] {\n  fill: #F44336;\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n  transition: fill 0.4s ease;\n}\n.roulette .roulette-source svg g .st20.light[data-v-e71982f0] {\n  fill: #f99d97;\n}\n.roulette .roulette-source svg g .st21[data-v-e71982f0] {\n  fill: url(#SVGID_1_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st22[data-v-e71982f0] {\n  fill: url(#SVGID_2_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st23[data-v-e71982f0] {\n  fill: url(#SVGID_3_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st24[data-v-e71982f0] {\n  fill: url(#SVGID_4_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st25[data-v-e71982f0] {\n  fill: url(#SVGID_5_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st26[data-v-e71982f0] {\n  fill: url(#SVGID_6_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st27[data-v-e71982f0] {\n  fill: url(#SVGID_7_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st28[data-v-e71982f0] {\n  fill: url(#SVGID_8_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st29[data-v-e71982f0] {\n  fill: url(#SVGID_9_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st30[data-v-e71982f0] {\n  fill: url(#SVGID_10_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st31[data-v-e71982f0] {\n  fill: url(#SVGID_11_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st32[data-v-e71982f0] {\n  fill: url(#SVGID_12_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st33[data-v-e71982f0] {\n  fill: url(#SVGID_13_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st34[data-v-e71982f0] {\n  fill: url(#SVGID_14_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st35[data-v-e71982f0] {\n  fill: url(#SVGID_15_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st36[data-v-e71982f0] {\n  fill: url(#SVGID_16_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st37[data-v-e71982f0] {\n  fill: url(#SVGID_17_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st38[data-v-e71982f0] {\n  fill: url(#SVGID_18_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st39[data-v-e71982f0] {\n  fill: url(#SVGID_19_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st40[data-v-e71982f0] {\n  fill: url(#SVGID_20_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st41[data-v-e71982f0] {\n  fill: url(#SVGID_21_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st42[data-v-e71982f0] {\n  fill: url(#SVGID_22_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st43[data-v-e71982f0] {\n  fill: url(#SVGID_23_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st44[data-v-e71982f0] {\n  fill: url(#SVGID_24_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st45[data-v-e71982f0] {\n  fill: url(#SVGID_25_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st46[data-v-e71982f0] {\n  fill: url(#SVGID_26_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st47[data-v-e71982f0] {\n  fill: url(#SVGID_27_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st48[data-v-e71982f0] {\n  fill: url(#SVGID_28_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st49[data-v-e71982f0] {\n  fill: url(#SVGID_29_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st50[data-v-e71982f0] {\n  fill: url(#SVGID_30_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st51[data-v-e71982f0] {\n  fill: url(#SVGID_31_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st52[data-v-e71982f0] {\n  fill: url(#SVGID_32_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st53[data-v-e71982f0] {\n  fill: url(#SVGID_33_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st54[data-v-e71982f0] {\n  fill: url(#SVGID_34_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st55[data-v-e71982f0] {\n  fill: url(#SVGID_35_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st56[data-v-e71982f0] {\n  fill: url(#SVGID_36_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st57[data-v-e71982f0] {\n  fill: url(#SVGID_37_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st58[data-v-e71982f0] {\n  fill: url(#SVGID_38_);\n  stroke-width: 5;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st59[data-v-e71982f0] {\n  stroke-width: 7.959;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st60[data-v-e71982f0] {\n  fill: #ffffff;\n}\n.roulette .roulette-source svg g .st61[data-v-e71982f0] {\n  fill: url(#SVGID_39_);\n  stroke-width: 6;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .st62[data-v-e71982f0] {\n  fill: none;\n  stroke-width: 17;\n  stroke-miterlimit: 10;\n}\n.roulette .roulette-source svg g .whell-ic-cell-red.s5[data-v-e71982f0] {\n  stop-color: #f9948d;\n}\n.roulette .roulette-source svg g .whell-ic-cell-red.s4[data-v-e71982f0] {\n  stop-color: #f8827a;\n}\n.roulette .roulette-source svg g .whell-ic-cell-red.s3[data-v-e71982f0] {\n  stop-color: #f66358;\n}\n.roulette .roulette-source svg g .whell-ic-cell-red.s2[data-v-e71982f0] {\n  stop-color: #f54e42;\n}\n.roulette .roulette-source svg g .whell-ic-cell-red.s1[data-v-e71982f0] {\n  stop-color: #F44336;\n}\n.roulette .outside[data-v-e71982f0] {\n  width: 100%;\n  height: 100%;\n  display: block;\n  position: relative;\n}\n.roulette .outside .gradient.g1[data-v-e71982f0] {\n  stop-color: #ffffff;\n  stop-opacity: 0;\n}\n.roulette .outside .gradient.g2[data-v-e71982f0] {\n  stop-color: #ffffff;\n  stop-opacity: 0;\n}\n.roulette .outside .gradient.g3[data-v-e71982f0] {\n  stop-color: #ffffff;\n  stop-opacity: 0.1;\n}\n.roulette .outside .gradient.g4[data-v-e71982f0] {\n  stop-color: #ffffff;\n  stop-opacity: 0.25;\n}\n.roulette .outside .gradient.g5[data-v-e71982f0] {\n  stop-color: #ffffff;\n}\n.roulette .outside .st0[data-v-e71982f0] {\n  stroke: #ffffff;\n}\n.bets .bets-sup[data-v-e71982f0] {\n  z-index: 2;\n  position: absolute;\n  height: 0;\n  margin-left: calc(calc((100vw - 32px - 4px * 16) / 14) + 4px);\n}\n@media screen and (min-width: 768px) {\n.bets .bets-sup[data-v-e71982f0] {\n    margin-left: calc(24px + 4px);\n}\n}\n@media screen and (min-width: 992px) {\n.bets .bets-sup[data-v-e71982f0] {\n    margin-left: calc(34px + 4px);\n}\n}\n@media screen and (min-width: 1200px) {\n.bets .bets-sup[data-v-e71982f0] {\n    margin-left: calc(40px + 4px);\n}\n}\n.bets .bets-sup .betm[data-v-e71982f0] {\n  position: relative;\n  width: calc((100vw - 32px - 4px * 16) / 14);\n  height: calc(calc((100vw - 32px - 4px * 16) / 14) / 2.2);\n  float: left;\n  margin-right: 4px;\n  transform: translate(-50%, -50%);\n  cursor: pointer;\n  outline: none;\n}\n.bets .bets-sup .betm.vt[data-v-e71982f0] {\n  top: calc(-4px / 2);\n}\n.bets .bets-sup .betm.vm[data-v-e71982f0] {\n  top: calc(calc((100vw - 32px - 4px * 16) / 14) / 2);\n}\n.bets .bets-sup .betm.v2[data-v-e71982f0] {\n  top: calc(calc((100vw - 32px - 4px * 16) / 14) * 1.5 + 4px);\n  width: calc(calc((100vw - 32px - 4px * 16) / 14) / 2.2);\n  height: calc(calc((100vw - 32px - 4px * 16) / 14) * 2 + 4px * 1);\n}\n.bets .bets-sup .betm.hr[data-v-e71982f0] {\n  left: calc(calc((100vw - 32px - 4px * 16) / 14) + 4px / 2);\n}\n.bets .bets-sup .betm.hl[data-v-e71982f0] {\n  left: calc(-4px / 2);\n}\n.bets .bets-sup .betm.hm[data-v-e71982f0] {\n  left: calc(calc((100vw - 32px - 4px * 16) / 14) / 2);\n}\n.bets .bets-sup .betm.szc[data-v-e71982f0] {\n  width: calc(calc((100vw - 32px - 4px * 16) / 14) / 2.2);\n  margin-right: calc((calc((100vw - 32px - 4px * 16) / 14) - calc((100vw - 32px - 4px * 16) / 14) / 2.2) + 4px);\n}\n.bets .bets-sup .betm.szhs[data-v-e71982f0] {\n  width: calc(calc((100vw - 32px - 4px * 16) / 14) / 2.2);\n  height: calc(calc((100vw - 32px - 4px * 16) / 14) / 1.5);\n  margin-right: calc((calc((100vw - 32px - 4px * 16) / 14) - calc((100vw - 32px - 4px * 16) / 14) / 2.2) + 4px);\n}\n.bets .bets-sup .betm.szvs[data-v-e71982f0] {\n  width: calc(calc((100vw - 32px - 4px * 16) / 14) / 1.5);\n  height: calc(calc((100vw - 32px - 4px * 16) / 14) / 2.2);\n  margin-right: calc((calc((100vw - 32px - 4px * 16) / 14) - calc((100vw - 32px - 4px * 16) / 14) / 1.5) + 4px);\n}\n.bets .bets-sup .betm[data-v-e71982f0]:after {\n  content: attr(data-betsize);\n  position: absolute;\n  height: 20px;\n  min-width: 20px;\n  border-radius: 10px;\n  font-size: 12px;\n  background-color: var(--v-primary-base);\n  padding: 4px 6px;\n  color: #FFFFFF;\n  text-align: center;\n  transform: translate(-50%, -50%) scale(0);\n  transform-origin: center;\n  transition: 0.3s;\n  letter-spacing: 0;\n  line-height: 1;\n  opacity: 0;\n  top: 50%;\n  left: 50%;\n  z-index: 10;\n}\n@media screen and (max-width: 992px) {\n.bets .bets-sup .betm[data-v-e71982f0]:after {\n    font-size: 8px;\n    height: 16px;\n    min-width: 16px;\n}\n}\n.bets .bets-sup .betm[data-betsize][data-v-e71982f0]:after {\n  transform: translate(-50%, -50%) scale(1);\n  opacity: 1;\n}\n@media screen and (min-width: 768px) {\n.bets .bets-sup .betm[data-v-e71982f0] {\n    width: 24px;\n    height: calc(24px / 2.2);\n}\n.bets .bets-sup .betm.vm[data-v-e71982f0] {\n    top: calc(24px / 2);\n}\n.bets .bets-sup .betm.v2[data-v-e71982f0] {\n    top: calc(24px * 1.5 + 4px);\n    width: calc(24px / 2.2);\n    height: calc(24px * 2 + 4px * 1);\n}\n.bets .bets-sup .betm.hr[data-v-e71982f0] {\n    left: calc(24px + 4px / 2);\n}\n.bets .bets-sup .betm.hm[data-v-e71982f0] {\n    left: calc(24px / 2);\n}\n.bets .bets-sup .betm.szc[data-v-e71982f0] {\n    width: calc(24px / 2.2);\n    margin-right: calc((24px - 24px / 2.2) + 4px);\n}\n.bets .bets-sup .betm.szhs[data-v-e71982f0] {\n    width: calc(24px / 2.2);\n    height: calc(24px / 1.5);\n    margin-right: calc((24px - 24px / 2.2) + 4px);\n}\n.bets .bets-sup .betm.szvs[data-v-e71982f0] {\n    width: calc(24px / 1.5);\n    height: calc(24px / 2.2);\n    margin-right: calc((24px - 24px / 1.5) + 4px);\n}\n}\n@media screen and (min-width: 992px) {\n.bets .bets-sup .betm[data-v-e71982f0] {\n    width: 34px;\n    height: calc(34px / 2.2);\n}\n.bets .bets-sup .betm.vm[data-v-e71982f0] {\n    top: calc(34px / 2);\n}\n.bets .bets-sup .betm.v2[data-v-e71982f0] {\n    top: calc(34px * 1.5 + 4px);\n    width: calc(34px / 2.2);\n    height: calc(34px * 2 + 4px * 1);\n}\n.bets .bets-sup .betm.hr[data-v-e71982f0] {\n    left: calc(34px + 4px / 2);\n}\n.bets .bets-sup .betm.hm[data-v-e71982f0] {\n    left: calc(34px / 2);\n}\n.bets .bets-sup .betm.szc[data-v-e71982f0] {\n    width: calc(34px / 2.2);\n    margin-right: calc((34px - 34px / 2.2) + 4px);\n}\n.bets .bets-sup .betm.szhs[data-v-e71982f0] {\n    width: calc(34px / 2.2);\n    height: calc(34px / 1.5);\n    margin-right: calc((34px - 34px / 2.2) + 4px);\n}\n.bets .bets-sup .betm.szvs[data-v-e71982f0] {\n    width: calc(34px / 1.5);\n    height: calc(34px / 2.2);\n    margin-right: calc((34px - 34px / 1.5) + 4px);\n}\n}\n@media screen and (min-width: 1200px) {\n.bets .bets-sup .betm[data-v-e71982f0] {\n    width: 40px;\n    height: calc(40px / 2.2);\n}\n.bets .bets-sup .betm.vm[data-v-e71982f0] {\n    top: calc(40px / 2);\n}\n.bets .bets-sup .betm.v2[data-v-e71982f0] {\n    top: calc(40px * 1.5 + 4px);\n    width: calc(40px / 2.2);\n    height: calc(40px * 2 + 4px * 1);\n}\n.bets .bets-sup .betm.hr[data-v-e71982f0] {\n    left: calc(40px + 4px / 2);\n}\n.bets .bets-sup .betm.hm[data-v-e71982f0] {\n    left: calc(40px / 2);\n}\n.bets .bets-sup .betm.szc[data-v-e71982f0] {\n    width: calc(40px / 2.2);\n    margin-right: calc((40px - 40px / 2.2) + 4px);\n}\n.bets .bets-sup .betm.szhs[data-v-e71982f0] {\n    width: calc(40px / 2.2);\n    height: calc(40px / 1.5);\n    margin-right: calc((40px - 40px / 2.2) + 4px);\n}\n.bets .bets-sup .betm.szvs[data-v-e71982f0] {\n    width: calc(40px / 1.5);\n    height: calc(40px / 2.2);\n    margin-right: calc((40px - 40px / 1.5) + 4px);\n}\n}\n.bets .bet-group[data-v-e71982f0] {\n  z-index: 1;\n  position: relative;\n  width: calc((100vw - 32px - 4px * 16) / 14);\n  height: calc((100vw - 32px - 4px * 16) / 14);\n  margin-right: 4px;\n  margin-bottom: 0;\n  float: left;\n  box-sizing: border-box;\n}\n.bets .bet-group.v3[data-v-e71982f0] {\n  height: calc(calc((100vw - 32px - 4px * 16) / 14) * 3 + 4px * 2);\n}\n@media screen and (min-width: 768px) {\n.bets .bet-group[data-v-e71982f0] {\n    width: 24px;\n    height: 24px;\n}\n.bets .bet-group.v3[data-v-e71982f0] {\n    height: calc(24px * 3 + 4px * 2);\n}\n}\n@media screen and (min-width: 992px) {\n.bets .bet-group[data-v-e71982f0] {\n    width: 34px;\n    height: 34px;\n}\n.bets .bet-group.v3[data-v-e71982f0] {\n    height: calc(34px * 3 + 4px * 2);\n}\n}\n@media screen and (min-width: 1200px) {\n.bets .bet-group[data-v-e71982f0] {\n    width: 40px;\n    height: 40px;\n}\n.bets .bet-group.v3[data-v-e71982f0] {\n    height: calc(40px * 3 + 4px * 2);\n}\n}\n.bets .bet[data-v-e71982f0] {\n  z-index: 1;\n  position: relative;\n  width: calc((100vw - 32px - 4px * 16) / 14);\n  height: calc((100vw - 32px - 4px * 16) / 14);\n  margin-right: 4px;\n  margin-bottom: 4px;\n  float: left;\n  font-size: 0.875rem;\n  box-sizing: border-box;\n  line-height: calc(calc((100vw - 32px - 4px * 16) / 14) - 2px);\n  text-align: center;\n  cursor: pointer;\n  transition: border-color 0.3s, background-color 0.3s, color 0.3s;\n  color: #ffffff;\n  caret-color: #ffffff;\n  border: thin solid currentColor;\n  border-radius: 4px;\n  outline: none;\n}\n.bets .bet.theme--dark.v-btn[data-v-e71982f0] {\n  color: #fff;\n}\n.bets .bet[data-v-e71982f0]:before {\n  content: \"\";\n  border-radius: inherit;\n  bottom: 0;\n  color: inherit;\n  left: 0;\n  opacity: 0;\n  pointer-events: none;\n  position: absolute;\n  right: 0;\n  top: 0;\n  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.6, 1);\n  background-color: currentColor;\n}\n.bets .bet[data-v-e71982f0]:hover:before, .bets .bet.hover[data-v-e71982f0]:before {\n  opacity: 0.2;\n}\n.bets .bet[data-v-e71982f0]:active:before, .bets .bet.active[data-v-e71982f0]:before {\n  opacity: 0.4;\n}\n.bets .bet > span[data-v-e71982f0] {\n  position: relative;\n  z-index: 1;\n}\n.bets .bet.red[data-v-e71982f0], .bets .bet.red.win[data-v-e71982f0]:active, .bets .bet.red.win[data-v-e71982f0]:hover, .bets .bet.red.win.active[data-v-e71982f0], .bets .bet.red.win.hover[data-v-e71982f0] {\n  background: #F44336 !important;\n  border: none;\n  color: #fff;\n}\n.bets .bet.black[data-v-e71982f0], .bets .bet.black.win[data-v-e71982f0]:active, .bets .bet.black.win[data-v-e71982f0]:hover, .bets .bet.black.win.active[data-v-e71982f0], .bets .bet.black.win.hover[data-v-e71982f0] {\n  background: black !important;\n  border: none;\n  color: #fff;\n}\n.bets .bet.win[data-v-e71982f0] {\n  background: var(--v-primary-base) !important;\n  color: #fafafa;\n  border-color: var(--v-primary-base) !important;\n}\n@media screen and (max-width: 992px) {\n.bets .bet[data-v-e71982f0] {\n    font-size: 0.7rem;\n}\n}\n@media screen and (max-width: 768px) {\n.bets .bet[data-v-e71982f0] {\n    font-size: 0.5rem;\n}\n}\n@media screen and (max-width: 430px) {\n.bets .bet[data-v-e71982f0] {\n    font-size: 0.4rem;\n}\n}\n.bets .bet.v15[data-v-e71982f0] {\n  height: calc(calc((100vw - 32px - 4px * 16) / 14) * 1.5 + 4px * 0.5);\n  line-height: calc(calc((100vw - 32px - 4px * 16) / 14) * 1.5 + 4px * 0.5 - 2px);\n}\n.bets .bet.v3[data-v-e71982f0] {\n  height: calc(calc((100vw - 32px - 4px * 16) / 14) * 3 + 4px * 2);\n  line-height: calc(calc((100vw - 32px - 4px * 16) / 14) * 3 + 4px * 2 - 2px);\n}\n.bets .bet.ml1[data-v-e71982f0] {\n  margin-left: calc(calc((100vw - 32px - 4px * 16) / 14) + 4px);\n}\n.bets .bet.h2[data-v-e71982f0] {\n  width: calc(calc((100vw - 32px - 4px * 16) / 14) * 2 + 4px * 1);\n}\n.bets .bet.h4[data-v-e71982f0] {\n  width: calc(calc((100vw - 32px - 4px * 16) / 14) * 4 + 4px * 3);\n}\n.bets .bet.bnm[data-v-e71982f0] {\n  margin-bottom: 0;\n}\n.bets .bet[data-v-e71982f0]:after {\n  content: attr(data-betsize);\n  position: absolute;\n  height: 20px;\n  min-width: 20px;\n  border-radius: 10px;\n  font-size: 12px;\n  background-color: var(--v-primary-base);\n  padding: 4px 6px;\n  color: #FFFFFF;\n  text-align: center;\n  bottom: 1px;\n  transform: scale(0);\n  transform-origin: center;\n  transition: 0.3s;\n  letter-spacing: 0;\n  line-height: 1;\n  opacity: 0;\n  top: 0;\n  right: 0;\n  z-index: 10;\n}\n@media screen and (max-width: 992px) {\n.bets .bet[data-v-e71982f0]:after {\n    font-size: 8px;\n    height: 16px;\n    min-width: 16px;\n}\n}\n.bets .bet[data-betsize][data-v-e71982f0]:after {\n  transform: scale(1);\n  opacity: 1;\n}\n@media screen and (min-width: 768px) {\n.bets .bet[data-v-e71982f0] {\n    width: 24px;\n    height: 24px;\n    line-height: calc(24px - 2px);\n}\n.bets .bet.v15[data-v-e71982f0] {\n    height: calc(24px * 1.5 + 4px * 0.5);\n    line-height: calc(24px * 1.5 + 4px * 0.5 - 2px);\n}\n.bets .bet.v3[data-v-e71982f0] {\n    height: calc(24px * 3 + 4px * 2);\n    line-height: calc(24px * 3 + 4px * 2 - 2px);\n}\n.bets .bet.ml1[data-v-e71982f0] {\n    margin-left: calc(24px + 4px);\n}\n.bets .bet.h2[data-v-e71982f0] {\n    width: calc(24px * 2 + 4px * 1);\n}\n.bets .bet.h4[data-v-e71982f0] {\n    width: calc(24px * 4 + 4px * 3);\n}\n}\n@media screen and (min-width: 992px) {\n.bets .bet[data-v-e71982f0] {\n    width: 34px;\n    height: 34px;\n    line-height: calc(34px - 2px);\n}\n.bets .bet.v15[data-v-e71982f0] {\n    height: calc(34px * 1.5 + 4px * 0.5);\n    line-height: calc(34px * 1.5 + 4px * 0.5 - 2px);\n}\n.bets .bet.v3[data-v-e71982f0] {\n    height: calc(34px * 3 + 4px * 2);\n    line-height: calc(34px * 3 + 4px * 2 - 2px);\n}\n.bets .bet.ml1[data-v-e71982f0] {\n    margin-left: calc(34px + 4px);\n}\n.bets .bet.h2[data-v-e71982f0] {\n    width: calc(34px * 2 + 4px * 1);\n}\n.bets .bet.h4[data-v-e71982f0] {\n    width: calc(34px * 4 + 4px * 3);\n}\n}\n@media screen and (min-width: 1200px) {\n.bets .bet[data-v-e71982f0] {\n    width: 40px;\n    height: 40px;\n    line-height: calc(40px - 2px);\n}\n.bets .bet.v15[data-v-e71982f0] {\n    height: calc(40px * 1.5 + 4px * 0.5);\n    line-height: calc(40px * 1.5 + 4px * 0.5 - 2px);\n}\n.bets .bet.v3[data-v-e71982f0] {\n    height: calc(40px * 3 + 4px * 2);\n    line-height: calc(40px * 3 + 4px * 2 - 2px);\n}\n.bets .bet.ml1[data-v-e71982f0] {\n    margin-left: calc(40px + 4px);\n}\n.bets .bet.h2[data-v-e71982f0] {\n    width: calc(40px * 2 + 4px * 1);\n}\n.bets .bet.h4[data-v-e71982f0] {\n    width: calc(40px * 4 + 4px * 3);\n}\n}\n.bets .bet.filler[data-v-e71982f0] {\n  background: none !important;\n  border: none !important;\n  cursor: default !important;\n}\n.bets.bet-ready .bet button.hover[data-v-e71982f0]:before {\n  opacity: 0.2;\n  background: #fff;\n}\n.bets.bet-ready .bet button.active[data-v-e71982f0]:before {\n  opacity: 1;\n  background: var(--v-primary-base);\n}\n.bets.bet-ready .bet button.active.primary--text[data-v-e71982f0] {\n  color: #fff !important;\n}\n.bets.bet-ready .bet button.red.hover[data-v-e71982f0]:before {\n  opacity: 0.3;\n  background: #fff;\n}\n.bets.bet-ready .bet button.red.active[data-v-e71982f0]:before {\n  opacity: 1;\n  background: var(--v-primary-base);\n}\n.bets.bet-ready .bet button.black.hover[data-v-e71982f0]:before {\n  opacity: 0.2;\n  background: #fff;\n}\n.bets.bet-ready .bet button.black.active[data-v-e71982f0]:before {\n  opacity: 1;\n  background: var(--v-primary-base);\n}\n.bets .fixer[data-v-e71982f0] {\n  clear: both;\n}\n.bets .break[data-v-e71982f0] {\n  height: calc((100vw - 32px - 4px * 16) / 14);\n  display: block;\n  margin-bottom: 4px;\n}\n@media screen and (min-width: 768px) {\n.bets .break[data-v-e71982f0] {\n    height: 24px;\n}\n}\n@media screen and (min-width: 992px) {\n.bets .break[data-v-e71982f0] {\n    height: 34px;\n}\n}\n@media screen and (min-width: 1200px) {\n.bets .break[data-v-e71982f0] {\n    height: 40px;\n}\n}\n@media screen and (max-width: 575px) {\n.bets[data-v-e71982f0] {\n    margin-bottom: 16px;\n}\n}\n.message-container[data-v-e71982f0] {\n  height: 0;\n  padding: 32px 0 10px 0;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true&":
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1160,10 +1172,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".scale-enter[data-v-74957228], .scale-
 
 /***/ }),
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1177,17 +1189,17 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".bet-input[data-v-921fb73a] {\n  max-width: 250px;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".bet-input[data-v-921fb73a] {\n  max-width: 250px;\n}\n.play-btn[data-v-921fb73a] {\n  min-width: 56px !important;\n  width: 56px !important;\n  height: 56px !important;\n  border-radius: 100%;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1197,7 +1209,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_style_index_0_id_e71982f0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!../../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_style_index_0_id_e71982f0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!../../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true&");
 
             
 
@@ -1206,18 +1218,18 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_style_index_0_id_e71982f0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_style_index_0_id_e71982f0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"], options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_style_index_0_id_e71982f0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_style_index_0_id_e71982f0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true&":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true& ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1227,7 +1239,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_style_index_0_id_74957228_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_style_index_0_id_74957228_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true&");
 
             
 
@@ -1236,18 +1248,18 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_style_index_0_id_74957228_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_style_index_0_id_74957228_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"], options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_style_index_0_id_74957228_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_style_index_0_id_74957228_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true&":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1257,7 +1269,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_style_index_0_id_921fb73a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_style_index_0_id_921fb73a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true&");
 
             
 
@@ -1266,11 +1278,11 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_style_index_0_id_921fb73a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_style_index_0_id_921fb73a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"], options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_style_index_0_id_921fb73a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_style_index_0_id_921fb73a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
@@ -1326,8 +1338,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./game.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./game.vue?vue&type=script&lang=js& */ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -1342,8 +1354,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./GameMessage.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./GameMessage.vue?vue&type=script&lang=js& */ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -1358,8 +1370,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PlayControls.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PlayControls.vue?vue&type=script&lang=js& */ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -1374,8 +1386,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Game.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/mixins/Game.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Game.vue?vue&type=script&lang=js& */ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/mixins/Game.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Game_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -1387,7 +1399,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_style_index_0_id_e71982f0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader/dist/cjs.js!../../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!../../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_style_index_0_id_e71982f0_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader/dist/cjs.js!../../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!../../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=style&index=0&id=e71982f0&lang=scss&scoped=true&");
 
 
 /***/ }),
@@ -1400,7 +1412,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_style_index_0_id_74957228_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_style_index_0_id_74957228_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=style&index=0&id=74957228&lang=scss&scoped=true&");
 
 
 /***/ }),
@@ -1413,15 +1425,15 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_11_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_11_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_11_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_style_index_0_id_921fb73a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-11.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-11.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-11.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_style_index_0_id_921fb73a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=style&index=0&id=921fb73a&lang=scss&scoped=true&");
 
 
 /***/ }),
 
-/***/ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=template&id=e71982f0&scoped=true&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=template&id=e71982f0&scoped=true& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=template&id=e71982f0&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=template&id=e71982f0&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1451,8 +1463,13 @@ var render = function render() {
       message: _vm.message
     }
   })], 1), _vm._v(" "), _c("div", {
-    staticClass: "d-flex flex-sm-row flex-column justify-center fill-height align-center"
-  }, [_c("div", [_c("div", {
+    staticClass: "d-block game-american-roulette-inner"
+  }, [_c("div", {
+    staticClass: "d-none roulette",
+    "class": {
+      "d-block": _vm.playing
+    }
+  }, [_c("div", {
     directives: [{
       def: vuetify_lib_directives_click_outside__WEBPACK_IMPORTED_MODULE_0__["default"],
       name: "click-outside",
@@ -1460,7 +1477,7 @@ var render = function render() {
       value: _vm.onClickOutsideRoulette,
       expression: "onClickOutsideRoulette"
     }],
-    staticClass: "roulette"
+    staticClass: "rouletteInner"
   }, [_c("canvas", {
     ref: "roulette",
     attrs: {
@@ -3740,115 +3757,6 @@ var render = function render() {
     attrs: {
       d: "M716.8,375.3c-2.3-17.5-6.1-34.5-11.2-50.8c-5.1-16.1-11.4-31.7-19-46.5c-7.9-15.5-17.1-30.3-27.5-44.1\n                c-10.2-13.6-21.5-26.4-33.8-38.1c-12.3-11.7-25.5-22.4-39.7-31.9c-14-9.5-28.9-17.8-44.5-24.9c-15.5-7-31.7-12.8-48.5-17.2\n                c-16.6-4.3-33.7-7.3-51.2-8.7c-8.4-0.7-16.9-1.1-25.5-1.1c-8.5,0-17,0.4-25.3,1c-17.4,1.4-34.5,4.4-50.9,8.6\n                c-17,4.4-33.5,10.3-49.2,17.4c-15.5,7.1-30.3,15.4-44.3,24.8c-14.4,9.7-27.9,20.6-40.4,32.6c-12.2,11.7-23.4,24.4-33.6,38\n                c-10.2,13.7-19.3,28.3-27.1,43.7c-7.5,14.8-13.8,30.3-18.9,46.3c-5.1,16.4-8.9,33.4-11.2,50.8c-1.7,13.1-2.6,26.5-2.6,40.1\n                c0,3.6,0.1,7.2,0.2,10.8c0.6,17.9,2.8,35.3,6.4,52.3c3.6,17.1,8.7,33.6,15,49.6c6.4,16,14.1,31.4,23.1,45.9\n                c8.9,14.4,18.9,28.1,30,40.8c11.4,13.1,24,25.3,37.5,36.3c13.2,10.7,27.3,20.3,42.1,28.8c15.1,8.5,30.9,15.8,47.4,21.7\n                c16.1,5.7,32.8,10.1,50,13.1c16.8,2.9,34.1,4.4,51.7,4.4c17.9,0,35.4-1.5,52.4-4.5c16.8-2.9,33-7.2,48.8-12.8\n                c16.5-5.8,32.2-13,47.3-21.4c15.1-8.5,29.3-18.2,42.7-29c13.4-10.9,25.9-22.9,37.2-35.8c11.3-12.9,21.6-26.9,30.7-41.6\n                c9-14.7,16.8-30.2,23.2-46.3c6.2-15.7,11.2-32,14.8-48.9c3.5-16.7,5.7-34,6.4-51.6c0.1-3.8,0.2-7.7,0.2-11.5\n                C719.4,401.8,718.5,388.4,716.8,375.3z"
     }
-  }), _vm._v(" "), _c("circle", {
-    staticClass: "circle-center-outer",
-    attrs: {
-      cx: "414.55",
-      cy: "414.65",
-      r: "60"
-    }
-  }), _vm._v(" "), _c("rect", {
-    staticClass: "cross-arm-1",
-    attrs: {
-      x: "258",
-      y: "404",
-      width: "110",
-      height: "25"
-    }
-  }), _vm._v(" "), _c("rect", {
-    staticClass: "cross-arm-2",
-    attrs: {
-      x: "458",
-      y: "404",
-      width: "110",
-      height: "25"
-    }
-  }), _vm._v(" "), _c("rect", {
-    staticClass: "cross-arm-3",
-    attrs: {
-      x: "401",
-      y: "258",
-      width: "25",
-      height: "110"
-    }
-  }), _vm._v(" "), _c("rect", {
-    staticClass: "cross-arm-4",
-    attrs: {
-      x: "401",
-      y: "461",
-      width: "25",
-      height: "110"
-    }
-  }), _vm._v(" "), _c("circle", {
-    staticClass: "cross-circle-1",
-    attrs: {
-      cx: "258",
-      cy: "416.5",
-      r: "30"
-    }
-  }), _vm._v(" "), _c("circle", {
-    staticClass: "cross-circle-2",
-    attrs: {
-      cx: "568",
-      cy: "416.5",
-      r: "30"
-    }
-  }), _vm._v(" "), _c("circle", {
-    staticClass: "cross-circle-3",
-    attrs: {
-      cx: "413.5",
-      cy: "258",
-      r: "30"
-    }
-  }), _vm._v(" "), _c("circle", {
-    staticClass: "cross-circle-4",
-    attrs: {
-      cx: "413.5",
-      cy: "571",
-      r: "30"
-    }
-  }), _vm._v(" "), _c("circle", {
-    staticClass: "cross-circle-inner-1",
-    attrs: {
-      cx: "258",
-      cy: "416.5",
-      r: "20"
-    }
-  }), _vm._v(" "), _c("circle", {
-    staticClass: "cross-circle-inner-2",
-    attrs: {
-      cx: "568",
-      cy: "416.5",
-      r: "20"
-    }
-  }), _vm._v(" "), _c("circle", {
-    staticClass: "cross-circle-inner-3",
-    attrs: {
-      cx: "413.5",
-      cy: "258",
-      r: "20"
-    }
-  }), _vm._v(" "), _c("circle", {
-    staticClass: "cross-circle-inner-4",
-    attrs: {
-      cx: "413.5",
-      cy: "571",
-      r: "20"
-    }
-  }), _vm._v(" "), _c("circle", {
-    staticClass: "circle-center",
-    attrs: {
-      cx: "414.55",
-      cy: "414.65",
-      r: "50"
-    }
-  }), _vm._v(" "), _c("circle", {
-    staticClass: "circle-center-inner",
-    attrs: {
-      cx: "414.55",
-      cy: "414.65",
-      r: "30"
-    }
   })], 1)])]), _vm._v(" "), _c("object", {
     staticClass: "outside"
   }, [_c("svg", {
@@ -3908,12 +3816,19 @@ var render = function render() {
     attrs: {
       d: "M451.6,198.5c-1.7-13-4.5-25.5-8.3-37.7c-3.7-12-8.4-23.5-14-34.5c-5.8-11.5-12.6-22.5-20.3-32.8\n            c-7.5-10.1-15.8-19.5-24.9-28.2c-9.1-8.7-18.9-16.7-29.4-23.8c-10.5-7.1-21.5-13.4-33.1-18.6c-11.5-5.3-23.5-9.6-36-12.8\n            c-12.4-3.3-25.2-5.5-38.4-6.6c-6.3-0.5-12.8-0.8-19.2-0.8c-6.3,0-12.5,0.3-18.6,0.8c-13,1-25.6,3.2-37.9,6.4\n            c-12.7,3.3-24.9,7.6-36.6,12.9c-11.5,5.2-22.6,11.4-33,18.5c-10.7,7.2-20.7,15.4-30,24.3c-9.1,8.7-17.5,18.2-25,28.4\n            c-7.6,10.2-14.4,21.1-20.1,32.6c-5.5,11-10.2,22.4-14,34.3c-3.8,12.2-6.6,24.9-8.3,37.9C3.2,208.1,2.5,218,2.5,228\n            c0,2.8,0,5.5,0.2,8.3c0.5,13.3,2.1,26.3,4.8,38.9c2.7,12.7,6.5,25,11.3,36.9c4.8,12,10.6,23.5,17.3,34.3\n            c6.6,10.7,14.1,20.8,22.4,30.2c8.5,9.7,17.9,18.7,28,26.9c9.8,7.9,20.3,15,31.3,21.3c11.2,6.3,23,11.7,35.3,16\n            c12,4.2,24.4,7.5,37.1,9.6c12.3,2.1,24.9,3.2,37.8,3.2h0.5c13.3,0,26.2-1.2,38.8-3.4c12.4-2.2,24.5-5.4,36.2-9.5\n            c12.2-4.3,23.9-9.7,35-16c11.2-6.3,21.7-13.5,31.6-21.5c9.9-8.1,19.2-17,27.6-26.6c8.4-9.6,16-19.9,22.7-30.8\n            c6.7-10.9,12.4-22.4,17.2-34.3c4.6-11.6,8.3-23.8,11-36.3c2.6-12.4,4.2-25.2,4.7-38.2c0.1-2.9,0.2-5.8,0.2-8.8\n            C453.5,218,452.9,208.2,451.6,198.5z"
     }
-  })], 1)])])]), _vm._v(" "), _c("div", {
-    staticClass: "bets d-flex flex-column justify-center align-center",
+  })], 1)])]), _vm._v(" "), _c("img", {
+    staticClass: "roulettestp",
+    attrs: {
+      src: __webpack_require__(/*! ../../../../../images/roulettestp.webp */ "./images/roulettestp.webp")
+    }
+  })]), _vm._v(" "), _c("div", {
+    staticClass: "bets flex-column justify-center align-center d-none",
     "class": {
-      "bet-ready": !_vm.playing
+      "d-flex bet-ready": !_vm.playing
     }
   }, [_c("div", {
+    staticClass: "betsInner"
+  }, [_vm.rolls.length > 0 ? _c("div", {
     staticClass: "mb-5 text-no-wrap overflow-hidden",
     attrs: {
       id: "rolls"
@@ -3933,8 +3848,8 @@ var render = function render() {
         color: roll.color,
         "text-color": "#fff"
       }
-    }, [_vm._v("\n            " + _vm._s(roll.number) + "\n          ")]);
-  }), 1)], 1), _vm._v(" "), _c("div", {
+    }, [_vm._v("\n              " + _vm._s(roll.number) + "\n            ")]);
+  }), 1)], 1) : _vm._e(), _vm._v(" "), _c("div", {
     staticClass: "bets-btns"
   }, [!_vm.bettingFinals ? _c("div", {
     staticClass: "inner"
@@ -4760,7 +4675,7 @@ var render = function render() {
           return _vm.placeFinals(i);
         }
       }
-    }, [_vm._v("\n            " + _vm._s(i) + "\n          ")]);
+    }, [_vm._v("\n              " + _vm._s(i) + "\n            ")]);
   }), _vm._v(" "), _c("div", {
     staticClass: "bet filler"
   }), _vm._v(" "), _c("div", {
@@ -4785,7 +4700,7 @@ var render = function render() {
           return _vm.placeFinals(i);
         }
       }
-    }, [_vm._v("\n            " + _vm._s(i) + "\n          ")]);
+    }, [_vm._v("\n              " + _vm._s(i) + "\n            ")]);
   }), _vm._v(" "), _c("div", {
     staticClass: "break"
   }), _vm._v(" "), _vm._l(6, function (i) {
@@ -4804,73 +4719,17 @@ var render = function render() {
         _vm.bettingFinals = !_vm.bettingFinals;
       }
     }
-  }, [_vm._v("\n            " + _vm._s(_vm.$t("Cancel")) + "\n          ")]), _vm._v(" "), _c("div", {
+  }, [_vm._v("\n              " + _vm._s(_vm.$t("Cancel")) + "\n            ")]), _vm._v(" "), _c("div", {
     staticClass: "break"
   }), _vm._v(" "), _c("div", {
     staticClass: "break"
   }), _vm._v(" "), _c("div", {
     staticClass: "fixer"
-  })], 2) : _vm._e()]), _vm._v(" "), _c("div", {
-    staticClass: "d-md-flex text-center justify-center flex-wrap mt-1"
-  }, [_c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    staticClass: "mx-1 my-2 my-lg-0",
-    attrs: {
-      disabled: _vm.playing,
-      small: ""
-    },
-    on: {
-      click: function click($event) {
-        return _vm.placeVoisins();
-      }
+  })], 2) : _vm._e()])])]), _vm._v(" "), _c("div", {
+    staticClass: "d-flex justify-center flex-wrap gamethreeBtns",
+    "class": {
+      "d-none": _vm.playing
     }
-  }, [_vm._v("\n          " + _vm._s(_vm.$t("Voisins du Zéro")) + "\n        ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    staticClass: "mx-1 my-2 my-lg-0",
-    attrs: {
-      disabled: _vm.playing,
-      small: ""
-    },
-    on: {
-      click: function click($event) {
-        return _vm.placeTiers();
-      }
-    }
-  }, [_vm._v("\n          " + _vm._s(_vm.$t("Tiers")) + "\n        ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    staticClass: "mx-1 my-2 my-lg-0",
-    attrs: {
-      disabled: _vm.playing,
-      small: ""
-    },
-    on: {
-      click: function click($event) {
-        return _vm.placeOrphelins();
-      }
-    }
-  }, [_vm._v("\n          " + _vm._s(_vm.$t("Orphelins")) + "\n        ")]), _vm._v(" "), _c("br"), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    staticClass: "mx-1 my-2 my-lg-0",
-    attrs: {
-      disabled: _vm.playing,
-      small: ""
-    },
-    on: {
-      click: function click($event) {
-        $event.stopPropagation();
-        return _vm.placeNeighbours();
-      }
-    }
-  }, [_vm._v("\n          " + _vm._s(_vm.$t("Neighbours")) + "\n        ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    staticClass: "mx-1 my-2 my-lg-0",
-    attrs: {
-      disabled: _vm.playing,
-      small: ""
-    },
-    on: {
-      click: function click($event) {
-        _vm.bettingFinals = !_vm.bettingFinals;
-        _vm.win_number = -1;
-      }
-    }
-  }, [_vm._v("\n          " + _vm._s(_vm.$t("Finals")) + "\n        ")])], 1)])]), _vm._v(" "), _c("div", {
-    staticClass: "d-flex justify-center flex-wrap"
   }, [_c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
     staticClass: "mx-1 my-2 my-lg-0",
     attrs: {
@@ -4880,7 +4739,18 @@ var render = function render() {
     on: {
       click: _vm.repeat
     }
-  }, [_vm._v("\n      " + _vm._s(_vm.$t("Repeat")) + "\n    ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, [_c("svg", {
+    attrs: {
+      xmlns: "http://www.w3.org/2000/svg",
+      height: "1em",
+      viewBox: "0 0 512 512"
+    }
+  }, [_c("path", {
+    attrs: {
+      fill: "#ffffff",
+      d: "M0 224c0 17.7 14.3 32 32 32s32-14.3 32-32c0-53 43-96 96-96H320v32c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l64-64c12.5-12.5 12.5-32.8 0-45.3l-64-64c-9.2-9.2-22.9-11.9-34.9-6.9S320 19.1 320 32V64H160C71.6 64 0 135.6 0 224zm512 64c0-17.7-14.3-32-32-32s-32 14.3-32 32c0 53-43 96-96 96H192V352c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-64 64c-12.5 12.5-12.5 32.8 0 45.3l64 64c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V448H352c88.4 0 160-71.6 160-160z"
+    }
+  })])]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
     staticClass: "mx-1 my-2 my-lg-0",
     attrs: {
       disabled: _vm.playing || Object.keys(_vm.bets).length === 0,
@@ -4889,7 +4759,7 @@ var render = function render() {
     on: {
       click: _vm["double"]
     }
-  }, [_vm._v("\n      " + _vm._s(_vm.$t("Double")) + "\n    ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, [_vm._v("\n        " + _vm._s(_vm.$t("2X")) + "\n      ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
     staticClass: "mx-1 my-2 my-lg-0",
     attrs: {
       disabled: _vm.playing || Object.keys(_vm.bets).length === 0,
@@ -4898,8 +4768,22 @@ var render = function render() {
     on: {
       click: _vm.clear
     }
-  }, [_vm._v("\n      " + _vm._s(_vm.$t("Clear")) + "\n    ")])], 1), _vm._v(" "), _c("play-controls", {
+  }, [_c("svg", {
+    attrs: {
+      xmlns: "http://www.w3.org/2000/svg",
+      height: "1em",
+      viewBox: "0 0 576 512"
+    }
+  }, [_c("path", {
+    attrs: {
+      fill: "#ffffff",
+      d: "M576 128c0-35.3-28.7-64-64-64H205.3c-17 0-33.3 6.7-45.3 18.7L9.4 233.4c-6 6-9.4 14.1-9.4 22.6s3.4 16.6 9.4 22.6L160 429.3c12 12 28.3 18.7 45.3 18.7H512c35.3 0 64-28.7 64-64V128zM271 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"
+    }
+  })])])], 1)]), _vm._v(" "), _c("div", {
+    staticClass: "formBottmControllMain"
+  }, [_c("play-controls", {
     ref: "controls",
+    staticClass: "formBottmControll",
     attrs: {
       loading: _vm.loading,
       playing: _vm.playing,
@@ -4914,7 +4798,9 @@ var render = function render() {
     scopedSlots: _vm._u([{
       key: "after-bet-input",
       fn: function fn() {
-        return [_c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        return [_c("div", {
+          staticClass: "d-flex align-center inputboxMn totalBetBx"
+        }, [_c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_3__["default"], {
           staticClass: "total-bet-input text-center ml-2",
           attrs: {
             label: _vm.$t("Total bet"),
@@ -4925,11 +4811,11 @@ var render = function render() {
             outlined: "",
             "full-width": false
           }
-        })];
+        })], 1)];
       },
       proxy: true
     }])
-  })], 1);
+  })], 1)]);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -4937,10 +4823,10 @@ render._withStripped = true;
 
 /***/ }),
 
-/***/ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=template&id=74957228&scoped=true&":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=template&id=74957228&scoped=true& ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=template&id=74957228&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=template&id=74957228&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -4974,10 +4860,10 @@ render._withStripped = true;
 
 /***/ }),
 
-/***/ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=template&id=921fb73a&scoped=true&":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=template&id=921fb73a&scoped=true& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=template&id=921fb73a&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=template&id=921fb73a&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -5018,6 +4904,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c(vuetify_lib_components_VForm__WEBPACK_IMPORTED_MODULE_0__["default"], {
     ref: "form",
+    staticClass: "text-center pb-0 width-100",
     on: {
       submit: function submit($event) {
         $event.preventDefault();
@@ -5031,10 +4918,12 @@ var render = function render() {
       },
       expression: "formIsValid"
     }
+  }, [_c("div", {
+    staticClass: "game-frame-2 d-inline-block"
   }, [_vm.autoPlaySupport ? _c("div", {
-    staticClass: "d-flex justify-center"
+    staticClass: "d-flex justify-center mb-3"
   }, [_c(vuetify_lib_components_VBtnToggle__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    staticClass: "align-self-center mb-3",
+    staticClass: "align-self-center",
     attrs: {
       "active-class": "primary--text",
       mandatory: "",
@@ -5055,14 +4944,14 @@ var render = function render() {
       small: "",
       value: false
     }
-  }, [_vm._v("\n        " + _vm._s(_vm.$t("Manual")) + "\n      ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, [_vm._v("\n          " + _vm._s(_vm.$t("Manual")) + "\n        ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
     staticClass: "mx-1",
     attrs: {
       disabled: _vm.playing || _vm.autoPlayInProgress,
       small: "",
       value: true
     }
-  }, [_vm._v("\n        " + _vm._s(_vm.$t("Auto")) + "\n      ")])], 1), _vm._v(" "), _c(vuetify_lib_components_VDialog__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, [_vm._v("\n          " + _vm._s(_vm.$t("Auto")) + "\n        ")])], 1), _vm._v(" "), _c(vuetify_lib_components_VDialog__WEBPACK_IMPORTED_MODULE_3__["default"], {
     attrs: {
       persistent: "",
       "max-width": "600px"
@@ -5090,7 +4979,7 @@ var render = function render() {
     }
   }, [_vm._v(" "), _c(vuetify_lib_components_VCard__WEBPACK_IMPORTED_MODULE_5__["default"], [_c(vuetify_lib_components_VCard__WEBPACK_IMPORTED_MODULE_6__.VCardTitle, {
     staticClass: "headline my-5"
-  }, [_vm._v("\n          " + _vm._s(_vm.$t("Auto play settings")) + "\n        ")]), _vm._v(" "), _c(vuetify_lib_components_VCard__WEBPACK_IMPORTED_MODULE_6__.VCardText, [_c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, [_vm._v("\n            " + _vm._s(_vm.$t("Auto play settings")) + "\n          ")]), _vm._v(" "), _c(vuetify_lib_components_VCard__WEBPACK_IMPORTED_MODULE_6__.VCardText, [_c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
     staticClass: "text-center",
     attrs: {
       dense: "",
@@ -5123,15 +5012,15 @@ var render = function render() {
             value: true,
             small: ""
           }
-        }, [_vm._v("\n                  " + _vm._s(_vm.$t("Reset to base")) + "\n                ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        }, [_vm._v("\n                    " + _vm._s(_vm.$t("Reset to base")) + "\n                  ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
           attrs: {
             value: false,
             small: ""
           }
-        }, [_vm._v("\n                  " + _vm._s(_vm.$t("Change by")) + "\n                ")])], 1)];
+        }, [_vm._v("\n                    " + _vm._s(_vm.$t("Change by")) + "\n                  ")])], 1)];
       },
       proxy: true
-    }], null, false, 3331114620),
+    }], null, false, 3823628540),
     model: {
       value: _vm.autoPlay.onLoss.amount,
       callback: function callback($$v) {
@@ -5172,15 +5061,15 @@ var render = function render() {
             value: true,
             small: ""
           }
-        }, [_vm._v("\n                  " + _vm._s(_vm.$t("Reset to base")) + "\n                ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        }, [_vm._v("\n                    " + _vm._s(_vm.$t("Reset to base")) + "\n                  ")]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
           attrs: {
             value: false,
             small: ""
           }
-        }, [_vm._v("\n                  " + _vm._s(_vm.$t("Change by")) + "\n                ")])], 1)];
+        }, [_vm._v("\n                    " + _vm._s(_vm.$t("Change by")) + "\n                  ")])], 1)];
       },
       proxy: true
-    }], null, false, 2613860143),
+    }], null, false, 1181979055),
     model: {
       value: _vm.autoPlay.onWin.amount,
       callback: function callback($$v) {
@@ -5296,7 +5185,7 @@ var render = function render() {
         _vm.autoPlaySettingsDialog = false;
       }
     }
-  }, [_vm._v("\n            " + _vm._s(_vm.$t("Apply")) + "\n          ")])], 1)], 1)], 1), _vm._v(" "), _c(vuetify_lib_components_VDialog__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, [_vm._v("\n              " + _vm._s(_vm.$t("Apply")) + "\n            ")])], 1)], 1)], 1), _vm._v(" "), _c(vuetify_lib_components_VDialog__WEBPACK_IMPORTED_MODULE_3__["default"], {
     attrs: {
       persistent: "",
       "max-width": "600px"
@@ -5324,7 +5213,7 @@ var render = function render() {
     }
   }, [_vm._v(" "), _c(vuetify_lib_components_VCard__WEBPACK_IMPORTED_MODULE_5__["default"], [_c(vuetify_lib_components_VCard__WEBPACK_IMPORTED_MODULE_6__.VCardTitle, {
     staticClass: "headline my-5"
-  }, [_vm._v("\n          " + _vm._s(_vm.$t("Auto play history")) + "\n        ")]), _vm._v(" "), _c(vuetify_lib_components_VCard__WEBPACK_IMPORTED_MODULE_6__.VCardText, [_vm.autoPlay.games.length ? _c(vuetify_lib_components_VDataTable__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }, [_vm._v("\n            " + _vm._s(_vm.$t("Auto play history")) + "\n          ")]), _vm._v(" "), _c(vuetify_lib_components_VCard__WEBPACK_IMPORTED_MODULE_6__.VCardText, [_vm.autoPlay.games.length ? _c(vuetify_lib_components_VDataTable__WEBPACK_IMPORTED_MODULE_11__["default"], {
     attrs: {
       dense: "",
       "fixed-header": ""
@@ -5334,33 +5223,33 @@ var render = function render() {
       fn: function fn() {
         return [_c("thead", [_c("tr", [_c("th", {
           staticClass: "text-left"
-        }, [_vm._v("\n                    #\n                  ")]), _vm._v(" "), _c("th", {
+        }, [_vm._v("\n                      #\n                    ")]), _vm._v(" "), _c("th", {
           staticClass: "text-right"
-        }, [_vm._v("\n                    " + _vm._s(_vm.$t("Bet")) + "\n                  ")]), _vm._v(" "), _c("th", {
+        }, [_vm._v("\n                      " + _vm._s(_vm.$t("Bet")) + "\n                    ")]), _vm._v(" "), _c("th", {
           staticClass: "text-right"
-        }, [_vm._v("\n                    " + _vm._s(_vm.$t("Win")) + "\n                  ")])])]), _vm._v(" "), _c("tbody", _vm._l(_vm.autoPlay.games, function (game, i) {
+        }, [_vm._v("\n                      " + _vm._s(_vm.$t("Win")) + "\n                    ")])])]), _vm._v(" "), _c("tbody", _vm._l(_vm.autoPlay.games, function (game, i) {
           return _c("tr", {
             key: i
           }, [_c("td", {
             staticClass: "text-left"
-          }, [_vm._v("\n                    " + _vm._s(++i) + "\n                  ")]), _vm._v(" "), _c("td", {
+          }, [_vm._v("\n                      " + _vm._s(++i) + "\n                    ")]), _vm._v(" "), _c("td", {
             staticClass: "text-right"
-          }, [_vm._v("\n                    " + _vm._s(game.bet) + "\n                  ")]), _vm._v(" "), _c("td", {
+          }, [_vm._v("\n                      " + _vm._s(game.bet) + "\n                    ")]), _vm._v(" "), _c("td", {
             staticClass: "text-right"
-          }, [_vm._v("\n                    " + _vm._s(game.win) + "\n                  ")])]);
+          }, [_vm._v("\n                      " + _vm._s(game.win) + "\n                    ")])]);
         }), 0), _vm._v(" "), _c("tfoot", [_c("tr", [_c("th", {
           staticClass: "text-right",
           attrs: {
             colspan: "2"
           }
-        }, [_vm._v("\n                    " + _vm._s(_vm.$t("Total net win")) + "\n                  ")]), _vm._v(" "), _c("th", {
+        }, [_vm._v("\n                      " + _vm._s(_vm.$t("Total net win")) + "\n                    ")]), _vm._v(" "), _c("th", {
           staticClass: "text-right",
           "class": _vm.autoPlayNetResult > 0 ? "green--text" : "error--text"
-        }, [_vm._v("\n                    " + _vm._s(_vm.autoPlayNetResult.toFixed(2)) + "\n                  ")])])])];
+        }, [_vm._v("\n                      " + _vm._s(_vm.autoPlayNetResult.toFixed(2)) + "\n                    ")])])])];
       },
       proxy: true
-    }], null, false, 4084813946)
-  }) : _c("p", [_vm._v("\n            " + _vm._s(_vm.$t("No games played in the auto mode.")) + "\n          ")])], 1), _vm._v(" "), _c(vuetify_lib_components_VCard__WEBPACK_IMPORTED_MODULE_6__.VCardActions, [_c(vuetify_lib_components_VGrid__WEBPACK_IMPORTED_MODULE_10__["default"]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    }], null, false, 3282463738)
+  }) : _c("p", [_vm._v("\n              " + _vm._s(_vm.$t("No games played in the auto mode.")) + "\n            ")])], 1), _vm._v(" "), _c(vuetify_lib_components_VCard__WEBPACK_IMPORTED_MODULE_6__.VCardActions, [_c(vuetify_lib_components_VGrid__WEBPACK_IMPORTED_MODULE_10__["default"]), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
     attrs: {
       color: "primary"
     },
@@ -5369,13 +5258,14 @@ var render = function render() {
         _vm.autoPlayHistoryDialog = false;
       }
     }
-  }, [_vm._v("\n            " + _vm._s(_vm.$t("Close")) + "\n          ")])], 1)], 1)], 1)], 1) : _vm._e(), _vm._v(" "), _c("div", {
-    staticClass: "d-flex justify-center flex-wrap mt-3"
-  }, [_vm._t("before-bet-input"), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, [_vm._v("\n              " + _vm._s(_vm.$t("Close")) + "\n            ")])], 1)], 1)], 1)], 1) : _vm._e(), _vm._v(" "), _c("div", {
+    staticClass: "d-flex justify-center flex-wrap items-center mt-3"
+  }, [_c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
     staticClass: "bet-input text-center",
     attrs: {
-      dense: "",
+      density: "comfortable",
       outlined: "",
+      dense: _vm.$vuetify.breakpoint.smAndDown,
       "full-width": false,
       label: _vm.betLabel || _vm.$t("Bet"),
       disabled: _vm.playing,
@@ -5410,7 +5300,7 @@ var render = function render() {
           attrs: {
             small: ""
           }
-        }, [_vm._v("\n            mdi-arrow-down\n          ")])], 1), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        }, [_vm._v("\n              mdi-arrow-down\n            ")])], 1), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
           attrs: {
             small: "",
             text: "",
@@ -5424,7 +5314,7 @@ var render = function render() {
           attrs: {
             small: ""
           }
-        }, [_vm._v("\n            mdi-minus\n          ")])], 1)];
+        }, [_vm._v("\n              mdi-minus\n            ")])], 1)];
       },
       proxy: true
     }, {
@@ -5444,7 +5334,7 @@ var render = function render() {
           attrs: {
             small: ""
           }
-        }, [_vm._v("\n            mdi-plus\n          ")])], 1), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        }, [_vm._v("\n              mdi-plus\n            ")])], 1), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
           attrs: {
             small: "",
             text: "",
@@ -5460,7 +5350,7 @@ var render = function render() {
           attrs: {
             small: ""
           }
-        }, [_vm._v("\n            mdi-arrow-up\n          ")])], 1)];
+        }, [_vm._v("\n              mdi-arrow-up\n            ")])], 1)];
       },
       proxy: true
     }]),
@@ -5471,10 +5361,9 @@ var render = function render() {
       },
       expression: "bet"
     }
-  }), _vm._v(" "), _vm._t("after-bet-input"), _vm._v(" "), _vm.autoPlayEnabled ? _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    staticClass: "ml-2",
+  }), _vm._v(" "), _vm.autoPlayEnabled ? _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    staticClass: "ml-2 play-button",
     attrs: {
-      color: "primary",
       disabled: !_vm.autoPlayInProgress,
       outlined: "",
       icon: "",
@@ -5483,15 +5372,48 @@ var render = function render() {
     on: {
       click: _vm.stopAutoPlay
     }
-  }, [_c(vuetify_lib_components_VIcon__WEBPACK_IMPORTED_MODULE_4__["default"], [_vm._v("mdi-stop")])], 1) : _vm._e(), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    staticClass: "ml-2",
+  }, [_c("div", {
+    staticClass: "wrap"
+  }, [_c("p", [_c("svg", {
+    staticClass: "size-6",
+    attrs: {
+      xmlns: "http://www.w3.org/2000/svg",
+      viewBox: "0 0 24 24",
+      fill: "currentColor",
+      width: "30",
+      height: "30"
+    }
+  }, [_c("path", {
+    attrs: {
+      "fill-rule": "evenodd",
+      d: "M4.5 7.5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3v-9Z",
+      "clip-rule": "evenodd"
+    }
+  })])])])]) : _vm._e(), _vm._v(" "), _c(vuetify_lib_components_VBtn__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    staticClass: "ml-3 play-button",
     attrs: {
       type: "submit",
-      color: "primary",
       loading: _vm.loading,
       disabled: _vm.disabled || !_vm.formIsValid || _vm.isPlayDisabled || _vm.autoPlayInProgress
     }
-  }, [_vm._v("\n      " + _vm._s(_vm.playLabel || _vm.$t("Play")) + "\n    ")]), _vm._v(" "), _vm._t("after-play-button")], 2)]);
+  }, [_c("div", {
+    staticClass: "wrap"
+  }, [_c("p", [_c("svg", {
+    staticClass: "size-6",
+    attrs: {
+      xmlns: "http://www.w3.org/2000/svg",
+      viewBox: "0 0 24 24",
+      fill: "currentColor",
+      width: "30",
+      height: "30"
+    }
+  }, [_c("path", {
+    attrs: {
+      "fill-rule": "evenodd",
+      d: "M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z",
+      "clip-rule": "evenodd"
+    }
+  })])])])]), _vm._v(" "), _vm._t("after-play-button")], 2)])]);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -5508,10 +5430,10 @@ render._withStripped = true;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_template_id_e71982f0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_template_id_e71982f0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_template_id_e71982f0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_template_id_e71982f0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_template_id_e71982f0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./game.vue?vue&type=template&id=e71982f0&scoped=true& */ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=template&id=e71982f0&scoped=true&");
+/* harmony import */ var _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_game_vue_vue_type_template_id_e71982f0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!../../../../../node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./game.vue?vue&type=template&id=e71982f0&scoped=true& */ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/european-roulette/resources/js/pages/game.vue?vue&type=template&id=e71982f0&scoped=true&");
 
 
 /***/ }),
@@ -5525,10 +5447,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_template_id_74957228_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_template_id_74957228_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_template_id_74957228_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_template_id_74957228_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_template_id_74957228_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./GameMessage.vue?vue&type=template&id=74957228&scoped=true& */ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=template&id=74957228&scoped=true&");
+/* harmony import */ var _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_GameMessage_vue_vue_type_template_id_74957228_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!../../../../node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./GameMessage.vue?vue&type=template&id=74957228&scoped=true& */ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/GameMessage.vue?vue&type=template&id=74957228&scoped=true&");
 
 
 /***/ }),
@@ -5542,10 +5464,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_template_id_921fb73a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_template_id_921fb73a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_template_id_921fb73a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_template_id_921fb73a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_template_id_921fb73a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PlayControls.vue?vue&type=template&id=921fb73a&scoped=true& */ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=template&id=921fb73a&scoped=true&");
+/* harmony import */ var _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PlayControls_vue_vue_type_template_id_921fb73a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!../../../../node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PlayControls.vue?vue&type=template&id=921fb73a&scoped=true& */ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Games/PlayControls.vue?vue&type=template&id=921fb73a&scoped=true&");
 
 
 /***/ })

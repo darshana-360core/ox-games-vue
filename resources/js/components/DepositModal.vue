@@ -117,8 +117,8 @@ export default {
         // { name: 'INOX', icon: require('/images/icons/usdt.png'),networks:["Polygon"] }
       ],
       networks : {
-        OC: ["Polygon"],
-        USDT: ["Polygon","ETH","BSC","TRON"],
+        OC: ["polygon"],
+        USDT: ["polygon","eth","bsc","tron"],
       }
     }
   },
@@ -134,11 +134,7 @@ export default {
       if(data.success != true){
           this.show = true
       }else{
-        if (this.$router && typeof this.$router.push === 'function') {
-          this.$router.push('/user/account/deposits/create')
-        } else {
-          window.location.href = '/user/account/deposits/create'
-        }
+       window.location.href = '/user/account/deposits/create'
       }
     },
       close() {

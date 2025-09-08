@@ -1,10 +1,10 @@
 "use strict";
 (self["webpackChunk"] = self["webpackChunk"] || []).push([["packages/multiplayer-roulette-resources-js-pages-admin-settings"],{
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -112,15 +112,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./settings.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./settings.vue?vue&type=script&lang=js& */ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=template&id=2b9829e6&":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=template&id=2b9829e6& ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=template&id=2b9829e6&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=template&id=2b9829e6& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -422,6 +422,785 @@ var render = function render() {
       },
       expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.zero"
     }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("Odd"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.odd");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.odd,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "odd", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.odd"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("Even"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.even");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.even,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "even", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.even"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("1"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight1");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight1,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight1", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight1"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("2"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight2");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight2,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight2", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight2"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("3"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight3");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight3,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight3", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight3"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("4"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight4");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight4,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight4", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight4"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("5"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight5");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight5,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight5", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight5"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("6"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight6");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight6,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight6", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight6"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("7"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight7");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight7,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight7", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight7"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("8"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight8");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight8,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight8", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight8"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("9"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight9");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight9,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight9", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight9"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("10"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight10");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight10,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight10", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight10"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("11"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight11");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight11,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight11", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight11"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("12"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight12");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight12,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight12", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight12"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("13"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight13");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight13,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight13", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight13"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("14"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight14");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight14,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight14", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight14"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("15"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight15");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight15,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight15", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight15"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("16"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight16");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight16,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight16", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight16"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("17"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight17");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight17,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight17", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight17"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("18"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight18");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight18,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight18", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight18"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("19"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight19");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight19,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight19", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight19"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("20"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight20");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight20,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight20", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight20"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("21"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight21");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight21,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight21", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight21"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("22"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight22");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight22,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight22", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight22"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("23"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight23");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight23,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight23", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight23"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("24"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight24");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight24,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight24", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight24"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("25"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight25");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight25,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight25", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight25"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("26"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight26");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight26,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight26", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight26"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("27"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight27");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight27,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight27", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight27"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("28"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight28");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight28,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight28", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight28"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("29"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight29");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight29,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight29", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight29"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("30"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight30");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight30,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight30", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight30"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("31"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight31");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight31,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight31", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight31"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("32"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight32");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight32,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight32", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight32"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("33"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight33");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight33,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight33", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight33"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("34"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight34");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight34,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight34", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight34"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("35"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight35");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight35,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight35", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight35"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("36"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight36");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight36,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight36", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight36"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("1st 12"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight1st_12");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight36,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight36", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight36"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("2nd 12"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight2nd_12");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight36,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight36", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight36"
+    }
+  }), _vm._v(" "), _c(vuetify_lib_components_VTextField__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    attrs: {
+      label: _vm.$t("3rd 12"),
+      rules: [_vm.validationPositiveNumber],
+      outlined: "",
+      prefix: _vm.$t("Bet") + " x "
+    },
+    on: {
+      keydown: function keydown($event) {
+        return _vm.clearFormErrors($event, "GAME_MULTIPLAYER_ROULETTE_PAYOUT_PLAYER.straight3rd_12");
+      }
+    },
+    model: {
+      value: _vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight36,
+      callback: function callback($$v) {
+        _vm.$set(_vm.form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE, "straight36", _vm._n($$v));
+      },
+      expression: "form.GAME_MULTIPLAYER_ROULETTE_PAYTABLE.straight36"
+    }
   })], 1)], 1), _vm._v(" "), _c(vuetify_lib_components_VExpansionPanel__WEBPACK_IMPORTED_MODULE_3__["default"], [_c(vuetify_lib_components_VExpansionPanel__WEBPACK_IMPORTED_MODULE_4__["default"], [_vm._v(_vm._s(_vm.$t("Sounds")))]), _vm._v(" "), _c(vuetify_lib_components_VExpansionPanel__WEBPACK_IMPORTED_MODULE_5__["default"], [_c("file-upload", {
     attrs: {
       label: _vm.$t("Win"),
@@ -479,10 +1258,10 @@ render._withStripped = true;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_2b9829e6___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_2b9829e6___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_2b9829e6___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_2b9829e6___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_2b9829e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./settings.vue?vue&type=template&id=2b9829e6& */ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=template&id=2b9829e6&");
+/* harmony import */ var _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_2b9829e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!../../../../../../node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./settings.vue?vue&type=template&id=2b9829e6& */ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/multiplayer-roulette/resources/js/pages/admin/settings.vue?vue&type=template&id=2b9829e6&");
 
 
 /***/ })

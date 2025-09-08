@@ -1,494 +1,5 @@
 (self["webpackChunk"] = self["webpackChunk"] || []).push([["packages/horse-racing-resources-js-pages-admin-settings"],{
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _plugins_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~/plugins/config */ "./resources/js/plugins/config.js");
-/* harmony import */ var _mixins_Form__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~/mixins/Form */ "./resources/js/mixins/Form.vue");
-/* harmony import */ var _components_Admin_FileUpload__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ~/components/Admin/FileUpload */ "./resources/js/components/Admin/FileUpload.vue");
-/* harmony import */ var _components_ColorPicker__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ~/components/ColorPicker */ "./resources/js/components/ColorPicker.vue");
-/* harmony import */ var _helpers_runner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/runner */ "./packages/horse-racing/resources/js/pages/helpers/runner.js");
-/* harmony import */ var clone_deep__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! clone-deep */ "./node_modules/clone-deep/index.js");
-/* harmony import */ var clone_deep__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(clone_deep__WEBPACK_IMPORTED_MODULE_5__);
-function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
-function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return exports; }; var exports = {}, Op = Object.prototype, hasOwn = Op.hasOwnProperty, defineProperty = Object.defineProperty || function (obj, key, desc) { obj[key] = desc.value; }, $Symbol = "function" == typeof Symbol ? Symbol : {}, iteratorSymbol = $Symbol.iterator || "@@iterator", asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator", toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag"; function define(obj, key, value) { return Object.defineProperty(obj, key, { value: value, enumerable: !0, configurable: !0, writable: !0 }), obj[key]; } try { define({}, ""); } catch (err) { define = function define(obj, key, value) { return obj[key] = value; }; } function wrap(innerFn, outerFn, self, tryLocsList) { var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator, generator = Object.create(protoGenerator.prototype), context = new Context(tryLocsList || []); return defineProperty(generator, "_invoke", { value: makeInvokeMethod(innerFn, self, context) }), generator; } function tryCatch(fn, obj, arg) { try { return { type: "normal", arg: fn.call(obj, arg) }; } catch (err) { return { type: "throw", arg: err }; } } exports.wrap = wrap; var ContinueSentinel = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var IteratorPrototype = {}; define(IteratorPrototype, iteratorSymbol, function () { return this; }); var getProto = Object.getPrototypeOf, NativeIteratorPrototype = getProto && getProto(getProto(values([]))); NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol) && (IteratorPrototype = NativeIteratorPrototype); var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype); function defineIteratorMethods(prototype) { ["next", "throw", "return"].forEach(function (method) { define(prototype, method, function (arg) { return this._invoke(method, arg); }); }); } function AsyncIterator(generator, PromiseImpl) { function invoke(method, arg, resolve, reject) { var record = tryCatch(generator[method], generator, arg); if ("throw" !== record.type) { var result = record.arg, value = result.value; return value && "object" == _typeof(value) && hasOwn.call(value, "__await") ? PromiseImpl.resolve(value.__await).then(function (value) { invoke("next", value, resolve, reject); }, function (err) { invoke("throw", err, resolve, reject); }) : PromiseImpl.resolve(value).then(function (unwrapped) { result.value = unwrapped, resolve(result); }, function (error) { return invoke("throw", error, resolve, reject); }); } reject(record.arg); } var previousPromise; defineProperty(this, "_invoke", { value: function value(method, arg) { function callInvokeWithMethodAndArg() { return new PromiseImpl(function (resolve, reject) { invoke(method, arg, resolve, reject); }); } return previousPromise = previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(innerFn, self, context) { var state = "suspendedStart"; return function (method, arg) { if ("executing" === state) throw new Error("Generator is already running"); if ("completed" === state) { if ("throw" === method) throw arg; return doneResult(); } for (context.method = method, context.arg = arg;;) { var delegate = context.delegate; if (delegate) { var delegateResult = maybeInvokeDelegate(delegate, context); if (delegateResult) { if (delegateResult === ContinueSentinel) continue; return delegateResult; } } if ("next" === context.method) context.sent = context._sent = context.arg;else if ("throw" === context.method) { if ("suspendedStart" === state) throw state = "completed", context.arg; context.dispatchException(context.arg); } else "return" === context.method && context.abrupt("return", context.arg); state = "executing"; var record = tryCatch(innerFn, self, context); if ("normal" === record.type) { if (state = context.done ? "completed" : "suspendedYield", record.arg === ContinueSentinel) continue; return { value: record.arg, done: context.done }; } "throw" === record.type && (state = "completed", context.method = "throw", context.arg = record.arg); } }; } function maybeInvokeDelegate(delegate, context) { var methodName = context.method, method = delegate.iterator[methodName]; if (undefined === method) return context.delegate = null, "throw" === methodName && delegate.iterator["return"] && (context.method = "return", context.arg = undefined, maybeInvokeDelegate(delegate, context), "throw" === context.method) || "return" !== methodName && (context.method = "throw", context.arg = new TypeError("The iterator does not provide a '" + methodName + "' method")), ContinueSentinel; var record = tryCatch(method, delegate.iterator, context.arg); if ("throw" === record.type) return context.method = "throw", context.arg = record.arg, context.delegate = null, ContinueSentinel; var info = record.arg; return info ? info.done ? (context[delegate.resultName] = info.value, context.next = delegate.nextLoc, "return" !== context.method && (context.method = "next", context.arg = undefined), context.delegate = null, ContinueSentinel) : info : (context.method = "throw", context.arg = new TypeError("iterator result is not an object"), context.delegate = null, ContinueSentinel); } function pushTryEntry(locs) { var entry = { tryLoc: locs[0] }; 1 in locs && (entry.catchLoc = locs[1]), 2 in locs && (entry.finallyLoc = locs[2], entry.afterLoc = locs[3]), this.tryEntries.push(entry); } function resetTryEntry(entry) { var record = entry.completion || {}; record.type = "normal", delete record.arg, entry.completion = record; } function Context(tryLocsList) { this.tryEntries = [{ tryLoc: "root" }], tryLocsList.forEach(pushTryEntry, this), this.reset(!0); } function values(iterable) { if (iterable) { var iteratorMethod = iterable[iteratorSymbol]; if (iteratorMethod) return iteratorMethod.call(iterable); if ("function" == typeof iterable.next) return iterable; if (!isNaN(iterable.length)) { var i = -1, next = function next() { for (; ++i < iterable.length;) if (hasOwn.call(iterable, i)) return next.value = iterable[i], next.done = !1, next; return next.value = undefined, next.done = !0, next; }; return next.next = next; } } return { next: doneResult }; } function doneResult() { return { value: undefined, done: !0 }; } return GeneratorFunction.prototype = GeneratorFunctionPrototype, defineProperty(Gp, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), defineProperty(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, "GeneratorFunction"), exports.isGeneratorFunction = function (genFun) { var ctor = "function" == typeof genFun && genFun.constructor; return !!ctor && (ctor === GeneratorFunction || "GeneratorFunction" === (ctor.displayName || ctor.name)); }, exports.mark = function (genFun) { return Object.setPrototypeOf ? Object.setPrototypeOf(genFun, GeneratorFunctionPrototype) : (genFun.__proto__ = GeneratorFunctionPrototype, define(genFun, toStringTagSymbol, "GeneratorFunction")), genFun.prototype = Object.create(Gp), genFun; }, exports.awrap = function (arg) { return { __await: arg }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, asyncIteratorSymbol, function () { return this; }), exports.AsyncIterator = AsyncIterator, exports.async = function (innerFn, outerFn, self, tryLocsList, PromiseImpl) { void 0 === PromiseImpl && (PromiseImpl = Promise); var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl); return exports.isGeneratorFunction(outerFn) ? iter : iter.next().then(function (result) { return result.done ? result.value : iter.next(); }); }, defineIteratorMethods(Gp), define(Gp, toStringTagSymbol, "Generator"), define(Gp, iteratorSymbol, function () { return this; }), define(Gp, "toString", function () { return "[object Generator]"; }), exports.keys = function (val) { var object = Object(val), keys = []; for (var key in object) keys.push(key); return keys.reverse(), function next() { for (; keys.length;) { var key = keys.pop(); if (key in object) return next.value = key, next.done = !1, next; } return next.done = !0, next; }; }, exports.values = values, Context.prototype = { constructor: Context, reset: function reset(skipTempReset) { if (this.prev = 0, this.next = 0, this.sent = this._sent = undefined, this.done = !1, this.delegate = null, this.method = "next", this.arg = undefined, this.tryEntries.forEach(resetTryEntry), !skipTempReset) for (var name in this) "t" === name.charAt(0) && hasOwn.call(this, name) && !isNaN(+name.slice(1)) && (this[name] = undefined); }, stop: function stop() { this.done = !0; var rootRecord = this.tryEntries[0].completion; if ("throw" === rootRecord.type) throw rootRecord.arg; return this.rval; }, dispatchException: function dispatchException(exception) { if (this.done) throw exception; var context = this; function handle(loc, caught) { return record.type = "throw", record.arg = exception, context.next = loc, caught && (context.method = "next", context.arg = undefined), !!caught; } for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i], record = entry.completion; if ("root" === entry.tryLoc) return handle("end"); if (entry.tryLoc <= this.prev) { var hasCatch = hasOwn.call(entry, "catchLoc"), hasFinally = hasOwn.call(entry, "finallyLoc"); if (hasCatch && hasFinally) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } else if (hasCatch) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); } else { if (!hasFinally) throw new Error("try statement without catch or finally"); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } } } }, abrupt: function abrupt(type, arg) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc <= this.prev && hasOwn.call(entry, "finallyLoc") && this.prev < entry.finallyLoc) { var finallyEntry = entry; break; } } finallyEntry && ("break" === type || "continue" === type) && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc && (finallyEntry = null); var record = finallyEntry ? finallyEntry.completion : {}; return record.type = type, record.arg = arg, finallyEntry ? (this.method = "next", this.next = finallyEntry.finallyLoc, ContinueSentinel) : this.complete(record); }, complete: function complete(record, afterLoc) { if ("throw" === record.type) throw record.arg; return "break" === record.type || "continue" === record.type ? this.next = record.arg : "return" === record.type ? (this.rval = this.arg = record.arg, this.method = "return", this.next = "end") : "normal" === record.type && afterLoc && (this.next = afterLoc), ContinueSentinel; }, finish: function finish(finallyLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.finallyLoc === finallyLoc) return this.complete(entry.completion, entry.afterLoc), resetTryEntry(entry), ContinueSentinel; } }, "catch": function _catch(tryLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc === tryLoc) { var record = entry.completion; if ("throw" === record.type) { var thrown = record.arg; resetTryEntry(entry); } return thrown; } } throw new Error("illegal catch attempt"); }, delegateYield: function delegateYield(iterable, resultName, nextLoc) { return this.delegate = { iterator: values(iterable), resultName: resultName, nextLoc: nextLoc }, "next" === this.method && (this.arg = undefined), ContinueSentinel; } }, exports; }
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-
-
-
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  components: {
-    ColorPicker: _components_ColorPicker__WEBPACK_IMPORTED_MODULE_3__["default"],
-    FileUpload: _components_Admin_FileUpload__WEBPACK_IMPORTED_MODULE_2__["default"]
-  },
-  mixins: [_mixins_Form__WEBPACK_IMPORTED_MODULE_1__["default"]],
-  props: {
-    packageId: {
-      type: String,
-      required: true
-    },
-    form: {
-      type: Object,
-      required: true
-    }
-  },
-  data: function data() {
-    return {
-      betTypes: [this.$t('Win'), this.$t('Place'), this.$t('Show')],
-      runnerImages: [],
-      runnerImagesT: {},
-      variables: {
-        GAME_HORSE_RACING_CATEGORIES: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".categories")),
-        GAME_HORSE_RACING_BANNER: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".banner")),
-        GAME_HORSE_RACING_BACKGROUND: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".background")),
-        GAME_HORSE_RACING_MIN_BET: parseInt((0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".min_bet")), 10),
-        GAME_HORSE_RACING_MAX_BET: parseInt((0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".max_bet")), 10),
-        GAME_HORSE_RACING_BET_CHANGE_AMOUNT: parseInt((0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".bet_change_amount")), 10),
-        GAME_HORSE_RACING_RUNNERS: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".runners")),
-        GAME_HORSE_RACING_PAYTABLE: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".paytable")),
-        GAME_HORSE_RACING_ANIMATION_LENGTH: parseInt((0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".animation.length")), 10),
-        GAME_HORSE_RACING_SOUNDS_WIN: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".sounds.win")),
-        GAME_HORSE_RACING_SOUNDS_LOSE: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".sounds.lose"))
-      }
-    };
-  },
-  computed: {
-    cols: function cols() {
-      var _this$$vuetify$breakp = this.$vuetify.breakpoint,
-        xs = _this$$vuetify$breakp.xs,
-        sm = _this$$vuetify$breakp.sm,
-        md = _this$$vuetify$breakp.md;
-      return xs || sm ? 12 : md ? 6 : null;
-    },
-    runnersCount: function runnersCount() {
-      return (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".runners")).length;
-    }
-  },
-  created: function created() {
-    var _this = this;
-    return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
-      var runners, index, image;
-      return _regeneratorRuntime().wrap(function _callee$(_context) {
-        while (1) switch (_context.prev = _context.next) {
-          case 0:
-            _this.$emit('input', _this.variables);
-            runners = _this.variables.GAME_HORSE_RACING_RUNNERS;
-            _context.t0 = _regeneratorRuntime().keys(runners);
-          case 3:
-            if ((_context.t1 = _context.t0()).done) {
-              _context.next = 11;
-              break;
-            }
-            index = _context.t1.value;
-            _context.next = 7;
-            return _this.getRunnerImage(runners[index].colors, runners[index].name, index + 1);
-          case 7:
-            image = _context.sent;
-            _this.runnerImages.push(image);
-            _context.next = 3;
-            break;
-          case 11:
-          case "end":
-            return _context.stop();
-        }
-      }, _callee);
-    }))();
-  },
-  methods: {
-    updateRunnerImage: function updateRunnerImage(index) {
-      var _this2 = this;
-      if (this.runnerImagesT[index]) clearTimeout(this.runnerImagesT[index]);
-      this.runnerImagesT[index] = setTimeout( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
-        var runners;
-        return _regeneratorRuntime().wrap(function _callee2$(_context2) {
-          while (1) switch (_context2.prev = _context2.next) {
-            case 0:
-              _this2.runnerImagesT[index] = 0;
-              runners = _this2.variables.GAME_HORSE_RACING_RUNNERS;
-              _context2.t0 = _this2;
-              _context2.t1 = _this2.runnerImages;
-              _context2.t2 = index;
-              _context2.next = 7;
-              return _this2.getRunnerImage(runners[index].colors, runners[index].name, index + 1);
-            case 7:
-              _context2.t3 = _context2.sent;
-              _context2.t0.$set.call(_context2.t0, _context2.t1, _context2.t2, _context2.t3);
-            case 9:
-            case "end":
-              return _context2.stop();
-          }
-        }, _callee2);
-      })), 500);
-    },
-    getRunnerImage: function getRunnerImage(colors, name, number) {
-      return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
-        var runner;
-        return _regeneratorRuntime().wrap(function _callee3$(_context3) {
-          while (1) switch (_context3.prev = _context3.next) {
-            case 0:
-              runner = new _helpers_runner__WEBPACK_IMPORTED_MODULE_4__["default"](colors, name, number);
-              _context3.next = 3;
-              return runner.init();
-            case 3:
-              return _context3.abrupt("return", runner.preview);
-            case 4:
-            case "end":
-              return _context3.stop();
-          }
-        }, _callee3);
-      }))();
-    },
-    addRunner: function addRunner() {
-      var _this3 = this;
-      return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee4() {
-        var runner, n, image, betType;
-        return _regeneratorRuntime().wrap(function _callee4$(_context4) {
-          while (1) switch (_context4.prev = _context4.next) {
-            case 0:
-              runner = clone_deep__WEBPACK_IMPORTED_MODULE_5___default()(_this3.form.GAME_HORSE_RACING_RUNNERS[_this3.runnersCount - 1]);
-              n = _this3.runnersCount + 1;
-              runner.name = _this3.$t('Runner') + ' ' + n;
-              _this3.form.GAME_HORSE_RACING_RUNNERS.push(runner);
-              _context4.next = 6;
-              return _this3.getRunnerImage(runner.colors, runner.name, n);
-            case 6:
-              image = _context4.sent;
-              _this3.runnerImages.push(image);
-              for (betType in _this3.betTypes) {
-                _this3.form.GAME_HORSE_RACING_PAYTABLE[betType].push(1);
-              }
-            case 9:
-            case "end":
-              return _context4.stop();
-          }
-        }, _callee4);
-      }))();
-    },
-    removeRunner: function removeRunner(index) {
-      this.form.GAME_HORSE_RACING_RUNNERS.splice(index, 1);
-      this.runnerImages.splice(index, 1);
-      for (var betType in this.betTypes) {
-        this.form.GAME_HORSE_RACING_PAYTABLE[betType].splice(index, 1);
-      }
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./packages/horse-racing/resources/js/pages/helpers/runner.js":
-/*!********************************************************************!*\
-  !*** ./packages/horse-racing/resources/js/pages/helpers/runner.js ***!
-  \********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ CRunner)
-/* harmony export */ });
-/* harmony import */ var image_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! image-promise */ "./node_modules/image-promise/index.js");
-/* harmony import */ var colornames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! colornames */ "./node_modules/colornames/index.js");
-/* harmony import */ var colornames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(colornames__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var clone_deep__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! clone-deep */ "./node_modules/clone-deep/index.js");
-/* harmony import */ var clone_deep__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(clone_deep__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var packages_horse_racing_resources_images_num_1_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_1.png */ "./packages/horse-racing/resources/images/num_1.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_1_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_1_png__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var packages_horse_racing_resources_images_num_2_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_2.png */ "./packages/horse-racing/resources/images/num_2.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_2_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_2_png__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var packages_horse_racing_resources_images_num_3_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_3.png */ "./packages/horse-racing/resources/images/num_3.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_3_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_3_png__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var packages_horse_racing_resources_images_num_4_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_4.png */ "./packages/horse-racing/resources/images/num_4.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_4_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_4_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var packages_horse_racing_resources_images_num_5_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_5.png */ "./packages/horse-racing/resources/images/num_5.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_5_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_5_png__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var packages_horse_racing_resources_images_num_6_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_6.png */ "./packages/horse-racing/resources/images/num_6.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_6_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_6_png__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var packages_horse_racing_resources_images_num_7_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_7.png */ "./packages/horse-racing/resources/images/num_7.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_7_png__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_7_png__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var packages_horse_racing_resources_images_num_8_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_8.png */ "./packages/horse-racing/resources/images/num_8.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_8_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_8_png__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var packages_horse_racing_resources_images_num_9_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_9.png */ "./packages/horse-racing/resources/images/num_9.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_9_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_9_png__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var packages_horse_racing_resources_images_num_10_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_10.png */ "./packages/horse-racing/resources/images/num_10.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_10_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_10_png__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var packages_horse_racing_resources_images_num_11_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_11.png */ "./packages/horse-racing/resources/images/num_11.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_11_png__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_11_png__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var packages_horse_racing_resources_images_num_12_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_12.png */ "./packages/horse-racing/resources/images/num_12.png");
-/* harmony import */ var packages_horse_racing_resources_images_num_12_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_12_png__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var packages_horse_racing_resources_images_shadow_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! packages/horse-racing/resources/images/shadow.png */ "./packages/horse-racing/resources/images/shadow.png");
-/* harmony import */ var packages_horse_racing_resources_images_shadow_png__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_shadow_png__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var packages_horse_racing_resources_images_any_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! packages/horse-racing/resources/images/any.png */ "./packages/horse-racing/resources/images/any.png");
-/* harmony import */ var packages_horse_racing_resources_images_any_png__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_any_png__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var packages_horse_racing_resources_images_body_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! packages/horse-racing/resources/images/body.png */ "./packages/horse-racing/resources/images/body.png");
-/* harmony import */ var packages_horse_racing_resources_images_body_png__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_body_png__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var packages_horse_racing_resources_images_face_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! packages/horse-racing/resources/images/face.png */ "./packages/horse-racing/resources/images/face.png");
-/* harmony import */ var packages_horse_racing_resources_images_face_png__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_face_png__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var packages_horse_racing_resources_images_head_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! packages/horse-racing/resources/images/head.png */ "./packages/horse-racing/resources/images/head.png");
-/* harmony import */ var packages_horse_racing_resources_images_head_png__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_head_png__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var packages_horse_racing_resources_images_horse_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! packages/horse-racing/resources/images/horse.png */ "./packages/horse-racing/resources/images/horse.png");
-/* harmony import */ var packages_horse_racing_resources_images_horse_png__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_horse_png__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var packages_horse_racing_resources_images_saddle_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! packages/horse-racing/resources/images/saddle.png */ "./packages/horse-racing/resources/images/saddle.png");
-/* harmony import */ var packages_horse_racing_resources_images_saddle_png__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_saddle_png__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var packages_horse_racing_resources_images_tail_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! packages/horse-racing/resources/images/tail.png */ "./packages/horse-racing/resources/images/tail.png");
-/* harmony import */ var packages_horse_racing_resources_images_tail_png__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_tail_png__WEBPACK_IMPORTED_MODULE_22__);
-function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
-function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return exports; }; var exports = {}, Op = Object.prototype, hasOwn = Op.hasOwnProperty, defineProperty = Object.defineProperty || function (obj, key, desc) { obj[key] = desc.value; }, $Symbol = "function" == typeof Symbol ? Symbol : {}, iteratorSymbol = $Symbol.iterator || "@@iterator", asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator", toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag"; function define(obj, key, value) { return Object.defineProperty(obj, key, { value: value, enumerable: !0, configurable: !0, writable: !0 }), obj[key]; } try { define({}, ""); } catch (err) { define = function define(obj, key, value) { return obj[key] = value; }; } function wrap(innerFn, outerFn, self, tryLocsList) { var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator, generator = Object.create(protoGenerator.prototype), context = new Context(tryLocsList || []); return defineProperty(generator, "_invoke", { value: makeInvokeMethod(innerFn, self, context) }), generator; } function tryCatch(fn, obj, arg) { try { return { type: "normal", arg: fn.call(obj, arg) }; } catch (err) { return { type: "throw", arg: err }; } } exports.wrap = wrap; var ContinueSentinel = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var IteratorPrototype = {}; define(IteratorPrototype, iteratorSymbol, function () { return this; }); var getProto = Object.getPrototypeOf, NativeIteratorPrototype = getProto && getProto(getProto(values([]))); NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol) && (IteratorPrototype = NativeIteratorPrototype); var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype); function defineIteratorMethods(prototype) { ["next", "throw", "return"].forEach(function (method) { define(prototype, method, function (arg) { return this._invoke(method, arg); }); }); } function AsyncIterator(generator, PromiseImpl) { function invoke(method, arg, resolve, reject) { var record = tryCatch(generator[method], generator, arg); if ("throw" !== record.type) { var result = record.arg, value = result.value; return value && "object" == _typeof(value) && hasOwn.call(value, "__await") ? PromiseImpl.resolve(value.__await).then(function (value) { invoke("next", value, resolve, reject); }, function (err) { invoke("throw", err, resolve, reject); }) : PromiseImpl.resolve(value).then(function (unwrapped) { result.value = unwrapped, resolve(result); }, function (error) { return invoke("throw", error, resolve, reject); }); } reject(record.arg); } var previousPromise; defineProperty(this, "_invoke", { value: function value(method, arg) { function callInvokeWithMethodAndArg() { return new PromiseImpl(function (resolve, reject) { invoke(method, arg, resolve, reject); }); } return previousPromise = previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(innerFn, self, context) { var state = "suspendedStart"; return function (method, arg) { if ("executing" === state) throw new Error("Generator is already running"); if ("completed" === state) { if ("throw" === method) throw arg; return doneResult(); } for (context.method = method, context.arg = arg;;) { var delegate = context.delegate; if (delegate) { var delegateResult = maybeInvokeDelegate(delegate, context); if (delegateResult) { if (delegateResult === ContinueSentinel) continue; return delegateResult; } } if ("next" === context.method) context.sent = context._sent = context.arg;else if ("throw" === context.method) { if ("suspendedStart" === state) throw state = "completed", context.arg; context.dispatchException(context.arg); } else "return" === context.method && context.abrupt("return", context.arg); state = "executing"; var record = tryCatch(innerFn, self, context); if ("normal" === record.type) { if (state = context.done ? "completed" : "suspendedYield", record.arg === ContinueSentinel) continue; return { value: record.arg, done: context.done }; } "throw" === record.type && (state = "completed", context.method = "throw", context.arg = record.arg); } }; } function maybeInvokeDelegate(delegate, context) { var methodName = context.method, method = delegate.iterator[methodName]; if (undefined === method) return context.delegate = null, "throw" === methodName && delegate.iterator["return"] && (context.method = "return", context.arg = undefined, maybeInvokeDelegate(delegate, context), "throw" === context.method) || "return" !== methodName && (context.method = "throw", context.arg = new TypeError("The iterator does not provide a '" + methodName + "' method")), ContinueSentinel; var record = tryCatch(method, delegate.iterator, context.arg); if ("throw" === record.type) return context.method = "throw", context.arg = record.arg, context.delegate = null, ContinueSentinel; var info = record.arg; return info ? info.done ? (context[delegate.resultName] = info.value, context.next = delegate.nextLoc, "return" !== context.method && (context.method = "next", context.arg = undefined), context.delegate = null, ContinueSentinel) : info : (context.method = "throw", context.arg = new TypeError("iterator result is not an object"), context.delegate = null, ContinueSentinel); } function pushTryEntry(locs) { var entry = { tryLoc: locs[0] }; 1 in locs && (entry.catchLoc = locs[1]), 2 in locs && (entry.finallyLoc = locs[2], entry.afterLoc = locs[3]), this.tryEntries.push(entry); } function resetTryEntry(entry) { var record = entry.completion || {}; record.type = "normal", delete record.arg, entry.completion = record; } function Context(tryLocsList) { this.tryEntries = [{ tryLoc: "root" }], tryLocsList.forEach(pushTryEntry, this), this.reset(!0); } function values(iterable) { if (iterable) { var iteratorMethod = iterable[iteratorSymbol]; if (iteratorMethod) return iteratorMethod.call(iterable); if ("function" == typeof iterable.next) return iterable; if (!isNaN(iterable.length)) { var i = -1, next = function next() { for (; ++i < iterable.length;) if (hasOwn.call(iterable, i)) return next.value = iterable[i], next.done = !1, next; return next.value = undefined, next.done = !0, next; }; return next.next = next; } } return { next: doneResult }; } function doneResult() { return { value: undefined, done: !0 }; } return GeneratorFunction.prototype = GeneratorFunctionPrototype, defineProperty(Gp, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), defineProperty(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, "GeneratorFunction"), exports.isGeneratorFunction = function (genFun) { var ctor = "function" == typeof genFun && genFun.constructor; return !!ctor && (ctor === GeneratorFunction || "GeneratorFunction" === (ctor.displayName || ctor.name)); }, exports.mark = function (genFun) { return Object.setPrototypeOf ? Object.setPrototypeOf(genFun, GeneratorFunctionPrototype) : (genFun.__proto__ = GeneratorFunctionPrototype, define(genFun, toStringTagSymbol, "GeneratorFunction")), genFun.prototype = Object.create(Gp), genFun; }, exports.awrap = function (arg) { return { __await: arg }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, asyncIteratorSymbol, function () { return this; }), exports.AsyncIterator = AsyncIterator, exports.async = function (innerFn, outerFn, self, tryLocsList, PromiseImpl) { void 0 === PromiseImpl && (PromiseImpl = Promise); var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl); return exports.isGeneratorFunction(outerFn) ? iter : iter.next().then(function (result) { return result.done ? result.value : iter.next(); }); }, defineIteratorMethods(Gp), define(Gp, toStringTagSymbol, "Generator"), define(Gp, iteratorSymbol, function () { return this; }), define(Gp, "toString", function () { return "[object Generator]"; }), exports.keys = function (val) { var object = Object(val), keys = []; for (var key in object) keys.push(key); return keys.reverse(), function next() { for (; keys.length;) { var key = keys.pop(); if (key in object) return next.value = key, next.done = !1, next; } return next.done = !0, next; }; }, exports.values = values, Context.prototype = { constructor: Context, reset: function reset(skipTempReset) { if (this.prev = 0, this.next = 0, this.sent = this._sent = undefined, this.done = !1, this.delegate = null, this.method = "next", this.arg = undefined, this.tryEntries.forEach(resetTryEntry), !skipTempReset) for (var name in this) "t" === name.charAt(0) && hasOwn.call(this, name) && !isNaN(+name.slice(1)) && (this[name] = undefined); }, stop: function stop() { this.done = !0; var rootRecord = this.tryEntries[0].completion; if ("throw" === rootRecord.type) throw rootRecord.arg; return this.rval; }, dispatchException: function dispatchException(exception) { if (this.done) throw exception; var context = this; function handle(loc, caught) { return record.type = "throw", record.arg = exception, context.next = loc, caught && (context.method = "next", context.arg = undefined), !!caught; } for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i], record = entry.completion; if ("root" === entry.tryLoc) return handle("end"); if (entry.tryLoc <= this.prev) { var hasCatch = hasOwn.call(entry, "catchLoc"), hasFinally = hasOwn.call(entry, "finallyLoc"); if (hasCatch && hasFinally) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } else if (hasCatch) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); } else { if (!hasFinally) throw new Error("try statement without catch or finally"); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } } } }, abrupt: function abrupt(type, arg) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc <= this.prev && hasOwn.call(entry, "finallyLoc") && this.prev < entry.finallyLoc) { var finallyEntry = entry; break; } } finallyEntry && ("break" === type || "continue" === type) && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc && (finallyEntry = null); var record = finallyEntry ? finallyEntry.completion : {}; return record.type = type, record.arg = arg, finallyEntry ? (this.method = "next", this.next = finallyEntry.finallyLoc, ContinueSentinel) : this.complete(record); }, complete: function complete(record, afterLoc) { if ("throw" === record.type) throw record.arg; return "break" === record.type || "continue" === record.type ? this.next = record.arg : "return" === record.type ? (this.rval = this.arg = record.arg, this.method = "return", this.next = "end") : "normal" === record.type && afterLoc && (this.next = afterLoc), ContinueSentinel; }, finish: function finish(finallyLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.finallyLoc === finallyLoc) return this.complete(entry.completion, entry.afterLoc), resetTryEntry(entry), ContinueSentinel; } }, "catch": function _catch(tryLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc === tryLoc) { var record = entry.completion; if ("throw" === record.type) { var thrown = record.arg; resetTryEntry(entry); } return thrown; } } throw new Error("illegal catch attempt"); }, delegateYield: function delegateYield(iterable, resultName, nextLoc) { return this.delegate = { iterator: values(iterable), resultName: resultName, nextLoc: nextLoc }, "next" === this.method && (this.arg = undefined), ContinueSentinel; } }, exports; }
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
-function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
-function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var imgTplNum = [(packages_horse_racing_resources_images_num_1_png__WEBPACK_IMPORTED_MODULE_3___default()), (packages_horse_racing_resources_images_num_2_png__WEBPACK_IMPORTED_MODULE_4___default()), (packages_horse_racing_resources_images_num_3_png__WEBPACK_IMPORTED_MODULE_5___default()), (packages_horse_racing_resources_images_num_4_png__WEBPACK_IMPORTED_MODULE_6___default()), (packages_horse_racing_resources_images_num_5_png__WEBPACK_IMPORTED_MODULE_7___default()), (packages_horse_racing_resources_images_num_6_png__WEBPACK_IMPORTED_MODULE_8___default()), (packages_horse_racing_resources_images_num_7_png__WEBPACK_IMPORTED_MODULE_9___default()), (packages_horse_racing_resources_images_num_8_png__WEBPACK_IMPORTED_MODULE_10___default()), (packages_horse_racing_resources_images_num_9_png__WEBPACK_IMPORTED_MODULE_11___default()), (packages_horse_racing_resources_images_num_10_png__WEBPACK_IMPORTED_MODULE_12___default()), (packages_horse_racing_resources_images_num_11_png__WEBPACK_IMPORTED_MODULE_13___default()), (packages_horse_racing_resources_images_num_12_png__WEBPACK_IMPORTED_MODULE_14___default())];
-function colorNormilize(color) {
-  if (color[0] !== '#') color = colornames__WEBPACK_IMPORTED_MODULE_1___default()(color);
-  return color;
-}
-function HexToRGB(Hex) {
-  var Long = parseInt(Hex.replace(/^#/, ''), 16);
-  return {
-    R: Long >>> 16 & 0xff,
-    G: Long >>> 8 & 0xff,
-    B: Long & 0xff
-  };
-}
-function getPixels(img) {
-  var canvas = document.createElement('canvas');
-  var ctx = canvas.getContext('2d', {
-    alpha: true
-  });
-  canvas.width = img.width;
-  canvas.height = img.height;
-  ctx.drawImage(img, 0, 0, img.naturalWidth, img.naturalHeight, 0, 0, img.width, img.height);
-  return ctx.getImageData(0, 0, img.width, img.height);
-}
-function changeColor(img, color) {
-  var canvas = document.createElement('canvas');
-  var ctx = canvas.getContext('2d', {
-    alpha: true
-  });
-  var newColor = HexToRGB(color);
-  var pixels = getPixels(img);
-  for (var I = 0, L = pixels.data.length; I < L; I += 4) {
-    if (pixels.data[I + 3] > 0) {
-      pixels.data[I + 0] = newColor.R * (pixels.data[I + 0] / 255) + (newColor.R < 100 && pixels.data[I + 0] > 180 ? (pixels.data[I + 0] - 180) / 75 * 50 : 0);
-      if (pixels.data[I + 0] > 255) pixels.data[I + 0] = 255;
-      pixels.data[I + 1] = newColor.G * (pixels.data[I + 1] / 255) + (newColor.G < 100 && pixels.data[I + 1] > 180 ? (pixels.data[I + 1] - 180) / 75 * 50 : 0);
-      if (pixels.data[I + 1] > 255) pixels.data[I + 1] = 255;
-      pixels.data[I + 2] = newColor.B * (pixels.data[I + 2] / 255) + (newColor.B < 100 && pixels.data[I + 2] > 180 ? (pixels.data[I + 2] - 180) / 75 * 50 : 0);
-      if (pixels.data[I + 2] > 255) pixels.data[I + 2] = 255;
-    }
-  }
-  canvas.width = img.width;
-  canvas.height = img.height;
-  ctx.putImageData(pixels, 0, 0);
-  return canvas;
-}
-var CRunner = /*#__PURE__*/function () {
-  function CRunner(colors, name, num) {
-    _classCallCheck(this, CRunner);
-    _defineProperty(this, "name", '');
-    _defineProperty(this, "colors", {});
-    _defineProperty(this, "frames", []);
-    _defineProperty(this, "num", 1);
-    _defineProperty(this, "framesCnt", 12);
-    _defineProperty(this, "frmW", 0);
-    _defineProperty(this, "frmH", 0);
-    _defineProperty(this, "frame", 0);
-    _defineProperty(this, "paused", true);
-    _defineProperty(this, "position", 0);
-    _defineProperty(this, "target", 0);
-    _defineProperty(this, "dir", 0);
-    _defineProperty(this, "preview", '');
-    _defineProperty(this, "finished", false);
-    this.colors = clone_deep__WEBPACK_IMPORTED_MODULE_2___default()(colors);
-    this.num = num;
-    this.name = name;
-    this.t_last = 0;
-    this.t_frame = 25;
-    this.position_start = 0;
-  }
-  _createClass(CRunner, [{
-    key: "init",
-    value: function () {
-      var _init = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
-        var shadow, horse, tail, saddle, num, body, face, head, any, c, idx, ctx;
-        return _regeneratorRuntime().wrap(function _callee$(_context) {
-          while (1) switch (_context.prev = _context.next) {
-            case 0:
-              _context.next = 2;
-              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_shadow_png__WEBPACK_IMPORTED_MODULE_15___default()));
-            case 2:
-              shadow = _context.sent;
-              _context.t0 = changeColor;
-              _context.next = 6;
-              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_horse_png__WEBPACK_IMPORTED_MODULE_20___default()));
-            case 6:
-              _context.t1 = _context.sent;
-              _context.t2 = this.colors.horse.body ? colorNormilize(this.colors.horse.body) : '#000000';
-              horse = (0, _context.t0)(_context.t1, _context.t2);
-              _context.t3 = changeColor;
-              _context.next = 12;
-              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_tail_png__WEBPACK_IMPORTED_MODULE_22___default()));
-            case 12:
-              _context.t4 = _context.sent;
-              _context.t5 = this.colors.horse.tail ? colorNormilize(this.colors.horse.tail) : '#333333';
-              tail = (0, _context.t3)(_context.t4, _context.t5);
-              _context.t6 = changeColor;
-              _context.next = 18;
-              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_saddle_png__WEBPACK_IMPORTED_MODULE_21___default()));
-            case 18:
-              _context.t7 = _context.sent;
-              _context.t8 = this.colors.horse.pad && this.colors.horse.pad.background ? colorNormilize(this.colors.horse.pad.background) : '#aaaaaa';
-              saddle = (0, _context.t6)(_context.t7, _context.t8);
-              _context.t9 = changeColor;
-              _context.next = 24;
-              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])(this.num > 0 && this.num < 13 ? imgTplNum[this.num - 1] : (packages_horse_racing_resources_images_num_1_png__WEBPACK_IMPORTED_MODULE_3___default()));
-            case 24:
-              _context.t10 = _context.sent;
-              _context.t11 = this.colors.horse.pad && this.colors.horse.pad.text ? colorNormilize(this.colors.horse.pad.text) : '#333333';
-              num = (0, _context.t9)(_context.t10, _context.t11);
-              _context.t12 = changeColor;
-              _context.next = 30;
-              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_body_png__WEBPACK_IMPORTED_MODULE_17___default()));
-            case 30:
-              _context.t13 = _context.sent;
-              _context.t14 = this.colors.jockey.shirt ? colorNormilize(this.colors.jockey.shirt) : '#ffffff';
-              body = (0, _context.t12)(_context.t13, _context.t14);
-              _context.t15 = changeColor;
-              _context.next = 36;
-              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_face_png__WEBPACK_IMPORTED_MODULE_18___default()));
-            case 36:
-              _context.t16 = _context.sent;
-              _context.t17 = this.colors.jockey.face ? colorNormilize(this.colors.jockey.face) : ['#FFDCB1', '#E5C298', '#E4B98E', '#710200', '#E1ADA4'][Math.round(Math.random() * 4)];
-              face = (0, _context.t15)(_context.t16, _context.t17);
-              _context.t18 = changeColor;
-              _context.next = 42;
-              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_head_png__WEBPACK_IMPORTED_MODULE_19___default()));
-            case 42:
-              _context.t19 = _context.sent;
-              _context.t20 = this.colors.jockey.hat ? colorNormilize(this.colors.jockey.hat) : '#ffffff';
-              head = (0, _context.t18)(_context.t19, _context.t20);
-              _context.next = 47;
-              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_any_png__WEBPACK_IMPORTED_MODULE_16___default()));
-            case 47:
-              any = _context.sent;
-              this.frmW = shadow.width / this.framesCnt;
-              this.frmH = shadow.height;
-              this.frames = [];
-              while (this.frames.length < this.framesCnt) {
-                c = document.createElement('canvas');
-                c.height = this.frmH;
-                c.width = this.frmW;
-                this.frames.push(c);
-              }
-              for (idx in this.frames) {
-                ctx = this.frames[idx].getContext('2d', {
-                  alpha: true
-                });
-                ctx.drawImage(shadow, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
-                ctx.drawImage(horse, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
-                ctx.drawImage(tail, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
-                ctx.drawImage(saddle, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
-                ctx.drawImage(num, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
-                ctx.drawImage(body, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
-                ctx.drawImage(face, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
-                ctx.drawImage(head, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
-                ctx.drawImage(any, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
-              }
-              this.paused = false;
-              this.t_last = new Date().getTime();
-              this.frame = 0;
-              this.preview = this.frames[1].toDataURL('image/png');
-            case 57:
-            case "end":
-              return _context.stop();
-          }
-        }, _callee, this);
-      }));
-      function init() {
-        return _init.apply(this, arguments);
-      }
-      return init;
-    }()
-  }, {
-    key: "getFrame",
-    value: function getFrame(i) {
-      if (typeof i !== 'undefined') {
-        if (i < 0) return this.frames[0];
-        if (i >= this.framesCnt) return this.frames[this.framesCnt - 1];
-        return this.frames[i];
-      } else if (this.paused) {
-        return this.frames[this.frame];
-      } else {
-        var t = new Date().getTime();
-        if (t > this.t_last + this.t_frame) {
-          var cnt = Math.floor((t - this.t_last) / this.t_frame);
-          this.t_last = t;
-          this.frame += cnt;
-          while (this.frame >= this.framesCnt) this.frame -= this.framesCnt;
-        }
-        return this.frames[this.frame];
-      }
-    }
-  }, {
-    key: "pause",
-    value: function pause() {
-      this.paused = true;
-    }
-  }, {
-    key: "continue",
-    value: function _continue() {
-      if (this.paused) {
-        this.paused = false;
-        this.t_last = new Date().getTime();
-      }
-    }
-  }]);
-  return CRunner;
-}();
-
-
-/***/ }),
-
 /***/ "./packages/horse-racing/resources/images/any.png":
 /*!********************************************************!*\
   !*** ./packages/horse-racing/resources/images/any.png ***!
@@ -689,6 +200,494 @@ module.exports = "/images/tail.png?a30f5a7cf9fa9df7a5c22c288a56359d";
 
 /***/ }),
 
+/***/ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _plugins_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~/plugins/config */ "./resources/js/plugins/config.js");
+/* harmony import */ var _mixins_Form__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~/mixins/Form */ "./resources/js/mixins/Form.vue");
+/* harmony import */ var _components_Admin_FileUpload__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ~/components/Admin/FileUpload */ "./resources/js/components/Admin/FileUpload.vue");
+/* harmony import */ var _components_ColorPicker__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ~/components/ColorPicker */ "./resources/js/components/ColorPicker.vue");
+/* harmony import */ var _helpers_runner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/runner */ "./packages/horse-racing/resources/js/pages/helpers/runner.js");
+/* harmony import */ var clone_deep__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! clone-deep */ "./node_modules/clone-deep/index.js");
+/* harmony import */ var clone_deep__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(clone_deep__WEBPACK_IMPORTED_MODULE_5__);
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return r; }; var t, r = {}, e = Object.prototype, n = e.hasOwnProperty, o = "function" == typeof Symbol ? Symbol : {}, i = o.iterator || "@@iterator", a = o.asyncIterator || "@@asyncIterator", u = o.toStringTag || "@@toStringTag"; function c(t, r, e, n) { Object.defineProperty(t, r, { value: e, enumerable: !n, configurable: !n, writable: !n }); } try { c({}, ""); } catch (t) { c = function c(t, r, e) { return t[r] = e; }; } function h(r, e, n, o) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype); return c(a, "_invoke", function (r, e, n) { var o = 1; return function (i, a) { if (3 === o) throw Error("Generator is already running"); if (4 === o) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var u = n.delegate; if (u) { var c = d(u, n); if (c) { if (c === f) continue; return c; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (1 === o) throw o = 4, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = 3; var h = s(r, e, n); if ("normal" === h.type) { if (o = n.done ? 4 : 2, h.arg === f) continue; return { value: h.arg, done: n.done }; } "throw" === h.type && (o = 4, n.method = "throw", n.arg = h.arg); } }; }(r, n, new Context(o || [])), !0), a; } function s(t, r, e) { try { return { type: "normal", arg: t.call(r, e) }; } catch (t) { return { type: "throw", arg: t }; } } r.wrap = h; var f = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var l = {}; c(l, i, function () { return this; }); var p = Object.getPrototypeOf, y = p && p(p(x([]))); y && y !== e && n.call(y, i) && (l = y); var v = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(l); function g(t) { ["next", "throw", "return"].forEach(function (r) { c(t, r, function (t) { return this._invoke(r, t); }); }); } function AsyncIterator(t, r) { function e(o, i, a, u) { var c = s(t[o], t, i); if ("throw" !== c.type) { var h = c.arg, f = h.value; return f && "object" == _typeof(f) && n.call(f, "__await") ? r.resolve(f.__await).then(function (t) { e("next", t, a, u); }, function (t) { e("throw", t, a, u); }) : r.resolve(f).then(function (t) { h.value = t, a(h); }, function (t) { return e("throw", t, a, u); }); } u(c.arg); } var o; c(this, "_invoke", function (t, n) { function i() { return new r(function (r, o) { e(t, n, r, o); }); } return o = o ? o.then(i, i) : i(); }, !0); } function d(r, e) { var n = e.method, o = r.i[n]; if (o === t) return e.delegate = null, "throw" === n && r.i["return"] && (e.method = "return", e.arg = t, d(r, e), "throw" === e.method) || "return" !== n && (e.method = "throw", e.arg = new TypeError("The iterator does not provide a '" + n + "' method")), f; var i = s(o, r.i, e.arg); if ("throw" === i.type) return e.method = "throw", e.arg = i.arg, e.delegate = null, f; var a = i.arg; return a ? a.done ? (e[r.r] = a.value, e.next = r.n, "return" !== e.method && (e.method = "next", e.arg = t), e.delegate = null, f) : a : (e.method = "throw", e.arg = new TypeError("iterator result is not an object"), e.delegate = null, f); } function w(t) { this.tryEntries.push(t); } function m(r) { var e = r[4] || {}; e.type = "normal", e.arg = t, r[4] = e; } function Context(t) { this.tryEntries = [[-1]], t.forEach(w, this), this.reset(!0); } function x(r) { if (null != r) { var e = r[i]; if (e) return e.call(r); if ("function" == typeof r.next) return r; if (!isNaN(r.length)) { var o = -1, a = function e() { for (; ++o < r.length;) if (n.call(r, o)) return e.value = r[o], e.done = !1, e; return e.value = t, e.done = !0, e; }; return a.next = a; } } throw new TypeError(_typeof(r) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, c(v, "constructor", GeneratorFunctionPrototype), c(GeneratorFunctionPrototype, "constructor", GeneratorFunction), c(GeneratorFunctionPrototype, u, GeneratorFunction.displayName = "GeneratorFunction"), r.isGeneratorFunction = function (t) { var r = "function" == typeof t && t.constructor; return !!r && (r === GeneratorFunction || "GeneratorFunction" === (r.displayName || r.name)); }, r.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, c(t, u, "GeneratorFunction")), t.prototype = Object.create(v), t; }, r.awrap = function (t) { return { __await: t }; }, g(AsyncIterator.prototype), c(AsyncIterator.prototype, a, function () { return this; }), r.AsyncIterator = AsyncIterator, r.async = function (t, e, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(h(t, e, n, o), i); return r.isGeneratorFunction(e) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, g(v), c(v, u, "Generator"), c(v, i, function () { return this; }), c(v, "toString", function () { return "[object Generator]"; }), r.keys = function (t) { var r = Object(t), e = []; for (var n in r) e.unshift(n); return function t() { for (; e.length;) if ((n = e.pop()) in r) return t.value = n, t.done = !1, t; return t.done = !0, t; }; }, r.values = x, Context.prototype = { constructor: Context, reset: function reset(r) { if (this.prev = this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(m), !r) for (var e in this) "t" === e.charAt(0) && n.call(this, e) && !isNaN(+e.slice(1)) && (this[e] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0][4]; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(r) { if (this.done) throw r; var e = this; function n(t) { a.type = "throw", a.arg = r, e.next = t; } for (var o = e.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i[4], u = this.prev, c = i[1], h = i[2]; if (-1 === i[0]) return n("end"), !1; if (!c && !h) throw Error("try statement without catch or finally"); if (null != i[0] && i[0] <= u) { if (u < c) return this.method = "next", this.arg = t, n(c), !0; if (u < h) return n(h), !1; } } }, abrupt: function abrupt(t, r) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var n = this.tryEntries[e]; if (n[0] > -1 && n[0] <= this.prev && this.prev < n[2]) { var o = n; break; } } o && ("break" === t || "continue" === t) && o[0] <= r && r <= o[2] && (o = null); var i = o ? o[4] : {}; return i.type = t, i.arg = r, o ? (this.method = "next", this.next = o[2], f) : this.complete(i); }, complete: function complete(t, r) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && r && (this.next = r), f; }, finish: function finish(t) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var e = this.tryEntries[r]; if (e[2] === t) return this.complete(e[4], e[3]), m(e), f; } }, "catch": function _catch(t) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var e = this.tryEntries[r]; if (e[0] === t) { var n = e[4]; if ("throw" === n.type) { var o = n.arg; m(e); } return o; } } throw Error("illegal catch attempt"); }, delegateYield: function delegateYield(r, e, n) { return this.delegate = { i: x(r), r: e, n: n }, "next" === this.method && (this.arg = t), f; } }, r; }
+function asyncGeneratorStep(n, t, e, r, o, a, c) { try { var i = n[a](c), u = i.value; } catch (n) { return void e(n); } i.done ? t(u) : Promise.resolve(u).then(r, o); }
+function _asyncToGenerator(n) { return function () { var t = this, e = arguments; return new Promise(function (r, o) { var a = n.apply(t, e); function _next(n) { asyncGeneratorStep(a, r, o, _next, _throw, "next", n); } function _throw(n) { asyncGeneratorStep(a, r, o, _next, _throw, "throw", n); } _next(void 0); }); }; }
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  components: {
+    ColorPicker: _components_ColorPicker__WEBPACK_IMPORTED_MODULE_3__["default"],
+    FileUpload: _components_Admin_FileUpload__WEBPACK_IMPORTED_MODULE_2__["default"]
+  },
+  mixins: [_mixins_Form__WEBPACK_IMPORTED_MODULE_1__["default"]],
+  props: {
+    packageId: {
+      type: String,
+      required: true
+    },
+    form: {
+      type: Object,
+      required: true
+    }
+  },
+  data: function data() {
+    return {
+      betTypes: [this.$t('Win'), this.$t('Place'), this.$t('Show')],
+      runnerImages: [],
+      runnerImagesT: {},
+      variables: {
+        GAME_HORSE_RACING_CATEGORIES: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".categories")),
+        GAME_HORSE_RACING_BANNER: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".banner")),
+        GAME_HORSE_RACING_BACKGROUND: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".background")),
+        GAME_HORSE_RACING_MIN_BET: parseInt((0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".min_bet")), 10),
+        GAME_HORSE_RACING_MAX_BET: parseInt((0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".max_bet")), 10),
+        GAME_HORSE_RACING_BET_CHANGE_AMOUNT: parseInt((0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".bet_change_amount")), 10),
+        GAME_HORSE_RACING_RUNNERS: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".runners")),
+        GAME_HORSE_RACING_PAYTABLE: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".paytable")),
+        GAME_HORSE_RACING_ANIMATION_LENGTH: parseInt((0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".animation.length")), 10),
+        GAME_HORSE_RACING_SOUNDS_WIN: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".sounds.win")),
+        GAME_HORSE_RACING_SOUNDS_LOSE: (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".sounds.lose"))
+      }
+    };
+  },
+  computed: {
+    cols: function cols() {
+      var _this$$vuetify$breakp = this.$vuetify.breakpoint,
+        xs = _this$$vuetify$breakp.xs,
+        sm = _this$$vuetify$breakp.sm,
+        md = _this$$vuetify$breakp.md;
+      return xs || sm ? 12 : md ? 6 : null;
+    },
+    runnersCount: function runnersCount() {
+      return (0,_plugins_config__WEBPACK_IMPORTED_MODULE_0__.config)("".concat(this.packageId, ".runners")).length;
+    }
+  },
+  created: function created() {
+    var _this = this;
+    return _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
+      var runners, index, image;
+      return _regeneratorRuntime().wrap(function _callee$(_context) {
+        while (1) switch (_context.prev = _context.next) {
+          case 0:
+            _this.$emit('input', _this.variables);
+            runners = _this.variables.GAME_HORSE_RACING_RUNNERS;
+            _context.t0 = _regeneratorRuntime().keys(runners);
+          case 3:
+            if ((_context.t1 = _context.t0()).done) {
+              _context.next = 11;
+              break;
+            }
+            index = _context.t1.value;
+            _context.next = 7;
+            return _this.getRunnerImage(runners[index].colors, runners[index].name, index + 1);
+          case 7:
+            image = _context.sent;
+            _this.runnerImages.push(image);
+            _context.next = 3;
+            break;
+          case 11:
+          case "end":
+            return _context.stop();
+        }
+      }, _callee);
+    }))();
+  },
+  methods: {
+    updateRunnerImage: function updateRunnerImage(index) {
+      var _this2 = this;
+      if (this.runnerImagesT[index]) clearTimeout(this.runnerImagesT[index]);
+      this.runnerImagesT[index] = setTimeout(/*#__PURE__*/_asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
+        var runners;
+        return _regeneratorRuntime().wrap(function _callee2$(_context2) {
+          while (1) switch (_context2.prev = _context2.next) {
+            case 0:
+              _this2.runnerImagesT[index] = 0;
+              runners = _this2.variables.GAME_HORSE_RACING_RUNNERS;
+              _context2.t0 = _this2;
+              _context2.t1 = _this2.runnerImages;
+              _context2.t2 = index;
+              _context2.next = 7;
+              return _this2.getRunnerImage(runners[index].colors, runners[index].name, index + 1);
+            case 7:
+              _context2.t3 = _context2.sent;
+              _context2.t0.$set.call(_context2.t0, _context2.t1, _context2.t2, _context2.t3);
+            case 9:
+            case "end":
+              return _context2.stop();
+          }
+        }, _callee2);
+      })), 500);
+    },
+    getRunnerImage: function getRunnerImage(colors, name, number) {
+      return _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
+        var runner;
+        return _regeneratorRuntime().wrap(function _callee3$(_context3) {
+          while (1) switch (_context3.prev = _context3.next) {
+            case 0:
+              runner = new _helpers_runner__WEBPACK_IMPORTED_MODULE_4__["default"](colors, name, number);
+              _context3.next = 3;
+              return runner.init();
+            case 3:
+              return _context3.abrupt("return", runner.preview);
+            case 4:
+            case "end":
+              return _context3.stop();
+          }
+        }, _callee3);
+      }))();
+    },
+    addRunner: function addRunner() {
+      var _this3 = this;
+      return _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee4() {
+        var runner, n, image, betType;
+        return _regeneratorRuntime().wrap(function _callee4$(_context4) {
+          while (1) switch (_context4.prev = _context4.next) {
+            case 0:
+              runner = clone_deep__WEBPACK_IMPORTED_MODULE_5___default()(_this3.form.GAME_HORSE_RACING_RUNNERS[_this3.runnersCount - 1]);
+              n = _this3.runnersCount + 1;
+              runner.name = _this3.$t('Runner') + ' ' + n;
+              _this3.form.GAME_HORSE_RACING_RUNNERS.push(runner);
+              _context4.next = 6;
+              return _this3.getRunnerImage(runner.colors, runner.name, n);
+            case 6:
+              image = _context4.sent;
+              _this3.runnerImages.push(image);
+              for (betType in _this3.betTypes) {
+                _this3.form.GAME_HORSE_RACING_PAYTABLE[betType].push(1);
+              }
+            case 9:
+            case "end":
+              return _context4.stop();
+          }
+        }, _callee4);
+      }))();
+    },
+    removeRunner: function removeRunner(index) {
+      this.form.GAME_HORSE_RACING_RUNNERS.splice(index, 1);
+      this.runnerImages.splice(index, 1);
+      for (var betType in this.betTypes) {
+        this.form.GAME_HORSE_RACING_PAYTABLE[betType].splice(index, 1);
+      }
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./packages/horse-racing/resources/js/pages/helpers/runner.js":
+/*!********************************************************************!*\
+  !*** ./packages/horse-racing/resources/js/pages/helpers/runner.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CRunner)
+/* harmony export */ });
+/* harmony import */ var image_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! image-promise */ "./node_modules/image-promise/index.js");
+/* harmony import */ var colornames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! colornames */ "./node_modules/colornames/index.js");
+/* harmony import */ var colornames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(colornames__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var clone_deep__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! clone-deep */ "./node_modules/clone-deep/index.js");
+/* harmony import */ var clone_deep__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(clone_deep__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var packages_horse_racing_resources_images_num_1_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_1.png */ "./packages/horse-racing/resources/images/num_1.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_1_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_1_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var packages_horse_racing_resources_images_num_2_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_2.png */ "./packages/horse-racing/resources/images/num_2.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_2_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_2_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var packages_horse_racing_resources_images_num_3_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_3.png */ "./packages/horse-racing/resources/images/num_3.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_3_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_3_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var packages_horse_racing_resources_images_num_4_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_4.png */ "./packages/horse-racing/resources/images/num_4.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_4_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_4_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var packages_horse_racing_resources_images_num_5_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_5.png */ "./packages/horse-racing/resources/images/num_5.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_5_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_5_png__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var packages_horse_racing_resources_images_num_6_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_6.png */ "./packages/horse-racing/resources/images/num_6.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_6_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_6_png__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var packages_horse_racing_resources_images_num_7_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_7.png */ "./packages/horse-racing/resources/images/num_7.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_7_png__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_7_png__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var packages_horse_racing_resources_images_num_8_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_8.png */ "./packages/horse-racing/resources/images/num_8.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_8_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_8_png__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var packages_horse_racing_resources_images_num_9_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_9.png */ "./packages/horse-racing/resources/images/num_9.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_9_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_9_png__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var packages_horse_racing_resources_images_num_10_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_10.png */ "./packages/horse-racing/resources/images/num_10.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_10_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_10_png__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var packages_horse_racing_resources_images_num_11_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_11.png */ "./packages/horse-racing/resources/images/num_11.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_11_png__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_11_png__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var packages_horse_racing_resources_images_num_12_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! packages/horse-racing/resources/images/num_12.png */ "./packages/horse-racing/resources/images/num_12.png");
+/* harmony import */ var packages_horse_racing_resources_images_num_12_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_num_12_png__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var packages_horse_racing_resources_images_shadow_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! packages/horse-racing/resources/images/shadow.png */ "./packages/horse-racing/resources/images/shadow.png");
+/* harmony import */ var packages_horse_racing_resources_images_shadow_png__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_shadow_png__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var packages_horse_racing_resources_images_any_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! packages/horse-racing/resources/images/any.png */ "./packages/horse-racing/resources/images/any.png");
+/* harmony import */ var packages_horse_racing_resources_images_any_png__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_any_png__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var packages_horse_racing_resources_images_body_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! packages/horse-racing/resources/images/body.png */ "./packages/horse-racing/resources/images/body.png");
+/* harmony import */ var packages_horse_racing_resources_images_body_png__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_body_png__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var packages_horse_racing_resources_images_face_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! packages/horse-racing/resources/images/face.png */ "./packages/horse-racing/resources/images/face.png");
+/* harmony import */ var packages_horse_racing_resources_images_face_png__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_face_png__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var packages_horse_racing_resources_images_head_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! packages/horse-racing/resources/images/head.png */ "./packages/horse-racing/resources/images/head.png");
+/* harmony import */ var packages_horse_racing_resources_images_head_png__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_head_png__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var packages_horse_racing_resources_images_horse_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! packages/horse-racing/resources/images/horse.png */ "./packages/horse-racing/resources/images/horse.png");
+/* harmony import */ var packages_horse_racing_resources_images_horse_png__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_horse_png__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var packages_horse_racing_resources_images_saddle_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! packages/horse-racing/resources/images/saddle.png */ "./packages/horse-racing/resources/images/saddle.png");
+/* harmony import */ var packages_horse_racing_resources_images_saddle_png__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_saddle_png__WEBPACK_IMPORTED_MODULE_21__);
+/* harmony import */ var packages_horse_racing_resources_images_tail_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! packages/horse-racing/resources/images/tail.png */ "./packages/horse-racing/resources/images/tail.png");
+/* harmony import */ var packages_horse_racing_resources_images_tail_png__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(packages_horse_racing_resources_images_tail_png__WEBPACK_IMPORTED_MODULE_22__);
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return r; }; var t, r = {}, e = Object.prototype, n = e.hasOwnProperty, o = "function" == typeof Symbol ? Symbol : {}, i = o.iterator || "@@iterator", a = o.asyncIterator || "@@asyncIterator", u = o.toStringTag || "@@toStringTag"; function c(t, r, e, n) { Object.defineProperty(t, r, { value: e, enumerable: !n, configurable: !n, writable: !n }); } try { c({}, ""); } catch (t) { c = function c(t, r, e) { return t[r] = e; }; } function h(r, e, n, o) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype); return c(a, "_invoke", function (r, e, n) { var o = 1; return function (i, a) { if (3 === o) throw Error("Generator is already running"); if (4 === o) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var u = n.delegate; if (u) { var c = d(u, n); if (c) { if (c === f) continue; return c; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (1 === o) throw o = 4, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = 3; var h = s(r, e, n); if ("normal" === h.type) { if (o = n.done ? 4 : 2, h.arg === f) continue; return { value: h.arg, done: n.done }; } "throw" === h.type && (o = 4, n.method = "throw", n.arg = h.arg); } }; }(r, n, new Context(o || [])), !0), a; } function s(t, r, e) { try { return { type: "normal", arg: t.call(r, e) }; } catch (t) { return { type: "throw", arg: t }; } } r.wrap = h; var f = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var l = {}; c(l, i, function () { return this; }); var p = Object.getPrototypeOf, y = p && p(p(x([]))); y && y !== e && n.call(y, i) && (l = y); var v = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(l); function g(t) { ["next", "throw", "return"].forEach(function (r) { c(t, r, function (t) { return this._invoke(r, t); }); }); } function AsyncIterator(t, r) { function e(o, i, a, u) { var c = s(t[o], t, i); if ("throw" !== c.type) { var h = c.arg, f = h.value; return f && "object" == _typeof(f) && n.call(f, "__await") ? r.resolve(f.__await).then(function (t) { e("next", t, a, u); }, function (t) { e("throw", t, a, u); }) : r.resolve(f).then(function (t) { h.value = t, a(h); }, function (t) { return e("throw", t, a, u); }); } u(c.arg); } var o; c(this, "_invoke", function (t, n) { function i() { return new r(function (r, o) { e(t, n, r, o); }); } return o = o ? o.then(i, i) : i(); }, !0); } function d(r, e) { var n = e.method, o = r.i[n]; if (o === t) return e.delegate = null, "throw" === n && r.i["return"] && (e.method = "return", e.arg = t, d(r, e), "throw" === e.method) || "return" !== n && (e.method = "throw", e.arg = new TypeError("The iterator does not provide a '" + n + "' method")), f; var i = s(o, r.i, e.arg); if ("throw" === i.type) return e.method = "throw", e.arg = i.arg, e.delegate = null, f; var a = i.arg; return a ? a.done ? (e[r.r] = a.value, e.next = r.n, "return" !== e.method && (e.method = "next", e.arg = t), e.delegate = null, f) : a : (e.method = "throw", e.arg = new TypeError("iterator result is not an object"), e.delegate = null, f); } function w(t) { this.tryEntries.push(t); } function m(r) { var e = r[4] || {}; e.type = "normal", e.arg = t, r[4] = e; } function Context(t) { this.tryEntries = [[-1]], t.forEach(w, this), this.reset(!0); } function x(r) { if (null != r) { var e = r[i]; if (e) return e.call(r); if ("function" == typeof r.next) return r; if (!isNaN(r.length)) { var o = -1, a = function e() { for (; ++o < r.length;) if (n.call(r, o)) return e.value = r[o], e.done = !1, e; return e.value = t, e.done = !0, e; }; return a.next = a; } } throw new TypeError(_typeof(r) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, c(v, "constructor", GeneratorFunctionPrototype), c(GeneratorFunctionPrototype, "constructor", GeneratorFunction), c(GeneratorFunctionPrototype, u, GeneratorFunction.displayName = "GeneratorFunction"), r.isGeneratorFunction = function (t) { var r = "function" == typeof t && t.constructor; return !!r && (r === GeneratorFunction || "GeneratorFunction" === (r.displayName || r.name)); }, r.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, c(t, u, "GeneratorFunction")), t.prototype = Object.create(v), t; }, r.awrap = function (t) { return { __await: t }; }, g(AsyncIterator.prototype), c(AsyncIterator.prototype, a, function () { return this; }), r.AsyncIterator = AsyncIterator, r.async = function (t, e, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(h(t, e, n, o), i); return r.isGeneratorFunction(e) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, g(v), c(v, u, "Generator"), c(v, i, function () { return this; }), c(v, "toString", function () { return "[object Generator]"; }), r.keys = function (t) { var r = Object(t), e = []; for (var n in r) e.unshift(n); return function t() { for (; e.length;) if ((n = e.pop()) in r) return t.value = n, t.done = !1, t; return t.done = !0, t; }; }, r.values = x, Context.prototype = { constructor: Context, reset: function reset(r) { if (this.prev = this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(m), !r) for (var e in this) "t" === e.charAt(0) && n.call(this, e) && !isNaN(+e.slice(1)) && (this[e] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0][4]; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(r) { if (this.done) throw r; var e = this; function n(t) { a.type = "throw", a.arg = r, e.next = t; } for (var o = e.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i[4], u = this.prev, c = i[1], h = i[2]; if (-1 === i[0]) return n("end"), !1; if (!c && !h) throw Error("try statement without catch or finally"); if (null != i[0] && i[0] <= u) { if (u < c) return this.method = "next", this.arg = t, n(c), !0; if (u < h) return n(h), !1; } } }, abrupt: function abrupt(t, r) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var n = this.tryEntries[e]; if (n[0] > -1 && n[0] <= this.prev && this.prev < n[2]) { var o = n; break; } } o && ("break" === t || "continue" === t) && o[0] <= r && r <= o[2] && (o = null); var i = o ? o[4] : {}; return i.type = t, i.arg = r, o ? (this.method = "next", this.next = o[2], f) : this.complete(i); }, complete: function complete(t, r) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && r && (this.next = r), f; }, finish: function finish(t) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var e = this.tryEntries[r]; if (e[2] === t) return this.complete(e[4], e[3]), m(e), f; } }, "catch": function _catch(t) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var e = this.tryEntries[r]; if (e[0] === t) { var n = e[4]; if ("throw" === n.type) { var o = n.arg; m(e); } return o; } } throw Error("illegal catch attempt"); }, delegateYield: function delegateYield(r, e, n) { return this.delegate = { i: x(r), r: e, n: n }, "next" === this.method && (this.arg = t), f; } }, r; }
+function asyncGeneratorStep(n, t, e, r, o, a, c) { try { var i = n[a](c), u = i.value; } catch (n) { return void e(n); } i.done ? t(u) : Promise.resolve(u).then(r, o); }
+function _asyncToGenerator(n) { return function () { var t = this, e = arguments; return new Promise(function (r, o) { var a = n.apply(t, e); function _next(n) { asyncGeneratorStep(a, r, o, _next, _throw, "next", n); } function _throw(n) { asyncGeneratorStep(a, r, o, _next, _throw, "throw", n); } _next(void 0); }); }; }
+function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Cannot call a class as a function"); }
+function _defineProperties(e, r) { for (var t = 0; t < r.length; t++) { var o = r[t]; o.enumerable = o.enumerable || !1, o.configurable = !0, "value" in o && (o.writable = !0), Object.defineProperty(e, _toPropertyKey(o.key), o); } }
+function _createClass(e, r, t) { return r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), Object.defineProperty(e, "prototype", { writable: !1 }), e; }
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var imgTplNum = [(packages_horse_racing_resources_images_num_1_png__WEBPACK_IMPORTED_MODULE_3___default()), (packages_horse_racing_resources_images_num_2_png__WEBPACK_IMPORTED_MODULE_4___default()), (packages_horse_racing_resources_images_num_3_png__WEBPACK_IMPORTED_MODULE_5___default()), (packages_horse_racing_resources_images_num_4_png__WEBPACK_IMPORTED_MODULE_6___default()), (packages_horse_racing_resources_images_num_5_png__WEBPACK_IMPORTED_MODULE_7___default()), (packages_horse_racing_resources_images_num_6_png__WEBPACK_IMPORTED_MODULE_8___default()), (packages_horse_racing_resources_images_num_7_png__WEBPACK_IMPORTED_MODULE_9___default()), (packages_horse_racing_resources_images_num_8_png__WEBPACK_IMPORTED_MODULE_10___default()), (packages_horse_racing_resources_images_num_9_png__WEBPACK_IMPORTED_MODULE_11___default()), (packages_horse_racing_resources_images_num_10_png__WEBPACK_IMPORTED_MODULE_12___default()), (packages_horse_racing_resources_images_num_11_png__WEBPACK_IMPORTED_MODULE_13___default()), (packages_horse_racing_resources_images_num_12_png__WEBPACK_IMPORTED_MODULE_14___default())];
+function colorNormilize(color) {
+  if (color[0] !== '#') color = colornames__WEBPACK_IMPORTED_MODULE_1___default()(color);
+  return color;
+}
+function HexToRGB(Hex) {
+  var Long = parseInt(Hex.replace(/^#/, ''), 16);
+  return {
+    R: Long >>> 16 & 0xff,
+    G: Long >>> 8 & 0xff,
+    B: Long & 0xff
+  };
+}
+function getPixels(img) {
+  var canvas = document.createElement('canvas');
+  var ctx = canvas.getContext('2d', {
+    alpha: true
+  });
+  canvas.width = img.width;
+  canvas.height = img.height;
+  ctx.drawImage(img, 0, 0, img.naturalWidth, img.naturalHeight, 0, 0, img.width, img.height);
+  return ctx.getImageData(0, 0, img.width, img.height);
+}
+function changeColor(img, color) {
+  var canvas = document.createElement('canvas');
+  var ctx = canvas.getContext('2d', {
+    alpha: true
+  });
+  var newColor = HexToRGB(color);
+  var pixels = getPixels(img);
+  for (var I = 0, L = pixels.data.length; I < L; I += 4) {
+    if (pixels.data[I + 3] > 0) {
+      pixels.data[I + 0] = newColor.R * (pixels.data[I + 0] / 255) + (newColor.R < 100 && pixels.data[I + 0] > 180 ? (pixels.data[I + 0] - 180) / 75 * 50 : 0);
+      if (pixels.data[I + 0] > 255) pixels.data[I + 0] = 255;
+      pixels.data[I + 1] = newColor.G * (pixels.data[I + 1] / 255) + (newColor.G < 100 && pixels.data[I + 1] > 180 ? (pixels.data[I + 1] - 180) / 75 * 50 : 0);
+      if (pixels.data[I + 1] > 255) pixels.data[I + 1] = 255;
+      pixels.data[I + 2] = newColor.B * (pixels.data[I + 2] / 255) + (newColor.B < 100 && pixels.data[I + 2] > 180 ? (pixels.data[I + 2] - 180) / 75 * 50 : 0);
+      if (pixels.data[I + 2] > 255) pixels.data[I + 2] = 255;
+    }
+  }
+  canvas.width = img.width;
+  canvas.height = img.height;
+  ctx.putImageData(pixels, 0, 0);
+  return canvas;
+}
+var CRunner = /*#__PURE__*/function () {
+  function CRunner(colors, name, num) {
+    _classCallCheck(this, CRunner);
+    _defineProperty(this, "name", '');
+    _defineProperty(this, "colors", {});
+    _defineProperty(this, "frames", []);
+    _defineProperty(this, "num", 1);
+    _defineProperty(this, "framesCnt", 12);
+    _defineProperty(this, "frmW", 0);
+    _defineProperty(this, "frmH", 0);
+    _defineProperty(this, "frame", 0);
+    _defineProperty(this, "paused", true);
+    _defineProperty(this, "position", 0);
+    _defineProperty(this, "target", 0);
+    _defineProperty(this, "dir", 0);
+    _defineProperty(this, "preview", '');
+    _defineProperty(this, "finished", false);
+    this.colors = clone_deep__WEBPACK_IMPORTED_MODULE_2___default()(colors);
+    this.num = num;
+    this.name = name;
+    this.t_last = 0;
+    this.t_frame = 25;
+    this.position_start = 0;
+  }
+  return _createClass(CRunner, [{
+    key: "init",
+    value: function () {
+      var _init = _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
+        var shadow, horse, tail, saddle, num, body, face, head, any, c, idx, ctx;
+        return _regeneratorRuntime().wrap(function _callee$(_context) {
+          while (1) switch (_context.prev = _context.next) {
+            case 0:
+              _context.next = 2;
+              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_shadow_png__WEBPACK_IMPORTED_MODULE_15___default()));
+            case 2:
+              shadow = _context.sent;
+              _context.t0 = changeColor;
+              _context.next = 6;
+              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_horse_png__WEBPACK_IMPORTED_MODULE_20___default()));
+            case 6:
+              _context.t1 = _context.sent;
+              _context.t2 = this.colors.horse.body ? colorNormilize(this.colors.horse.body) : '#000000';
+              horse = (0, _context.t0)(_context.t1, _context.t2);
+              _context.t3 = changeColor;
+              _context.next = 12;
+              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_tail_png__WEBPACK_IMPORTED_MODULE_22___default()));
+            case 12:
+              _context.t4 = _context.sent;
+              _context.t5 = this.colors.horse.tail ? colorNormilize(this.colors.horse.tail) : '#333333';
+              tail = (0, _context.t3)(_context.t4, _context.t5);
+              _context.t6 = changeColor;
+              _context.next = 18;
+              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_saddle_png__WEBPACK_IMPORTED_MODULE_21___default()));
+            case 18:
+              _context.t7 = _context.sent;
+              _context.t8 = this.colors.horse.pad && this.colors.horse.pad.background ? colorNormilize(this.colors.horse.pad.background) : '#aaaaaa';
+              saddle = (0, _context.t6)(_context.t7, _context.t8);
+              _context.t9 = changeColor;
+              _context.next = 24;
+              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])(this.num > 0 && this.num < 13 ? imgTplNum[this.num - 1] : (packages_horse_racing_resources_images_num_1_png__WEBPACK_IMPORTED_MODULE_3___default()));
+            case 24:
+              _context.t10 = _context.sent;
+              _context.t11 = this.colors.horse.pad && this.colors.horse.pad.text ? colorNormilize(this.colors.horse.pad.text) : '#333333';
+              num = (0, _context.t9)(_context.t10, _context.t11);
+              _context.t12 = changeColor;
+              _context.next = 30;
+              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_body_png__WEBPACK_IMPORTED_MODULE_17___default()));
+            case 30:
+              _context.t13 = _context.sent;
+              _context.t14 = this.colors.jockey.shirt ? colorNormilize(this.colors.jockey.shirt) : '#ffffff';
+              body = (0, _context.t12)(_context.t13, _context.t14);
+              _context.t15 = changeColor;
+              _context.next = 36;
+              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_face_png__WEBPACK_IMPORTED_MODULE_18___default()));
+            case 36:
+              _context.t16 = _context.sent;
+              _context.t17 = this.colors.jockey.face ? colorNormilize(this.colors.jockey.face) : ['#FFDCB1', '#E5C298', '#E4B98E', '#710200', '#E1ADA4'][Math.round(Math.random() * 4)];
+              face = (0, _context.t15)(_context.t16, _context.t17);
+              _context.t18 = changeColor;
+              _context.next = 42;
+              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_head_png__WEBPACK_IMPORTED_MODULE_19___default()));
+            case 42:
+              _context.t19 = _context.sent;
+              _context.t20 = this.colors.jockey.hat ? colorNormilize(this.colors.jockey.hat) : '#ffffff';
+              head = (0, _context.t18)(_context.t19, _context.t20);
+              _context.next = 47;
+              return (0,image_promise__WEBPACK_IMPORTED_MODULE_0__["default"])((packages_horse_racing_resources_images_any_png__WEBPACK_IMPORTED_MODULE_16___default()));
+            case 47:
+              any = _context.sent;
+              this.frmW = shadow.width / this.framesCnt;
+              this.frmH = shadow.height;
+              this.frames = [];
+              while (this.frames.length < this.framesCnt) {
+                c = document.createElement('canvas');
+                c.height = this.frmH;
+                c.width = this.frmW;
+                this.frames.push(c);
+              }
+              for (idx in this.frames) {
+                ctx = this.frames[idx].getContext('2d', {
+                  alpha: true
+                });
+                ctx.drawImage(shadow, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
+                ctx.drawImage(horse, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
+                ctx.drawImage(tail, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
+                ctx.drawImage(saddle, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
+                ctx.drawImage(num, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
+                ctx.drawImage(body, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
+                ctx.drawImage(face, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
+                ctx.drawImage(head, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
+                ctx.drawImage(any, this.frmW * idx, 0, this.frmW, this.frmH, 0, 0, this.frmW, this.frmH);
+              }
+              this.paused = false;
+              this.t_last = new Date().getTime();
+              this.frame = 0;
+              this.preview = this.frames[1].toDataURL('image/png');
+            case 57:
+            case "end":
+              return _context.stop();
+          }
+        }, _callee, this);
+      }));
+      function init() {
+        return _init.apply(this, arguments);
+      }
+      return init;
+    }()
+  }, {
+    key: "getFrame",
+    value: function getFrame(i) {
+      if (typeof i !== 'undefined') {
+        if (i < 0) return this.frames[0];
+        if (i >= this.framesCnt) return this.frames[this.framesCnt - 1];
+        return this.frames[i];
+      } else if (this.paused) {
+        return this.frames[this.frame];
+      } else {
+        var t = new Date().getTime();
+        if (t > this.t_last + this.t_frame) {
+          var cnt = Math.floor((t - this.t_last) / this.t_frame);
+          this.t_last = t;
+          this.frame += cnt;
+          while (this.frame >= this.framesCnt) this.frame -= this.framesCnt;
+        }
+        return this.frames[this.frame];
+      }
+    }
+  }, {
+    key: "pause",
+    value: function pause() {
+      this.paused = true;
+    }
+  }, {
+    key: "continue",
+    value: function _continue() {
+      if (this.paused) {
+        this.paused = false;
+        this.t_last = new Date().getTime();
+      }
+    }
+  }]);
+}();
+
+
+/***/ }),
+
 /***/ "./packages/horse-racing/resources/js/pages/admin/settings.vue":
 /*!*********************************************************************!*\
   !*** ./packages/horse-racing/resources/js/pages/admin/settings.vue ***!
@@ -739,15 +738,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./settings.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./settings.vue?vue&type=script&lang=js& */ "./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=template&id=f963a446&":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=template&id=f963a446& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=template&id=f963a446&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=template&id=f963a446& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1179,10 +1178,10 @@ render._withStripped = true;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_f963a446___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_f963a446___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_f963a446___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_f963a446___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_f963a446___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./settings.vue?vue&type=template&id=f963a446& */ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=template&id=f963a446&");
+/* harmony import */ var _node_modules_vuetify_loader_lib_loader_js_ruleSet_1_rules_0_use_node_modules_laravel_mix_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_3_node_modules_vue_loader_lib_index_js_vue_loader_options_settings_vue_vue_type_template_id_f963a446___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!../../../../../../node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./settings.vue?vue&type=template&id=f963a446& */ "./node_modules/vuetify-loader/lib/loader.js??ruleSet[1].rules[0].use!./node_modules/laravel-mix/node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./packages/horse-racing/resources/js/pages/admin/settings.vue?vue&type=template&id=f963a446&");
 
 
 /***/ })

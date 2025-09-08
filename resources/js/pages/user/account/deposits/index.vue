@@ -53,7 +53,7 @@ export default {
     headers () {
       return [
         { text: this.$t('ID'), value: 'id' },
-        { text: this.$t('Method'), value: 'method.name', sortable: false },
+        // { text: this.$t('Method'), value: 'method.name', sortable: false },
         { text: this.$t('Amount'), value: 'payment_amount', align: 'right', format: 'float' },
         { text: this.$t('Currency'), value: 'payment_currency', align: 'right' },
         { text: this.$t('Credits'), value: 'amount', format: 'integer', align: 'right' },
