@@ -6,11 +6,11 @@
       :headers="headers"
       :filters="['period', 'deposit-withdrawal-status']"
     >
-      <template v-slot:table-prepend>
+      <!-- <template v-slot:table-prepend>
         <v-btn color="primary" :to="{ name: 'user.account.deposits.create' }" class="mb-5">
           {{ $t('Make a deposit') }}
         </v-btn>
-      </template>
+      </template> -->
       <template v-slot:item.status_title="{ item }">
         <span :class="{ 'green--text': item.is_completed, 'error--text': item.is_cancelled }">
           <!-- {{ item.status_title }} -->

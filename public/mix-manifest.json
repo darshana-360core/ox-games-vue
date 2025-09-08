@@ -1,7 +1,7 @@
 {
     "/js/404.js": "/js/404.js?id=2c3ad593fd8cb06a203ab7370aafe139",
     "/js/503.js": "/js/503.js?id=634e3edae9af9b3c0da27fef7a77779f",
-    "/js/app.js": "/js/app.js?id=903214fab906d9facf6f8c69ffe6038f",
+    "/js/app.js": "/js/app.js?id=7db718c10edb46eb4429b6b17a1d00a3",
     "/js/2fa.js": "/js/2fa.js?id=40c10a01da67420cf97cf45e0817eb74",
     "/js/admin-accounts.js": "/js/admin-accounts.js?id=2948c9dbfd6403561cceb87b0ac71414",
     "/js/admin-accounts-credit.js": "/js/admin-accounts-credit.js?id=e8cf2f6b8e25edb1d03aefba0efdf4d7",
@@ -124,7 +124,7 @@
     "/js/packages/raffle-resources-js-pages-raffles-current.js": "/js/packages/raffle-resources-js-pages-raffles-current.js?id=2a631cfbff304bb66722bf1c5178f2ea",
     "/js/packages/raffle-resources-js-pages-raffles-completed.js": "/js/packages/raffle-resources-js-pages-raffles-completed.js?id=fa81a6adb0fcdbad5fe63a6a0f8df225",
     "/js/packages/raffle-resources-js-pages-raffles-tickets.js": "/js/packages/raffle-resources-js-pages-raffles-tickets.js?id=690b860429b2f484e76eaf8610ea8794",
-    "/js/packages/payments-resources-js-pages-user-account-deposits.js": "/js/packages/payments-resources-js-pages-user-account-deposits.js?id=6f80ac5e372d6b46403ab89db7d497fc",
+    "/js/packages/payments-resources-js-pages-user-account-deposits.js": "/js/packages/payments-resources-js-pages-user-account-deposits.js?id=43d3fce949ffeff0654e16fb794da2c3",
     "/js/packages/payments-resources-js-pages-user-account-deposits-create.js": "/js/packages/payments-resources-js-pages-user-account-deposits-create.js?id=633c39baadf6d4f213afadd416040f6a",
     "/js/packages/payments-resources-js-pages-user-account-deposits-complete.js": "/js/packages/payments-resources-js-pages-user-account-deposits-complete.js?id=418c38feaaeb0e79a890b76c07db5f6a",
     "/js/packages/payments-resources-js-pages-user-account-withdrawals.js": "/js/packages/payments-resources-js-pages-user-account-withdrawals.js?id=b8a7f8ebfe37b399695f257c43e1c72d",
@@ -262,10 +262,10 @@
     "/js/vendor/stackblur-canvas.js": "/js/vendor/stackblur-canvas.js?id=0a3bb6851d65e9aa24346744e1394d88",
     "/js/vendor/rgbcolor.js": "/js/vendor/rgbcolor.js?id=4217f8fa94e70a7659a73acf6339a93c",
     "/js/vendor/raf.js": "/js/vendor/raf.js?id=375efd67820dd794c22ee35f917a238e",
+    "/js/vendor/qrcodejs2.js": "/js/vendor/qrcodejs2.js?id=0127d2d65ae8941a4a5420615fca3186",
     "/js/vendor/performance-now.js": "/js/vendor/performance-now.js?id=b98324d365d151f1aa969f546de51420",
     "/js/vendor/pdfmake.js": "/js/vendor/pdfmake.js?id=34316a8b8ce323c92405dcd8c5c0948b",
     "/js/vendor/matter-js.js": "/js/vendor/matter-js.js?id=a12a89f8fe1cab4e8525f98c925170bf",
     "/js/vendor/array-shuffle.js": "/js/vendor/array-shuffle.js?id=dddb3ddbfc59b480a3fa9e110f70b5ec",
-    "/js/vendor/tweenjs.js": "/js/vendor/tweenjs.js?id=4dae1fb9ee9021290111678f567daf95",
-    "/js/vendor/qrcodejs2.js": "/js/vendor/qrcodejs2.js?id=0127d2d65ae8941a4a5420615fca3186"
+    "/js/vendor/tweenjs.js": "/js/vendor/tweenjs.js?id=4dae1fb9ee9021290111678f567daf95"
 }
