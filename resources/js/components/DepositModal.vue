@@ -112,13 +112,15 @@ export default {
       selectedCurrency: null,
       selectedNetwork: null,
       items: [
-        { name: 'OC', icon: '/images/usdt.webp',networks:["Polygon"] },
-        { name: 'USDT', icon: '/images/usdt.webp',networks:["Polygon","ETH","BSC","TRON"] },
+        { name: 'OC', icon: '/images/ox-icon.png'},
+        { name: 'OXINOX', icon: '/images/oxinox-icon.png'},
+        { name: 'USDT', icon: '/images/usdt.webp'},
         // { name: 'INOX', icon: require('/images/icons/usdt.png'),networks:["Polygon"] }
       ],
       networks : {
-        OC: ["polygon"],
-        USDT: ["polygon","eth","bsc","tron"],
+        OC: ["Polygon"],
+        OXINOX: ["Polygon"],
+        USDT: ["Polygon","Eth","Bsc","Tron"],
       }
     }
   },

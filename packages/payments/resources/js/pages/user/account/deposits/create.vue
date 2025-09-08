@@ -39,7 +39,7 @@
                       </template>
                     </v-text-field>
                     <div class="text-right mt-2">
-                      <v-btn @click="copyToClipboard()">{{ $t('Cancel') }}</v-btn>
+                      <v-btn @click="cancelOrder()">{{ $t('Cancel') }}</v-btn>
                     </div>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ export default {
     const depositData = data.data
     this.chain = depositData.chain
     this.address = depositData.evm_address
-    this.amount = depositData.amount + depositData.fees_amount
+    this.amount = Number(depositData.amount) + Number(depositData.fees_amount)
     this.ensureQr().then(this.renderQr)
   },
 
@@ -138,6 +138,10 @@ export default {
       } catch (e) {
         this.$store.dispatch('message/error', { text: this.$t('Copy failed') })
       }
+    },
+    async cancelOrder(){
+      const { data } = await axios.post('/api/deposit/cancel')
+      window.location.href = '/user/account/deposits'
     }
   }
 }

@@ -29,17 +29,26 @@
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><circle cx="12" cy="12" r="10" fill="#ffffff" opacity="0.3" class=""></circle><path d="M15.71 14.29a.996.996 0 0 1-.71 1.7c-.26 0-.51-.1-.71-.29L12 13.41 9.71 15.7c-.2.2-.45.29-.71.29s-.51-.1-.71-.29a.996.996 0 0 1 0-1.41L10.58 12 8.29 9.71A.996.996 0 1 1 9.7 8.3l2.29 2.29 2.29-2.29a.996.996 0 1 1 1.41 1.41L13.4 12l2.29 2.29z" fill="#ffffff" opacity="1" class=""></path></g></svg>
         <span v-if="!isGamePage">Close</span>
       </button>
-      <div class="balance-box d-flex align-center justify-start">
-        <div class="oc-icon">
-          <img src="/images/ox-icon.png" width="24" />
+      <div class="flex gap-2">
+        <div class="balance-box d-flex align-center justify-start">
+          <div class="oc-icon">
+            <img src="/images/ox-icon.png" width="24" />
+          </div>
+          <div class="oc-details">
+            <span>OC</span>
+            <div class="d-flex align-center">
+              <div class="oc-price">$ {{ Number(ocPrice).toFixed(2) }}</div>
+            </div>
+          </div>
         </div>
-        <div class="oc-details">
-          <span>OC</span>
-          <div class="d-flex align-center">
-            <div class="oc-price">$ 0.18</div>
-            <div class="oc-status up d-flex align-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" class="mr-0.5"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.59417 6.3623L5.82021 3.61864L2.04626 6.3623V3.86866L5.82021 1.125L9.59417 3.86866V6.3623ZM9.59417 10.5599L5.82021 7.81621L2.04626 10.5599V8.06624L5.82021 5.32258L9.59417 8.06624V10.5599Z" fill="currentColor"></path></svg>
-              <span>5.04%</span>
+        <div class="balance-box d-flex align-center justify-start">
+          <div class="oc-icon">
+            <img src="/images/oxinox-icon.png" width="24" />
+          </div>
+          <div class="oc-details">
+            <span>OXINOX</span>
+            <div class="d-flex align-center">
+              <div class="oc-price">$ {{ Number(oxinoxPrice).toFixed(2) }}</div>
             </div>
           </div>
         </div>
@@ -160,7 +169,7 @@
           </game-search-modal>
           <account-menu />
           <v-btn density="comfortable" height="36" color="primary" class="primary" v-on="on" @click="triggerDeposit">
-            Deposit222
+            Deposit
           </v-btn>
           <settings-menu />
           <DepositModal />
@@ -739,6 +748,8 @@ export default {
       showPassword: false,
       showPassword2: false,
       agreementAccepted: false,
+      ocPrice : 0,
+      oxinoxPrice : 0,
       form: new Form({
         name: null,
         email: null,
@@ -759,7 +770,22 @@ export default {
 
     return base
   },
+  async mounted () {
+    console.log("meee")
+    // const response2 = await axios.get('https://oc-price-api.vercel.app/oc-price', {})
+    // console.log(response2,">>>>>>>response2")
 
+    // const response = await axios.get('https://oc-price-api.vercel.app/oxinox-price', {})
+    // console.log(response,">>>>>>>response")
+      const res = await fetch("https://oc-price-api.vercel.app/oc-price");
+      const jsonRes = await res.json()
+     
+      const oxinoxres = await fetch("https://oc-price-api.vercel.app/oxinox-price");
+      const oxinoxjsonRes = await oxinoxres.json()
+      this.ocPrice = jsonRes['price'];
+      this.oxinoxPrice = oxinoxjsonRes['price'];
+
+  },
   computed: {
     ...mapState('auth', ['user', 'account', 'token']),
     ...mapState('progress', ['loading']),
@@ -1005,22 +1031,6 @@ body {
   flex-direction: column;
   gap: 16px;
 }
-
-/* Transitions */
-//.fade-enter-active, .fade-leave-active {
-  //transition: opacity 0.2s ease;
-//}
-//.fade-enter, .fade-leave-to {
-  //opacity: 0;
-//}
-//
-//.slide-enter-active, .slide-leave-active {
-  //transition: all 0.4s ease;
-//}
-//.slide-enter, .slide-leave-to {
-  //transform: translateX(100%);
-  //opacity: 0;
-//}
 
 .custom-text-field{
   &.v-text-field--outlined{
