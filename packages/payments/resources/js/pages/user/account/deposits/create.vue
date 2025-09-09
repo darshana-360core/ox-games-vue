@@ -2,16 +2,16 @@
   <v-container>
     <v-row align="center" justify="center" class="mb-6">
       <v-col cols="12" md="8" lg="7">
-        <v-card>
-          <v-card-text>
-            <div class="evm-qr-wrap mt-2">
-              <div class="evm-qr-card">
+        
+        
+            <div class="evm-qr-wrap ">
+              <div class="evm-qr-card mt-5">
                 <div class="evm-qr-header">
                   <!-- <div class="evm-qr-title">EVM QR Code</div> -->
                   <div class="evm-qr-sub">{{ $t('Chain:') }} {{ chain }}</div>
                 </div>
-                <div class="evm-qr-body">
-                  <div class="evm-qr-code" ref="simpleQr"></div>
+                <div class="evm-qr-body  grid grid-cols-1  gap-4 mt-4 justify-center">
+                  <div class="evm-qr-code mx-auto md:mx-0 " ref="simpleQr"></div>
                   <div class="evm-qr-fields">
                     <v-text-field
                       :label="$t('Address :')"
@@ -38,7 +38,7 @@
                         </v-btn>
                       </template>
                     </v-text-field>
-                    <div class="text-right mt-2">
+                    <div class="text-left mt-2">
                       <v-btn @click="cancelOrder()">{{ $t('Cancel') }}</v-btn>
                     </div>
                   </div>
@@ -53,8 +53,8 @@
                 </div> -->
               </div>
             </div>
-          </v-card-text>
-        </v-card>
+         
+      
       </v-col>
     </v-row>
     
@@ -197,10 +197,10 @@ export default {
     justify-content: center;
   }
   .evm-qr-card {
-    border: 1px solid rgba(255, 193, 7, 0.4);
+       border: 2px solid #8e6fdd;
     border-radius: 12px;
     padding: 16px;
-    max-width: 720px;
+    max-width: 520px;
     width: 100%;
   }
   .evm-qr-header {
@@ -215,20 +215,21 @@ export default {
     opacity: .8;
     margin-top: 4px;
   }
-  .evm-qr-body {
-    display: grid;
-    grid-template-columns: 220px 1fr;
-    gap: 16px;
-    align-items: start;
-  }
+  // .evm-qr-body {
+  //   display: grid;
+  //   grid-template-columns: 220px 1fr;
+  //   gap: 16px;
+  //   align-items: start;
+  // }
   .evm-qr-code {
     background: #fff;
     padding: 8px;
     border-radius: 8px;
     display: inline-block;
+    max-width: 220px;
   }
   .evm-qr-disclaimer {
-    border: 1px solid rgba(255, 193, 7, 0.4);
+    border: 1px solid #8e6fdd;
     border-radius: 12px;
     padding: 12px;
   }
