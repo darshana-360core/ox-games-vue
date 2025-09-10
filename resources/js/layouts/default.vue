@@ -204,20 +204,7 @@
             <button class="button button-m w-8 h-8 center bg-black bg-opacity-30 rounded-lg d-flex items-center justify-center grow-0 md:hidden absolute top-4 right-4 z-30" type="button" @click="closeModal()">
               <svg class="w-5 h-5 fill-white/40" viewBox="0 0 32 32"><path d="M6.32321 9.23054L13.0927 16L6.32321 22.7694L9.23051 25.6767L15.9998 18.9074L22.7695 25.6771L25.6768 22.7698L18.9073 16.0004L25.6768 9.23095L22.7695 6.32365L16.0002 13.0929L9.23051 6.32324L6.32321 9.23054Z"></path></svg>
             </button>
-            <!-- <img src="/images/ox-login-bg.jpg" class="w-full h-full object-cover  max-w-lg absolute top-0 left-0" alt=""> -->
-            <img :src="`/images/ox-login-bg.jpg?v=${Date.now()}`" class="w-full h-full object-cover absolute top-0 left-0 max-w-[100%]  sm:max-w-lg" alt="">
-            <!-- <div class="p-4 md:p-6">
-              <v-avatar :size="[isMobile ? 40 : 50]">
-                <v-img :src="appLogoUrl" :alt="appName" />
-              </v-avatar>
-            </div> -->
-            
-             <!-- <div class="w-full flex absolute right-0 z-30">
-                <h3 class="text-lg font-semibold">Sign In</h3>
-                <button class="relative z-[999] button button-m w-8 h-8 center bg-gray-400 bg-opacity-5 rounded-lg md:!flex !flex-0 items-center justify-center grow-0 max-md:!hidden" type="button" @click="closeModal()">
-                  <svg class="w-4 h-4 fill-white/40" viewBox="0 0 32 32"><path d="M6.32321 9.23054L13.0927 16L6.32321 22.7694L9.23051 25.6767L15.9998 18.9074L22.7695 25.6771L25.6768 22.7698L18.9073 16.0004L25.6768 9.23095L22.7695 6.32365L16.0002 13.0929L9.23051 6.32324L6.32321 9.23054Z"></path></svg>
-                </button>
-              </div> -->
+            <img :src="`/images/ox-login-bg.jpg`" class="w-full h-full object-cover absolute top-0 left-0 max-w-[100%]  sm:max-w-lg" alt="">
             <div class="absolute bottom-0 left-0 w-full">
               <h2 class="text-3xl md:text-4xl font-bold text-center w-full whitespace-nowrap overflow-hidden">Level Up the Chaos</h2>
               <p class="mt-1 w-full text-center whitespace-nowrap overflow-hidden font-semibold text-base">Sign Up &amp; Get Welcome Bonus</p>

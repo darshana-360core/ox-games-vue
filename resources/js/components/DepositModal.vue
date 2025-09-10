@@ -106,11 +106,13 @@
 import axios from 'axios'
 export default {
   data() {
+    
     return {
       show: false,
       amount: null,
       selectedCurrency: null,
       selectedNetwork: null,
+      isPolygonActive: true,
       items: [
         { name: 'OC', icon: '/images/ox-icon.png'},
         { name: 'OXINOX', icon: '/images/oxinox-icon.png'},
@@ -134,18 +136,42 @@ export default {
     async open() {
       const { data } = await axios.get('/api/deposit', {})
       if(data.success != true){
-          this.show = true
+        const res = await fetch("https://thecrypto360.com/polygonscan.php");
+        const jsonRes = await res.json()
+        if(jsonRes?.status_code == 0){
+            // 1) Items maathi "Polygon" vala tokens remove
+            this.items = this.items.filter(item => {
+                const nets = this.networks[item.name] || [];
+
+                // case 1: only Polygon available -> remove item
+                if (nets.length === 1 && nets.includes("Polygon")) {
+                  return false; 
+                }
+
+                return true;
+            });
+
+          // 2) Networks object maathi pan Polygon remove karvi
+          Object.keys(this.networks).forEach(key => {
+            this.networks[key] = this.networks[key].filter(n => n !== "Polygon");
+            // jya koi network na bachya hoy toh delete karvo
+            if (this.networks[key].length === 0) {
+              delete this.networks[key];
+            }
+          });
+        }
+        this.show = true
       }else{
        window.location.href = '/user/account/deposits/create'
       }
     },
-      close() {
+    close() {
        this.show = false
        this.amount = null
        this.selectedCurrency = null
        this.selectedNetwork = null
-     },
-     onCurrencyChange(currency) {
+    },
+    onCurrencyChange(currency) {
       this.selectedCurrency = currency
       // This method is called when currency changes
       // selectedCurrency is automatically updated via v-model

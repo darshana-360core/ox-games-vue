@@ -389,6 +389,27 @@
           <v-list-item-title>{{ $t('Deposits') }}</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
+      <v-list-item
+        href="https://deposit.oxchange.finance/"
+        target="_blank"
+        rel="noopener"
+        link
+        class="main-menu-deposits"
+      >
+        <v-list-item-action>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="menu-icon">
+            <g fill="currentColor">
+              <path fill-rule="evenodd" d="M6 3h12a4 4 0 0 1 0 8V7H6v4a4 4 0 1 1 0-8z" clip-rule="evenodd"/>
+              <path d="M18 19V7H6v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2z" fill-opacity="0.4"/>
+              <path fill-rule="evenodd" d="m11.25 12.396-.72.72a.75.75 0 1 1-1.06-1.06l1.293-1.293a1.75 1.75 0 0 1 2.474 0l1.293 1.292a.75.75 0 1 1-1.06 1.061l-.72-.72v4.19a.75.75 0 0 1-1.5 0z" clip-rule="evenodd"/>
+            </g>
+          </svg>
+        </v-list-item-action>
+
+        <v-list-item-content>
+          <v-list-item-title>{{ $t('Deposits OJT') }}</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
       <v-list-item v-if="paymentsPackageIsEnabled" :to="{ name: 'user.account.withdrawals.index' }" link exact class="main-menu-withdrawals">
         <v-list-item-action>
           <!-- <v-icon>mdi-cash-minus</v-icon> -->
