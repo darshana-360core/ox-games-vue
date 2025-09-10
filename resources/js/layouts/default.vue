@@ -113,18 +113,19 @@
     <v-app-bar v-else app :clipped-left="!navbarVisible" :color="appBarBackground">
       <!-- <v-app-bar-nav-icon v-if="!navbarVisible" @click.stop="navigationDrawer = !navigationDrawer" /> -->
       <!-- <v-app-bar-nav-icon @click.stop="navigationDrawer = !navigationDrawer" /> -->
-      <button v-if="!isMobile" class="v-app-bar__nav-icon v-btn2 v-btn--icon v-btn--round v-size--default max-md:mr-1 md:mr-3 ml-0" style="width: 40px; height: 40px; background-color: rgba(255, 255, 255, 0.15);" @click="toggleMiniVariant">
+      <button v-if="!isMobile" class="v-app-bar__nav-icon v-btn2 v-btn--icon  max-md:mr-1  ml-0 rounded-lg !justify-center" style="width: 35px; height: 35px; background-color: rgba(255, 255, 255, 0.15);" @click="toggleMiniVariant">
         <div class="v-btn__content"> 
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6" width="24" height="24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
           </svg>
         </div>
       </button>
-      <v-toolbar-title class="header-logo d-flex align-center pl-0">
+      <v-toolbar-title class="header-logo d-flex align-center pl-2  ">
         <router-link :to="{ name: 'home' }">
-          <v-avatar :size="[isMobile ? 35 : 40]">
-            <v-img :src="appLogoUrl" :alt="appName" />
-          </v-avatar>
+          
+          <div>
+            <img src="/images/ox-icon2.png" width="40" />
+          </div>
         </router-link>
         <div class="ml-3 d-none d-sm-block text-h5">
           {{ appName }}
@@ -190,337 +191,90 @@
 
     <!-- <transition name="fade">
     </transition> -->
-    <v-dialog v-model="showModal" @click.self="closeModal" max-width="50rem" content-class="auth-modal-dialog">
-      <div class="game-frame-2 auth-modal md:flex pa-0">
+    <v-dialog v-model="showModal" @click.self="closeModal" max-width="30rem" content-class="auth-modal-dialog mx-4">
+      <div class="game-frame-2 auth-modal  flex pa-0 max-w-lg ">
         <!-- Tabs -->
         <!-- <div class="tab-buttons">
           <button :class="{ active: activeTab === 'login' }" @click="activeTab = 'login'">Login</button>
           <button :class="{ active: activeTab === 'signup' }" @click="activeTab = 'signup'">Signup</button>
         </div> -->
 
-        <div class="w-full d-flex flex-wrap gap-0 grow">
-          <div class="w-full md:w-1/2 relative md:h-full max-md:h-60">
-            <button class="button button-m w-8 h-8 center bg-white bg-opacity-5 rounded-lg d-flex items-center justify-center grow-0 md:hidden absolute top-4 right-4" type="button" @click="closeModal()">
-              <svg class="w-4 h-4 fill-white/40" viewBox="0 0 32 32"><path d="M6.32321 9.23054L13.0927 16L6.32321 22.7694L9.23051 25.6767L15.9998 18.9074L22.7695 25.6771L25.6768 22.7698L18.9073 16.0004L25.6768 9.23095L22.7695 6.32365L16.0002 13.0929L9.23051 6.32324L6.32321 9.23054Z"></path></svg>
+        <div class="w-full  max-w-lg">
+          <div class="w-full max-w-lg relative h-full ">
+            <button class="button button-m w-8 h-8 center bg-black bg-opacity-30 rounded-lg d-flex items-center justify-center grow-0 md:hidden absolute top-4 right-4 z-30" type="button" @click="closeModal()">
+              <svg class="w-5 h-5 fill-white/40" viewBox="0 0 32 32"><path d="M6.32321 9.23054L13.0927 16L6.32321 22.7694L9.23051 25.6767L15.9998 18.9074L22.7695 25.6771L25.6768 22.7698L18.9073 16.0004L25.6768 9.23095L22.7695 6.32365L16.0002 13.0929L9.23051 6.32324L6.32321 9.23054Z"></path></svg>
             </button>
-            <img src="/images/ox-login-bg-mobile.jpg" class="w-full h-full object-cover object-top" alt="">
-            <img :src="`/images/ox-login-bg.jpg?v=${Date.now()}`" class="w-full h-full object-cover absolute top-0 left-0 max-md:hidden" alt="">
+            <!-- <img src="/images/ox-login-bg.jpg" class="w-full h-full object-cover  max-w-lg absolute top-0 left-0" alt=""> -->
+            <img :src="`/images/ox-login-bg.jpg?v=${Date.now()}`" class="w-full h-full object-cover absolute top-0 left-0 max-w-sm  sm:max-w-lg" alt="">
             <!-- <div class="p-4 md:p-6">
               <v-avatar :size="[isMobile ? 40 : 50]">
                 <v-img :src="appLogoUrl" :alt="appName" />
               </v-avatar>
             </div> -->
-            <div class="absolute bottom-0 left-0 w-full pb-24 max-md:hidden">
+            
+             <!-- <div class="w-full flex absolute right-0 z-30">
+                <h3 class="text-lg font-semibold">Sign In</h3>
+                <button class="relative z-[999] button button-m w-8 h-8 center bg-gray-400 bg-opacity-5 rounded-lg md:!flex !flex-0 items-center justify-center grow-0 max-md:!hidden" type="button" @click="closeModal()">
+                  <svg class="w-4 h-4 fill-white/40" viewBox="0 0 32 32"><path d="M6.32321 9.23054L13.0927 16L6.32321 22.7694L9.23051 25.6767L15.9998 18.9074L22.7695 25.6771L25.6768 22.7698L18.9073 16.0004L25.6768 9.23095L22.7695 6.32365L16.0002 13.0929L9.23051 6.32324L6.32321 9.23054Z"></path></svg>
+                </button>
+              </div> -->
+            <div class="absolute bottom-0 left-0 w-full">
               <h2 class="text-3xl md:text-4xl font-bold text-center w-full whitespace-nowrap overflow-hidden">Level Up the Chaos</h2>
               <p class="mt-1 w-full text-center whitespace-nowrap overflow-hidden font-semibold text-base">Sign Up &amp; Get Welcome Bonus</p>
-            </div>
-          </div>
-          <div class="w-full md:w-1/2 h-full px-6 py-5">
-            <!-- Slide Transition for Forms -->
-            <!-- <transition name="slide">
-            </transition> -->
-            <div key="login" v-if="activeTab === 'login'" class="form-container grow items-start justify-between h-full">
-              <!-- <h2>Login Form</h2>
-              <input placeholder="Email" />
-              <input type="password" placeholder="Password" />
-              <button>Login</button> -->
-              <div class="w-full d-flex items-center justify-between">
-                <h3 class="text-lg font-semibold">Sign In</h3>
-                <button class="button button-m w-8 h-8 center bg-white bg-opacity-5 rounded-lg md:!flex !flex-0 items-center justify-center grow-0 max-md:!hidden" type="button" @click="closeModal()">
-                  <svg class="w-4 h-4 fill-white/40" viewBox="0 0 32 32"><path d="M6.32321 9.23054L13.0927 16L6.32321 22.7694L9.23051 25.6767L15.9998 18.9074L22.7695 25.6771L25.6768 22.7698L18.9073 16.0004L25.6768 9.23095L22.7695 6.32365L16.0002 13.0929L9.23051 6.32324L6.32321 9.23054Z"></path></svg>
-                </button>
-              </div>
+
+               <div key="login" class="form-container grow items-center justify-center   ">
+           
+             
+              <template>
+                  <v-form @submit.prevent="login">
+                    <template v-if="isInstalled">
+                      <div v-if="isConnected" class="mb-5">
+                        <v-text-field
+                          :value="form.address"
+                          :label="$t('Your address')"
+                          :disabled="true"
+                          hide-details
+                          outlined
+                        />
+
+                        <v-row class="mt-3">
+                          <v-col class="text-center text-md-left">
+                            <v-btn type="submit" color="primary" :disabled="isLoading" :loading="isLoading">
+                              {{ $t('Log in') }}
+                            </v-btn>
+                          </v-col>
+                        </v-row>
+                      </div>
+                      <v-btn v-else color="primary" class="mb-4 loginBtnSec" @click="connectWallet()">
+                        {{ $t('Connect wallet') }}
+                      </v-btn>
+                    </template>
+                    <v-alert
+                      v-else
+                      dense
+                      outlined
+                      text
+                      type="warning"
+                      class="justify-center align-center align-content-center"
+                    >
+                      <p>
+                        {{ $t('Web3 wallet is not detected.') }}
+                        {{ $t('If you are using a desktop computer, install the Metamask wallet browser extension.') }}
+                        {{ $t('If you are using a mobile phone, use the in-app browser.') }}
+                      </p>
+                    </v-alert>
+                  </v-form>
+                </template>
               
-              <v-form v-model="formIsValid" @submit.prevent="login" class="w-full grow">
-                <v-text-field
-                  v-model="form.email"
-                  :label="$t('Email')"
-                  type="email"
-                  name="email"
-                  dense
-                  class="custom-text-field"
-                  :rules="[validationRequired, validationEmail]"
-                  :error="form.errors.has('email')"
-                  :error-messages="form.errors.get('email')"
-                  outlined
-                  @keydown="clearFormErrors"
-                />
-
-                <v-text-field
-                  v-model="form.password"
-                  :label="$t('Password')"
-                  :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'"
-                  :type="showPassword ? 'text' : 'password'"
-                  name="password"
-                  dense
-                  class="custom-text-field"
-                  :rules="[validationRequired]"
-                  :error="form.errors.has('password')"
-                  :error-messages="form.errors.get('password')"
-                  outlined
-                  :counter="true"
-                  @click:append="showPassword = !showPassword"
-                  @keydown="clearFormErrors"
-                />
-
-                <div class="text-right">
-                  <button class="font-weight-bold" @click="activeTab = 'reset'">
-                    <span class="text-white text-opacity-60 text-sm font-semibold">{{ $t('Forgot password?') }}</span>
-                  </button>
-                </div>
-
-                <v-checkbox
-                  v-model="form.remember"
-                  name="remember"
-                  :label="$t('Remember me')"
-                  color="primary"
-                  true-value="1"
-                  false-value=""
-                  class="text-sm"
-                />
-
-                <vue-recaptcha
-                  v-if="recaptchaPublicKey"
-                  ref="recaptcha"
-                  :sitekey="recaptchaPublicKey"
-                  :loadRecaptchaScript="true"
-                  :theme="this.$vuetify.theme.isDark ? 'dark' : 'light'"
-                  class="mb-3"
-                  @verify="token => form.recaptcha = token"
-                />
-
-                <v-btn type="submit" color="primary" class="primary w-full" :disabled="!formIsValid || loading || (!!recaptchaPublicKey && !form.recaptcha)" :loading="loading">
-                  {{ $t('Log in') }}
-                </v-btn>
-                <div class="flex text-center pa-0 gap-2 text-sm font-semibold mt-6">
-                  <div>New to {{ appName }}?</div>
-                  <button type="button" :class="{ active: activeTab === 'signup' }" @click="activeTab = 'signup'" class="font-weight-bold">
-                    <span class="text-primary-base">{{ $t('Create account') }}</span>
-                  </button>
-                </div>
-              </v-form>
-
-              <div class="w-full">
-                <div class="w-full flex items-center">
-                  <div class="flex-1 h-[1px] bg-white bg-opacity-10"></div>
-                  <div class="mx-3 flex-none text-sm text-white mb-0 text-opacity-60 font-semibold">Log in directly with</div>
-                  <div class="flex-1 h-[1px] bg-white bg-opacity-10"></div>
-                </div>
-                <oauth />
-                <web3-auth />
-              </div>
-            </div>
-    
-            <div key="signup" v-if="activeTab === 'signup'" class="form-container grow items-start justify-between h-full">
-              <div class="w-full d-flex items-center justify-between">
-                <h3 class="text-lg font-semibold">Sign Up</h3>
-                <button class="button button-m w-8 h-8 center bg-white bg-opacity-5 rounded-lg md:!flex !flex-0 items-center justify-center grow-0 max-md:!hidden" type="button" @click="closeModal()">
-                  <svg class="w-4 h-4 fill-white/40" viewBox="0 0 32 32"><path d="M6.32321 9.23054L13.0927 16L6.32321 22.7694L9.23051 25.6767L15.9998 18.9074L22.7695 25.6771L25.6768 22.7698L18.9073 16.0004L25.6768 9.23095L22.7695 6.32365L16.0002 13.0929L9.23051 6.32324L6.32321 9.23054Z"></path></svg>
-                </button>
-              </div>
-              <v-form ref="form" v-model="formIsValid" @submit.prevent="register" class="w-full grow">
-                <!-- Name Field -->
-                <v-text-field
-                  v-model="form.name"
-                  :label="$t('Name')"
-                  type="text"
-                  name="name"
-                  dense
-                  class="custom-text-field"
-                  :rules="[validationRequired]"
-                  :error="form.errors.has('name')"
-                  :error-messages="form.errors.get('name')"
-                  outlined
-                  @keydown="clearFormErrors($event,'name')"
-                />
-
-                <!-- Email Field -->
-                <v-text-field
-                  v-model="form.email"
-                  :label="$t('Email')"
-                  type="email"
-                  name="email"
-                  dense
-                  class="custom-text-field"
-                  :rules="[validationRequired, validationEmail]"
-                  :error="form.errors.has('email')"
-                  :error-messages="form.errors.get('email')"
-                  outlined
-                  @keydown="clearFormErrors($event,'email')"
-                />
-
-                <form-parameter
-                  v-for="field in fields"
-                  :key="field.id"
-                  v-model="form.fields[field.id]"
-                  :parameter="field"
-                  :form="form"
-                  dense
-                  form-key="fields"
-                />
-
-                <v-text-field
-                  v-model="form.password"
-                  :label="$t('Password')"
-                  :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'"
-                  :type="showPassword ? 'text' : 'password'"
-                  name="password"
-                  dense
-                  class="custom-text-field"
-                  :rules="[validationRequired, v => validationMinLength(v,8)]"
-                  :error="form.errors.has('password')"
-                  :error-messages="form.errors.get('password')"
-                  outlined
-                  :counter="true"
-                  @click:append="showPassword = !showPassword"
-                  @keydown="clearFormErrors($event,'password')"
-                />
-
-                <v-text-field
-                  v-model="form.password_confirmation"
-                  :label="$t('Confirm password')"
-                  :append-icon="showPassword2 ? 'mdi-eye' : 'mdi-eye-off'"
-                  :type="showPassword2 ? 'text' : 'password'"
-                  name="password_confirmation"
-                  dense
-                  class="custom-text-field"
-                  :rules="[validationRequired, v => validationMatch(form.password,v)]"
-                  :error="form.errors.has('password_confirmation')"
-                  :error-messages="form.errors.get('password_confirmation')"
-                  outlined
-                  :counter="true"
-                  @click:append="showPassword2 = !showPassword2"
-                  @keydown="clearFormErrors($event,'password_confirmation')"
-                />
-
-                <v-checkbox
-                  v-model="agreementAccepted"
-                  color="primary"
-                  class="custom-checkbox mt-3 pt-0 mb-2"
-                  hide-details
-                  dense
-                >
-                  <template v-slot:label>
-                    <i18n path="I accept {0} and {1}" tag="div">
-                      <template v-slot:0>
-                        <a href="/pages/terms-of-use" class="text-primary-base" target="_blank" @click.stop>
-                          {{ $t('Terms of use') }}
-                        </a>
-                      </template>
-                      <template v-slot:1>
-                        <a href="/pages/privacy-policy" class="text-primary-base" target="_blank" @click.stop>
-                          {{ $t('Privacy policy') }}
-                        </a>
-                      </template>
-                    </i18n>
-                  </template>
-                </v-checkbox>
-
-                <vue-recaptcha
-                  v-if="recaptchaPublicKey"
-                  ref="recaptcha"
-                  :sitekey="recaptchaPublicKey"
-                  :loadRecaptchaScript="true"
-                  :theme="this.$vuetify.theme.isDark ? 'dark' : 'light'"
-                  class="mb-3"
-                  @verify="token => form.recaptcha = token"
-                />
-
-                <v-btn type="submit" color="primary" class="primary w-full" :disabled="!formIsValid || form.busy || !agreementAccepted || (!!recaptchaPublicKey && !form.recaptcha)" :loading="form.busy">
-                  {{ $t('Register') }}
-                </v-btn>
-                <div class="flex text-center pa-0 gap-2 text-sm font-semibold mt-6">
-                  <div>Already have an account?</div>
-                  <button type="button" :class="{ active: activeTab === 'login' }" @click="activeTab = 'login'" class="font-weight-bold">
-                    <span class="text-primary-base">{{ $t('Sign In') }}</span>
-                  </button>
-                </div>
-
-                <!-- <v-row align="center">
-                  <v-col class="text-center text-md-left">
-                  </v-col>
-                  <v-col class="text-center text-md-right">
-                    <router-link :to="{ name: 'login' }">
-                      {{ $t('Already signed up?') }}
-                    </router-link>
-                    <button type="button" @click="activeTab = 'login'">Already signed up?</button>
-                  </v-col>
-                </v-row> -->
-              </v-form>
-              <div class="w-full">
-                <div class="w-full flex items-center">
-                  <div class="flex-1 h-[1px] bg-white bg-opacity-10"></div>
-                  <div class="mx-3 flex-none text-sm text-white mb-0 text-opacity-60 font-semibold">Log in directly with</div>
-                  <div class="flex-1 h-[1px] bg-white bg-opacity-10"></div>
-                </div>
-                <oauth />
-                <web3-auth />
-              </div>
-            </div>
-
-            <div key="reset" v-if="activeTab === 'reset'" class="form-container grow items-start justify-between h-full">
-              <!-- <h2>Login Form</h2>
-              <input placeholder="Email" />
-              <input type="password" placeholder="Password" />
-              <button>Login</button> -->
-              <div class="w-full d-flex items-center justify-between">
-                <h3 class="text-lg font-semibold">Reset Password</h3>
-                <button class="button button-m w-8 h-8 center bg-white bg-opacity-5 rounded-lg md:!flex !flex-0 items-center justify-center grow-0 max-md:!hidden" type="button" @click="closeModal()">
-                  <svg class="w-4 h-4 fill-white/40" viewBox="0 0 32 32"><path d="M6.32321 9.23054L13.0927 16L6.32321 22.7694L9.23051 25.6767L15.9998 18.9074L22.7695 25.6771L25.6768 22.7698L18.9073 16.0004L25.6768 9.23095L22.7695 6.32365L16.0002 13.0929L9.23051 6.32324L6.32321 9.23054Z"></path></svg>
-                </button>
-              </div>
               
-              <v-form ref="form" v-model="formIsValid" @submit.prevent="reset" class="w-full grow">
-                <v-text-field
-                  v-model="form.email"
-                  :label="$t('Email')"
-                  type="email"
-                  name="email"
-                  dense
-                  :rules="[validationRequired, validationEmail]"
-                  :error="form.errors.has('email')"
-                  class="custom-text-field"
-                  :error-messages="form.errors.get('email')"
-                  outlined
-                  @keydown="clearFormErrors"
-                />
-
-                <vue-recaptcha
-                  v-if="recaptchaPublicKey"
-                  ref="recaptcha"
-                  :sitekey="recaptchaPublicKey"
-                  :loadRecaptchaScript="true"
-                  :theme="this.$vuetify.theme.isDark ? 'dark' : 'light'"
-                  @verify="token => form.recaptcha = token"
-                  class="mb-3"
-                />
-
-                <v-btn type="submit" color="primary" class="primary w-full" :disabled="!formIsValid || form.busy || (!!recaptchaPublicKey && !form.recaptcha)" :loading="form.busy">
-                  {{ $t('Reset Pasword') }}
-                </v-btn>
-                <div class="pa-0 gap-2 text-sm font-semibold mt-6 opacity-80">
-                  <button type="button" :class="{ active: activeTab === 'login' }" @click="activeTab = 'login'" class="font-weight-medium flex items-center justify-center text-center mx-auto gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6 w-4 h-4">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-                    </svg>
-                    <span class="text-white">{{ $t('Back to login') }}</span>
-                  </button>
-                </div>
-              </v-form>
-
-              <div class="w-full">
-                <div class="w-full flex items-center">
-                  <div class="flex-1 h-[1px] bg-white bg-opacity-10"></div>
-                  <div class="mx-3 flex-none text-sm text-white mb-0 text-opacity-60 font-semibold">Log in directly with</div>
-                  <div class="flex-1 h-[1px] bg-white bg-opacity-10"></div>
-                </div>
-                <oauth />
-                <web3-auth />
-              </div>
             </div>
-            <!-- <transition name="slide">
-            </transition> -->
+            </div>
+
+            
           </div>
+          <!-- <div class="w-full md:w-1/2 h-full px-6 py-5">
+           
+           </div> -->
         </div>
       </div>
     </v-dialog>
@@ -714,13 +468,15 @@ import Web3Auth from '~/components/Web3Auth'
 import VueRecaptcha from 'vue-recaptcha'
 import FormParameter from '~/components/FormParameter'
 import DepositModal from '~/components/DepositModal.vue'
+import Web3AuthMixin from '~/mixins/Web3Auth'
+import Web3 from 'web3'
 
 export default {
   name: 'DefaultLayout',
 
   components: { UserMenu, SettingsMenu, AccountMenu, MainMenu, AdminMainMenu, SystemBar, Message, Chat, Preloader, SecondaryFooter, AdminFooter, AnimatedNumber, GameSearchModal, FormParameter, Web3Auth, Oauth, VueRecaptcha, DepositModal },
 
-  mixins: [DeviceMixin, FormMixin],
+  mixins: [Web3AuthMixin,DeviceMixin, FormMixin],
 
   middleware: 'guest',
 
@@ -741,7 +497,7 @@ export default {
 
   data () {
     const base = {
-      showModal: false,
+      
       activeTab: 'login',
       navigationDrawer: false,
       playing: false,
@@ -772,11 +528,7 @@ export default {
   },
   async mounted () {
     console.log("meee")
-    // const response2 = await axios.get('https://oc-price-api.vercel.app/oc-price', {})
-    // console.log(response2,">>>>>>>response2")
-
-    // const response = await axios.get('https://oc-price-api.vercel.app/oxinox-price', {})
-    // console.log(response,">>>>>>>response")
+    
       const res = await fetch("https://oc-price-api.vercel.app/oc-price");
       const jsonRes = await res.json()
      
@@ -869,6 +621,13 @@ export default {
     this.$store.dispatch('package-manager/fetchProviderGames')
     this.form.fields = this.fields.reduce((a, field) => ({ ...a, [field.id]: field.default }), {})
     this.$root.$on('trigger-auth-modal', this.openModal)
+    if (Web3.givenProvider) {
+      this.isInstalled = true
+
+      if (Web3.givenProvider.selectedAddress) {
+        this.connectWallet()
+      }
+    }
   },
 
   beforeDestroy() {
@@ -895,80 +654,25 @@ export default {
     closeModal() {
       this.showModal = false
     },
-    async login () {
-      this.loading = true
+    async connectWallet () {
+      const web3 = new Web3(Web3.givenProvider)
+      let addresses
 
-      if (!this.csrfCookieRetrieved) {
-        await axios.get('/sanctum/csrf-cookie')
-        this.csrfCookieRetrieved = true
-      }
-
-      // log in
-      const { data } = await this.form.post('/api/auth/login')
-        .catch(() => {
-          if (this.recaptchaPublicKey) {
-            this.form.recaptcha = null
-            this.$refs.recaptcha.reset()
-            this.loading = false
-          }
-          return {}
-        })
-
-      // in case of any error data will be undefined
-      if (data) {
-        // Store the user
-        this.$store.dispatch('auth/updateUser', data)
-
-        if (this.user.two_factor_auth_enabled && !this.user.two_factor_auth_passed) {
-          this.$router.push({ name: '2fa' })
-        } else {
-          this.$router.push({ name: 'home' })
-          // ✅ Close modal after successful login
-          this.closeModal()
-        }
-      } else {
-        this.loading = false
+      try {
+        addresses = await web3.eth.requestAccounts()
+        this.isConnected = !!addresses[0]
+        this.form.address = addresses[0]
+      } catch (err) {
+        //
       }
     },
-    async register () {
-      // Register the user
-      const { data } = await this.form.post('/api/auth/register')
-        .catch(() => {
-          if (this.recaptchaPublicKey) {
-            this.form.recaptcha = null
-            this.$refs.recaptcha.reset()
-          }
-          return {}
-        })
-
-      // in case of any error data will be undefined
-      if (data) {
-        // Store the user
-        this.$store.dispatch('auth/updateUser', data)
-        this.$store.dispatch('message/success', { text: this.$t('You have successfully registered!') })
-
-        this.$router.push({ name: this.emailVerification ? 'verification.index' : 'home' })
-        // ✅ Close modal after successful login
-        this.closeModal()
-      }
-    },
-    async reset () {
-      const { data } = await this.form.post('/api/auth/password/email')
-        .catch(() => {
-          if (this.recaptchaPublicKey) {
-            this.form.recaptcha = null
-            this.$refs.recaptcha.reset()
-          }
-          return {}
-        })
-
-      // in case of any error data will be undefined
-      if (data) {
-        this.$store.dispatch('message/success', { text: data.message })
-
-        this.form.reset()
-        this.$refs.recaptcha.reset()
-        this.$refs.form.reset()
+    async sign (nonce) {
+      const web3 = new Web3(Web3.givenProvider)
+      try {
+        this.form.signature = await web3.eth.personal.sign(nonce, this.form.address)
+        return true
+      } catch (error) {
+        return false
       }
     },
     triggerDeposit() {

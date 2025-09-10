@@ -13,6 +13,7 @@ export default {
 
   data () {
     return {
+      showModal: false,
       isLoading: false,
       isInstalled: false,
       isConnected: false,
@@ -29,22 +30,17 @@ export default {
       const { data: { nonce } } = await axios.get(route('auth.web3.nonce'))
       
       if (await this.sign(nonce)) {
-        const { data: { success, user, message } } = await this.form.post(route('auth.web3.login').replace('{provider}', this.$options._componentTag))
+        const { data: { success, user, message } } = await this.form.post(`/api/auth/web3/metamask`)
 
-        if (success) {
-          this.$store.dispatch('auth/updateUser', user)
-
-          if (user.two_factor_auth_enabled && !user.two_factor_auth_passed) {
+          if (success) {
+            this.$store.dispatch('auth/updateUser', user)
+            if (this.user.two_factor_auth_enabled && !this.user.two_factor_auth_passed) {
             this.$router.push({ name: '2fa' })
           } else {
-            if(success === "registered")
-            {
-              this.$router.push({ name: 'user.edit' })
-            }else
-            {
-              this.$router.push({ name: 'home' })
-            }
+              window.location.reload()
+
           }
+          
         } else {
           this.$store.dispatch('message/error', { text: message })
         }

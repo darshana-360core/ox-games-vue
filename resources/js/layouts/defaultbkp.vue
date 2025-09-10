@@ -55,9 +55,9 @@
 
       <v-toolbar-title class="header-logo d-flex align-center">
         <router-link :to="{ name: 'home' }">
-          <v-avatar size="40" tile>
-            <v-img :src="appLogoUrl" :alt="appName" />
-          </v-avatar>
+        
+             <img src="/images/ox-icon.png" width="24" />
+          
         </router-link>
         <div class="ml-3 d-none d-sm-block text-h5">
           {{ appName }}

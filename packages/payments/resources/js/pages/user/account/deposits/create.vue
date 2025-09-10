@@ -13,33 +13,28 @@
                 <div class="evm-qr-body  grid grid-cols-1  gap-4 mt-4 justify-center">
                   <div class="evm-qr-code mx-auto md:mx-0 " ref="simpleQr"></div>
                   <div class="evm-qr-fields">
-                    <v-text-field
-                      :label="$t('Address :')"
-                      v-model="address"
-                      outlined
-                      dense
-                      readonly
-                    >
-                      <template v-slot:append>
+                    <div class="field-wrapper">
+                      <label class="field-label">{{ $t('Address :') }}</label>
+                      <div class="field-value flex items-center justify-between">
+                        <span>{{ address }}</span>
                         <v-btn icon small @click="copyToClipboard(address)">
                           <v-icon small>mdi-content-copy</v-icon>
                         </v-btn>
-                      </template>
-                    </v-text-field>
-                    <v-text-field
-                      :label="$t('Amount :')"
-                      v-model.number="amount"
-                      outlined
-                      dense
-                    >
-                      <template v-slot:append>
+                      </div>
+                    </div>
+                    <div class="field-wrapper mt-2">
+                      <label class="field-label">{{ $t('Amount :') }}</label>
+                      <div class="field-value flex items-center justify-between">
+                        <div class="flex gap-2 items-center"><span>{{ amount }}</span>
+                        <span class="currency-class">{{ currency }}</span></div>
                         <v-btn icon small @click="copyToClipboard(String(amount || 0))">
                           <v-icon small>mdi-content-copy</v-icon>
                         </v-btn>
-                      </template>
-                    </v-text-field>
-                    <div class="text-left mt-2">
+                      </div>
+                    </div>
+                    <div class="text-center mt-2">
                       <v-btn @click="cancelOrder()">{{ $t('Cancel') }}</v-btn>
+                     
                     </div>
                   </div>
                 </div>
@@ -76,11 +71,17 @@ export default {
       address: '',
       amount: null,
       qrLoaded: false,
+      currency : "",
       chain: ''
     }
   },
 
-  computed: {},
+  computed: {
+    formattedAmount() {
+      return `${this.amount} ${this.currency}`
+    },
+    
+  },
 
   watch: {
     address () { this.renderQr() },
@@ -99,7 +100,14 @@ export default {
     }
     const depositData = data.data
     this.chain = depositData.chain
-    this.address = depositData.evm_address
+    this.currency = depositData.currency
+    if(depositData.chain == 'Tron'){
+
+      this.address = depositData.trc_address
+    }else{
+
+      this.address = depositData.evm_address
+    }
     this.amount = Number(depositData.amount) + Number(depositData.fees_amount)
     this.ensureQr().then(this.renderQr)
   },
@@ -147,6 +155,30 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 4px;
+}
+
+.field-value {
+  background: #1e1e2f;
+  border: 1px solid #8e6fdd;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
   .method-description {
     white-space: pre-line;
   }
@@ -237,4 +269,12 @@ export default {
     font-weight: 600;
     margin-bottom: 8px;
   }
+.currency-class {
+  color: #8e6fdd;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
 </style>

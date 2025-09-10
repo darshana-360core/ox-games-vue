@@ -35,8 +35,13 @@
             View Txn Hash
           </a>
           </template>
-          <template v-else="item?.payment_network === 'Bsc'">
+          <template v-else-if="item?.payment_network === 'Bsc'">
           <a :href="`https://bscscan.com/tx/${item.external_id}`" target="_blank">
+            View Txn Hash
+          </a>
+          </template>
+          <template v-else>
+          <a :href="`https://polygonscan.com/tx/${item.external_id}`" target="_blank">
             View Txn Hash
           </a>
           </template>
