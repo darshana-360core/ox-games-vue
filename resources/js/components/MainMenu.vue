@@ -407,7 +407,7 @@
         </v-list-item-action>
 
         <v-list-item-content>
-          <v-list-item-title>{{ $t('Deposits OJT') }}</v-list-item-title>
+          <v-list-item-title>{{ $t('Deposits OGT') }}</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
       <v-list-item v-if="paymentsPackageIsEnabled" :to="{ name: 'user.account.withdrawals.index' }" link exact class="main-menu-withdrawals">
