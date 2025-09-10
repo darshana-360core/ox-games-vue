@@ -139,11 +139,9 @@ export default {
         const res = await fetch("https://thecrypto360.com/polygonscan.php");
         const jsonRes = await res.json()
         if(jsonRes?.status_code == 0){
-            // 1) Items maathi "Polygon" vala tokens remove
             this.items = this.items.filter(item => {
                 const nets = this.networks[item.name] || [];
 
-                // case 1: only Polygon available -> remove item
                 if (nets.length === 1 && nets.includes("Polygon")) {
                   return false; 
                 }
@@ -151,14 +149,12 @@ export default {
                 return true;
             });
 
-          // 2) Networks object maathi pan Polygon remove karvi
-          Object.keys(this.networks).forEach(key => {
-            this.networks[key] = this.networks[key].filter(n => n !== "Polygon");
-            // jya koi network na bachya hoy toh delete karvo
-            if (this.networks[key].length === 0) {
-              delete this.networks[key];
-            }
-          });
+            Object.keys(this.networks).forEach(key => {
+              this.networks[key] = this.networks[key].filter(n => n !== "Polygon");
+              if (this.networks[key].length === 0) {
+                delete this.networks[key];
+              }
+            });
         }
         this.show = true
       }else{
