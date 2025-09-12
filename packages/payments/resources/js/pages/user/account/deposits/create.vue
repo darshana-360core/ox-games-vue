@@ -123,6 +123,29 @@ export default {
       })
       return true
     },
+    async getDepositData (){
+        const { data } = await axios.get('/api/deposit/data', {})
+        if(data.success != true){
+          if (this.$router && typeof this.$router.push === 'function') {
+              this.$router.push('/user/account/deposits')
+            } else {
+              window.location.href = '/user/account/deposits'
+            }
+            return
+        }
+        const depositData = data.data
+        this.chain = depositData.chain
+        this.currency = depositData.currency
+        if(depositData.chain == 'Tron'){
+
+          this.address = depositData.trc_address
+        }else{
+
+          this.address = depositData.evm_address
+        }
+        this.amount = Number(depositData.amount) + Number(depositData.fees_amount)
+        this.ensureQr().then(this.renderQr)
+    },
     renderQr () {
       this.$nextTick(() => {
         const el = this.$refs.simpleQr
