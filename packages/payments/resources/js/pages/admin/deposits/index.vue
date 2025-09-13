@@ -49,7 +49,7 @@ export default {
         { text: this.$t('ID'), value: 'id' },
         { text: this.$t('Name'), value: 'name', sortable: false },
         { text: this.$t('Method'), value: 'method.name', sortable: false },
-        { text: this.$t('Amount'), value: 'payment_amount', align: 'right', format: 'float' },
+        // { text: this.$t('Amount'), value: 'payment_amount', align: 'right', format: 'float' },
         { text: this.$t('Currency'), value: 'payment_currency', align: 'right' },
         { text: this.$t('Credits'), value: 'amount', format: 'decimal', align: 'right' },
         { text: this.$t('Status'), value: 'status_title', align: 'right', sortable: false },

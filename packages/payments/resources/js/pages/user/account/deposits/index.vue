@@ -88,7 +88,7 @@ export default {
       return [
         { text: this.$t('ID'), value: 'id' },
         { text: this.$t('Method'), value: 'method.name', sortable: false },
-        { text: this.$t('Amount'), value: 'payment_amount', align: 'left', format: 'float' },
+        // { text: this.$t('Amount'), value: 'payment_amount', align: 'left', format: 'float' },
         { text: this.$t('Currency'), value: 'payment_currency', align: 'left' },
         { text: this.$t('Network'), value: 'payment_network', align: 'left', class:"capitalize" },
         { text: this.$t('Credits'), value: 'amount', format: 'integer', align: 'left' },

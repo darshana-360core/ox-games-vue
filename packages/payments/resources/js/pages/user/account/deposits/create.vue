@@ -44,8 +44,6 @@
                 </div> -->
               </div>
             </div>
-         
-      
       </v-col>
     </v-row>
     
