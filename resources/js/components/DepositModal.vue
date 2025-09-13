@@ -338,10 +338,11 @@ export default {
         console.log("Transaction confirmed:", receipt);
 
         alert("Deposit successful!");
+        window.location.href = '/user/account/deposits'
         this.close();
       } catch (err) {
         const { data } = await axios.post('/api/deposit/cancel')
-        // window.location.href = '/user/account/deposits'
+        window.location.href = '/user/account/deposits'
         console.error("Wallet transfer failed:", err);
         alert("Transfer failed, check console");
       }
