@@ -89,30 +89,18 @@ export default {
   },
 
   async mounted () {
-    const { data } = await axios.get('/api/deposit/data', {})
-    if(data.success != true){
-      if (this.$router && typeof this.$router.push === 'function') {
-          this.$router.push('/user/account/deposits')
-        } else {
-          window.location.href = '/user/account/deposits'
-        }
-        return
-    }
-    const depositData = data.data
-    this.chain = depositData.chain
-    this.currency = depositData.currency
-    if(depositData.chain == 'Tron'){
+    this.getDepositData()
+    this.interval = setInterval(() => {
+      this.getDepositData()
+    }, 1000) // 1 second
+  },
 
-      this.address = depositData.trc_address
-    }else{
-
-      this.address = depositData.evm_address
-    }
-    this.amount = Number(depositData.amount) + Number(depositData.fees_amount)
-    this.ensureQr().then(this.renderQr)
+  beforeDestroy () {
+    if (this.interval) clearInterval(this.interval)
   },
 
   methods: {
+
     async ensureQr () {
       if (this.qrLoaded) return true
       await new Promise(resolve => {
@@ -151,10 +139,9 @@ export default {
         const el = this.$refs.simpleQr
         if (!el || !window.QRCode) return
         while (el.firstChild) el.removeChild(el.firstChild)
-        const payload = { to: this.address, value: this.amount || 0 }
-        // eslint-disable-next-line no-new
+        
         new window.QRCode(el, {
-          text: JSON.stringify(payload),
+          text:this.address,
           width: 200,
           height: 200,
           colorDark: '#000000',
