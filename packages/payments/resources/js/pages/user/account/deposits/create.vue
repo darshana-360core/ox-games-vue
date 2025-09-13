@@ -23,13 +23,9 @@
                       </div>
                     </div>
                     <div class="field-wrapper mt-2">
-                      <label class="field-label">{{ $t('Amount :') }}</label>
+                      <label class="field-label">{{ $t('Pay currency :') }}</label>
                       <div class="field-value flex items-center justify-between">
-                        <div class="flex gap-2 items-center"><span>{{ amount }}</span>
                         <span class="currency-class">{{ currency }}</span></div>
-                        <v-btn icon small @click="copyToClipboard(String(amount || 0))">
-                          <v-icon small>mdi-content-copy</v-icon>
-                        </v-btn>
                       </div>
                     </div>
                     <div class="text-center mt-2">

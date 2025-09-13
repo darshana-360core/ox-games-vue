@@ -125,12 +125,14 @@
                   class="small-input"
                   v-model="amount"
                 />
-                <div v-if="selectCoinPrice != 0" class="deposit-amount-display">
+                <div v-if="selectCoinPrice != 0" class="mt-2 deposit-amount-display">
                  {{selectedCurrency}} = ${{ Number(selectCoinPrice).toFixed(2) }}
                 </div>
                 <v-btn density="default" class="primary w-full mt-6" color="primary" @click="submit">Deposit</v-btn>
                 <v-btn density="default" class=" w-full mt-2" color="" @click="close">Cancel</v-btn>
-               
+                <div v-if="errorMessage" class="mt-3 text-red-500 text-sm text-center">
+                  {{ errorMessage }}
+                </div>
             </v-form>
         </div>
     </div>
@@ -152,6 +154,7 @@ export default {
       selectedNetwork: null,
       isPolygonActive: true,
       selectCoinPrice : 0,
+       errorMessage: "",   // 🔴 error message mate
       items: [
         { name: 'OC', icon: '/images/ox-icon.png'},
         { name: 'OXINOX', icon: '/images/oxinox-icon.png'},
@@ -262,17 +265,6 @@ export default {
         console.error('Deposit request failed:', error)
       }
     },
-    // async payWithWallet(){
-    //   const contractAddress = {
-    //     "OC_Polygon" :"0x6eA4BaBF46AfC7895ee20594b86fDcF74526c3ec",
-    //     "OXINOX_Polygon" :"0xf21DF2c7E67542151620Cded82C93F8A3f77dF7C",
-    //     "USDT_Polygon":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-    //     "USDT_Eth":"0xdAC17F958D2ee523a2206206994597C13D831ec7",
-    //     "USDT_Bsc":"0x55d398326f99059fF775485246999027B3197955",
-    //     "USDT_Tron":"TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
-    //   }
-
-    // }
     async payWithWallet() {
       try {
         if (!window.ethereum) {
@@ -308,6 +300,24 @@ export default {
         await window.ethereum.request({ method: "eth_requestAccounts" });
         const provider = new ethers.BrowserProvider(window.ethereum);
         const signer = await provider.getSigner();
+        const userAddress = await signer.getAddress();
+
+        // Check correct network
+        const currentChainId = await provider.getNetwork();
+       const expectedChainId = {
+          Polygon: 137n,
+          Eth: 1n,
+          Bsc: 56n,
+          Tron: null
+        }[this.selectedNetwork];
+
+        
+
+        if (expectedChainId && currentChainId.chainId !== expectedChainId) {
+          // alert(`Please switch your wallet network to ${this.selectedNetwork}`);
+          this.errorMessage = `Please switch your wallet network to ${this.selectedNetwork}`;
+          return;
+        }
 
         // Load contract
         console.log(tokenAddress,">>>>>>>>>>>tokenAddress")
@@ -315,9 +325,15 @@ export default {
 
         // Get decimals
         const decimals = await token.decimals();
-
-        // Convert amount
         const amountInWei = ethers.parseUnits(this.amount.toString(), decimals);
+
+        const balance = await token.balanceOf(userAddress);
+        console.log(balance,">>>>>>>>>>>>balance")
+        console.log(amountInWei,">>>>>>>>>>>>balance")
+        if (balance < amountInWei) {
+           this.errorMessage = "Insufficient balance in your wallet!";
+          return;
+        }
 
         const { data } = await axios.get('/api/deposit/data', {})
         const depositData = data.data
@@ -341,10 +357,14 @@ export default {
         window.location.href = '/user/account/deposits'
         this.close();
       } catch (err) {
+        if (err.code === 4001 || err.code === "ACTION_REJECTED") {
+          this.errorMessage = "Transaction cancelled by user.";
+        } else {
+          this.errorMessage = "Wallet transfer failed. Please try again.";
+        }
         const { data } = await axios.post('/api/deposit/cancel')
-        window.location.href = '/user/account/deposits'
+        //window.location.href = '/user/account/deposits'
         console.error("Wallet transfer failed:", err);
-        alert("Transfer failed, check console");
       }
     }
 
