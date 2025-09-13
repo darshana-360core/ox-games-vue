@@ -25,7 +25,7 @@ export default {
   },
 
   methods: {
-    async login () {
+    async walletLogin () {
       this.isLoading = true
       const { data: { nonce } } = await axios.get(route('auth.web3.nonce'))
       
