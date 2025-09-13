@@ -420,10 +420,7 @@
           </v-list>
         </v-menu>
       </div>
-      <!-- <div v-if="authenticated" class="pr-4 pl-2 py-2 bg-black bg-opacity-5 backdrop-blur-sm rounded-3xl absolute -top-14 right-4 text-sm font-bold inline-flex items-center gap-1" style="box-shadow: inset 0 0 8px 2px rgba(255, 255, 255, 0.1);">
-        <v-img src="/images/9-icon.png" class="coin-icon"></v-img>
-        <span><animated-number v-if="account" :number="account.balance" class="max-md:w-12 ellipsis" /></span>
-      </div> -->
+     
     </div>
 
     <component :is="footerComponent" v-if="!(isMobile && (isGamePage || isPredictionPage || isProviderGamePage))" :inset="navbarVisible" :mini-variant="isMobile ? false : miniVariant" />
