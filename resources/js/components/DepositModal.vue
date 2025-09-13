@@ -125,6 +125,9 @@
                   class="small-input"
                   v-model="amount"
                 />
+                <div v-if="selectCoinPrice != 0" class="deposit-amount-display">
+                 {{selectedCurrency}} = ${{ Number(selectCoinPrice).toFixed(2) }}
+                </div>
                 <v-btn density="default" class="primary w-full mt-6" color="primary" @click="submit">Deposit</v-btn>
                 <v-btn density="default" class=" w-full mt-2" color="" @click="close">Cancel</v-btn>
                
@@ -207,18 +210,13 @@ export default {
       // This method is called when currency changes
       // selectedCurrency is automatically updated via v-model
     },
-    onCurrencyChange(currency) {
+    async onCurrencyChange(currency) {
       this.selectedCurrency = currency
-      // This method is called when currency changes
-      // selectedCurrency is automatically updated via v-model
-    },
-    async onNetworkChange(network) {
-      this.selectedNetwork = network
-      if(network == "OC"){
+      if(currency == "OC"){
          const res = await fetch("https://oc-price-api.vercel.app/oc-price");
         const jsonRes = await res.json()
         this.selectCoinPrice = jsonRes['price'];
-      }else if (network == "OXINOX"){
+      }else if (currency == "OXINOX"){
         const oxinoxres = await fetch("https://oc-price-api.vercel.app/oxinox-price");
         const oxinoxjsonRes = await oxinoxres.json()
         this.selectCoinPrice = oxinoxjsonRes['price'];
@@ -227,6 +225,9 @@ export default {
       }
       // This method is called when currency changes
       // selectedCurrency is automatically updated via v-model
+    },
+    onNetworkChange(network) {
+      this.selectedNetwork = network
     },
     async submit() {
       if (!this.selectedCurrency || !this.selectedNetwork) {
